@@ -30,7 +30,7 @@ def main():
         "SELECT source, title, url, published, summary "
         "FROM items "
         "ORDER BY published DESC "
-        "LIMIT 40"
+        "LIMIT 15"
     ).fetchall()
 
     html = build_html(rows)
