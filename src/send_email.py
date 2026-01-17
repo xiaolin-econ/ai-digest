@@ -5,6 +5,8 @@ from email.mime.text import MIMEText
 from datetime import datetime, timedelta, timezone
 from html import escape as html_escape
 from store import connect, recent_items
+from summarize import summarize_text
+from llm import summarize_with_gemini
 
 logger = logging.getLogger(__name__)
 
@@ -12,6 +14,27 @@ def build_html(rows):
     parts = []
     parts.append("<h1>AI Research Digest</h1>")
     parts.append(f"<p>{datetime.now().strftime('%B %d, %Y')}</p>")
+    # Build an overall AI summary for the digest by combining per-item ai_summary fields
+    try:
+        combined_texts = [r[5] for r in rows if len(r) > 5 and r[5]]
+        if not combined_texts:
+            combined_texts = [r[4] for r in rows if len(r) > 4 and r[4]]
+        if combined_texts:
+            concat = "\n\n".join(combined_texts[:20])  # limit number of items concatenated
+            use_gemini = os.environ.get("USE_GEMINI", "0") in ("1", "true", "True")
+            if use_gemini:
+                try:
+                    overall = summarize_with_gemini(concat, max_tokens=200)
+                except Exception:
+                    logger.exception("Gemini summarization failed, falling back to local summarizer")
+                    overall = summarize_text(concat, max_sentences=3, max_chars=800)
+            else:
+                overall = summarize_text(concat, max_sentences=3, max_chars=800)
+            if overall:
+                parts.append("<h2>Daily AI Summary</h2>")
+                parts.append(f"<p>{html_escape(overall)}</p>")
+    except Exception:
+        logger.exception("Failed to build overall AI summary")
     parts.append("<hr/>")
 
     if not rows:

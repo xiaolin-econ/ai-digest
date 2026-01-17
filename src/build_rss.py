@@ -3,6 +3,9 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 from dateutil import parser as dtparser
 from xml.sax.saxutils import escape as xml_escape
+import os
+from summarize import summarize_text
+from llm import summarize_with_gemini
 
 SITE_URL = "https://xiaolin-econ.github.io/ai-digest/"
 FEED_URL = "https://xiaolin-econ.github.io/ai-digest/rss.xml"
@@ -37,6 +40,35 @@ def main():
     now_rfc822 = format_datetime(datetime.now(timezone.utc))
 
     items_xml = []
+    # Build an overall AI summary for the feed based on ai_summary or item summaries
+    try:
+        combined_texts = [r[5] for r in rows if len(r) > 5 and r[5]]
+        if not combined_texts:
+            combined_texts = [r[4] for r in rows if len(r) > 4 and r[4]]
+        overall = ""
+        if combined_texts:
+            concat = "\n\n".join(combined_texts[:20])
+            use_gemini = os.environ.get("USE_GEMINI", "0") in ("1", "true", "True")
+            if use_gemini:
+                try:
+                    overall = summarize_with_gemini(concat, max_tokens=200)
+                except Exception:
+                    overall = summarize_text(concat, max_sentences=3, max_chars=800)
+            else:
+                overall = summarize_text(concat, max_sentences=3, max_chars=800)
+    except Exception:
+        overall = ""
+    if overall:
+        # Include a top-level synthetic item summarizing the digest
+        items_xml.append("""
+<item>
+  <title>AI Digest — Daily Summary</title>
+  <link>%s</link>
+  <guid>%s#summary</guid>
+  <pubDate>%s</pubDate>
+  <description>%s</description>
+</item>
+""" % (esc(FEED_URL), esc(FEED_URL), esc(now_rfc822), esc(overall)))
     for source, title, url, published, summary, ai_summary in rows:
         pub_rfc822 = to_rfc822(published)
         combined = f"{source} - {(summary or '')[:400]}"
