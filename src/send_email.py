@@ -25,11 +25,13 @@ def build_html(rows):
     return "\n".join(parts)
 
 def main():
-    # last 24 hours
-    since = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat()
-
     conn = connect()
-    rows = recent_items(conn, since)
+    rows = conn.cursor().execute(
+        "SELECT source, title, url, published, summary "
+        "FROM items "
+        "ORDER BY published DESC "
+        "LIMIT 40"
+    ).fetchall()
 
     html = build_html(rows)
 
