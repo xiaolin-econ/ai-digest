@@ -1,1 +1,8 @@
+sources:
+  - name: arXiv cs.AI
+    type: rss
+    url: https://export.arxiv.org/rss/cs.AI
 
+  - name: arXiv cs.LG
+    type: rss
+    url: https://export.arxiv.org/rss/cs.LG
