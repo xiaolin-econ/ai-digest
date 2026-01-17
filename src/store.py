@@ -25,3 +25,13 @@ def upsert_items(conn, items):
                 (it["id"], it["source"], it["title"], it["url"], it.get("published", ""), it.get("summary", ""))
             )
     conn.commit()
+
+def recent_items(conn, since_iso):
+    cur = conn.cursor()
+    return cur.execute(
+        "SELECT source, title, url, published, summary "
+        "FROM items "
+        "WHERE published >= ? "
+        "ORDER BY published DESC",
+        (since_iso,),
+    ).fetchall()
