@@ -1,8 +1,8 @@
 sources:
   - name: arXiv cs.AI
-    type: rss
-    url: https://export.arxiv.org/rss/cs.AI
+    type: arxiv
+    url: http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=25
 
   - name: arXiv cs.LG
-    type: rss
-    url: https://export.arxiv.org/rss/cs.LG
+    type: arxiv
+    url: http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=25
