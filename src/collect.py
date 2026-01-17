@@ -68,7 +68,10 @@ def main():
                 except Exception:
                     published = ""
 
-            summary = (e.get("summary") or "").strip()
+            summary = (e.get("summary") or e.get("description") or "").strip()
+
+            if not is_productivity_paper(title, summary):
+                continue
 
             items.append(
                 {
