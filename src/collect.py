@@ -16,7 +16,7 @@ def main():
     items = []
 
     for s in cfg["sources"]:
-        if s.get("type") != "rss":
+        if s.get("type") not in ("rss", "arxiv"):
             continue
 
         try:
