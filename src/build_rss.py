@@ -30,7 +30,7 @@ def main():
 <rss version="2.0">
 <channel>
   <title>AI Research Digest</title>
-  <link>https://example.com/</link>
+  <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <description>Curated AI research + releases</description>
   <lastBuildDate>{now}</lastBuildDate>
   {''.join(items_xml)}
