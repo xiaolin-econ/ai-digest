@@ -2,9 +2,10 @@
 <rss version="2.0">
 <channel>
   <title>AI Research Digest</title>
-  <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
+  <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Sat, 17 Jan 2026 05:48:29 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Jan 2026 05:53:30 +0000</lastBuildDate>
+  <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 </channel>
 </rss>
