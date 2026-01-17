@@ -1,8 +1,12 @@
 import os
 import smtplib
+import logging
 from email.mime.text import MIMEText
 from datetime import datetime, timedelta, timezone
+from html import escape as html_escape
 from store import connect, recent_items
+
+logger = logging.getLogger(__name__)
 
 def build_html(rows):
     parts = []
@@ -16,10 +20,16 @@ def build_html(rows):
 
     parts.append("<ol>")
     for source, title, url, published, summary in rows[:40]:
+        # Escape content inserted into HTML to avoid broken layout or injection
+        src = html_escape(source or "")
+        t = html_escape(title or "")
+        u = html_escape(url or "", quote=True)
+        pub = html_escape(published or "")
+        summ = html_escape((summary or "")[:300])
         parts.append(
-            f"<li><b>{source}</b>: <a href='{url}'>{title}</a>"
-            f"<br/><small>{published}</small>"
-            f"<br/>{(summary or '')[:300]}</li><br/>"
+            f"<li><b>{src}</b>: <a href='{u}'>{t}</a>"
+            f"<br/><small>{pub}</small>"
+            f"<br/>{summ}</li><br/>"
         )
     parts.append("</ol>")
     return "\n".join(parts)
@@ -37,6 +47,12 @@ def main():
 
     msg = MIMEText(html, "html", "utf-8")
     msg["Subject"] = "AI Research Digest"
+
+    # Validate required env vars
+    missing = [k for k in ("SMTP_HOST", "SMTP_USER", "SMTP_PASS") if not os.environ.get(k)]
+    if missing:
+        raise RuntimeError(f"Missing required SMTP env vars: {', '.join(missing)}")
+
     msg["From"] = os.environ["SMTP_USER"]
     msg["To"] = os.environ.get("DIGEST_TO", os.environ["SMTP_USER"])
 
@@ -45,12 +61,14 @@ def main():
     user = os.environ["SMTP_USER"]
     pwd = os.environ["SMTP_PASS"]
 
-    with smtplib.SMTP(host, port) as s:
-        s.starttls()
-        s.login(user, pwd)
-        s.sendmail(msg["From"], [msg["To"]], msg.as_string())
-
-    print(f"Sent digest to {msg['To']} with {len(rows)} items")
+    try:
+        with smtplib.SMTP(host, port) as s:
+            s.starttls()
+            s.login(user, pwd)
+            s.sendmail(msg["From"], [msg["To"]], msg.as_string())
+        logger.info("Sent digest to %s with %d items", msg["To"], len(rows))
+    except Exception:
+        logger.exception("Failed to send digest to %s", msg.get("To"))
 
 if __name__ == "__main__":
     main()
