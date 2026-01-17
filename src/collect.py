@@ -5,6 +5,32 @@ import requests
 from dateutil import parser as dtparser
 from store import connect, upsert_items
 
+KEYWORDS = [
+    "productivity",
+    "workflow",
+    "copilot",
+    "assistant",
+    "agent",
+    "automation",
+    "human-ai",
+    "human ai",
+    "decision support",
+    "knowledge work",
+    "office",
+    "programming assistant",
+    "software engineering",
+    "developer productivity",
+    "task completion",
+    "information retrieval",
+    "search assistant",
+    "writing",
+    "coding",
+    "debugging",
+]
+
+def is_productivity_paper(title: str, summary: str) -> bool:
+    text = f"{title} {summary}".lower()
+    return any(k in text for k in KEYWORDS)
 
 def stable_id(source, url, title):
     raw = f"{source}|{url}|{title}".encode("utf-8")
