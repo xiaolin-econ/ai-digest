@@ -4,7 +4,7 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Sat, 17 Jan 2026 06:15:38 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Jan 2026 06:19:09 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   <item>
   <title>DInf-Grid: A Neural Differential Equation Solver with Differentiable Feature Grids</title>
