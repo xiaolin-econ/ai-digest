@@ -31,15 +31,17 @@ def to_rfc822(dt_str: str) -> str:
 def main():
     conn = connect()
     rows = conn.cursor().execute(
-        "SELECT source, title, url, published, summary FROM items ORDER BY published DESC LIMIT 50"
+        "SELECT source, title, url, published, summary, ai_summary FROM items ORDER BY published DESC LIMIT 50"
     ).fetchall()
 
     now_rfc822 = format_datetime(datetime.now(timezone.utc))
 
     items_xml = []
-    for source, title, url, published, summary in rows:
+    for source, title, url, published, summary, ai_summary in rows:
         pub_rfc822 = to_rfc822(published)
-        desc = f"{source} - {(summary or '')[:500]}"
+        combined = f"{source} - {(summary or '')[:400]}"
+        if ai_summary:
+            combined = combined + "\n\nAI summary: " + (ai_summary or "")
         items_xml.append("""
 <item>
   <title>%s</title>
@@ -48,7 +50,7 @@ def main():
   <pubDate>%s</pubDate>
   <description>%s</description>
 </item>
-""" % (esc(title), esc(url), esc(url), esc(pub_rfc822), esc(desc)))
+""" % (esc(title), esc(url), esc(url), esc(pub_rfc822), esc(combined)))
 
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">

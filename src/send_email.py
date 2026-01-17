@@ -19,17 +19,20 @@ def build_html(rows):
         return "\n".join(parts)
 
     parts.append("<ol>")
-    for source, title, url, published, summary in rows[:40]:
+    for source, title, url, published, summary, ai_summary in rows[:40]:
         # Escape content inserted into HTML to avoid broken layout or injection
         src = html_escape(source or "")
         t = html_escape(title or "")
         u = html_escape(url or "", quote=True)
         pub = html_escape(published or "")
         summ = html_escape((summary or "")[:300])
+        ai_s = html_escape((ai_summary or "")[:300])
         parts.append(
             f"<li><b>{src}</b>: <a href='{u}'>{t}</a>"
             f"<br/><small>{pub}</small>"
-            f"<br/>{summ}</li><br/>"
+            f"<br/>{summ}"
+            + (f"<br/><em>AI summary:</em> {ai_s}" if ai_s else "")
+            + "</li><br/>"
         )
     parts.append("</ol>")
     return "\n".join(parts)
@@ -37,7 +40,7 @@ def build_html(rows):
 def main():
     conn = connect()
     rows = conn.cursor().execute(
-        "SELECT source, title, url, published, summary "
+        "SELECT source, title, url, published, summary, ai_summary "
         "FROM items "
         "ORDER BY published DESC "
         "LIMIT 15"

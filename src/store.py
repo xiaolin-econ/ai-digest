@@ -9,7 +9,8 @@ CREATE TABLE IF NOT EXISTS items (
   title TEXT,
   url TEXT,
   published TEXT,
-  summary TEXT
+    summary TEXT,
+    ai_summary TEXT
 );
 """
 
@@ -28,6 +29,13 @@ def connect(db_path: str | None = None):
     db_file = Path(db_path) if db_path else data_dir / "items.sqlite"
     conn = sqlite3.connect(str(db_file))
     conn.execute(SCHEMA)
+    # Ensure ai_summary column exists for older DBs
+    cur = conn.cursor()
+    cur.execute("PRAGMA table_info(items)")
+    cols = [r[1] for r in cur.fetchall()]
+    if "ai_summary" not in cols:
+        cur.execute("ALTER TABLE items ADD COLUMN ai_summary TEXT DEFAULT ''")
+        conn.commit()
     return conn
 
 
@@ -50,3 +58,12 @@ def recent_items(conn, since_iso):
         "ORDER BY published DESC",
         (since_iso,),
     ).fetchall()
+
+
+def set_ai_summary(conn, item_id: str, ai_summary: str):
+    cur = conn.cursor()
+    cur.execute(
+        "UPDATE items SET ai_summary = ? WHERE id = ?",
+        (ai_summary, item_id),
+    )
+    conn.commit()
