@@ -1,6 +1,7 @@
 import yaml
 import hashlib
 import feedparser
+import requests
 from dateutil import parser as dtparser
 from store import connect, upsert_items
 
@@ -16,7 +17,13 @@ def main():
         if s["type"] != "rss":
             continue
 
-        feed = feedparser.parse(s["url"])
+            resp = requests.get(
+                s["url"],
+                headers={"User-Agent": "Mozilla/5.0 (compatible; ai-digest/1.0)"},
+                timeout=30,
+            )
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.text)
         for e in feed.entries[:50]:
             url = e.get("link", "")
             title = (e.get("title") or "").strip()
