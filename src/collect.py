@@ -1,13 +1,9 @@
-import logging
-from pathlib import Path
 import yaml
 import hashlib
 import feedparser
 import requests
 from dateutil import parser as dtparser
 from store import connect, upsert_items
-
-logger = logging.getLogger(__name__)
 
 KEYWORDS = [
     "productivity",
@@ -42,16 +38,7 @@ def stable_id(source, url, title):
 
 
 def main():
-    # Resolve feeds.yaml relative to the project root so scripts can be run from any cwd.
-    base = Path(__file__).resolve().parent.parent
-    feeds_path = base / "feeds.yaml"
-    if not feeds_path.exists():
-        logger.error("feeds.yaml not found at %s", feeds_path)
-        return
-
-    with feeds_path.open("r", encoding="utf-8") as fh:
-        cfg = yaml.safe_load(fh)
-
+    cfg = yaml.safe_load(open("feeds.yaml"))
     items = []
 
     for s in cfg["sources"]:
@@ -65,10 +52,9 @@ def main():
                 timeout=30,
             )
             resp.raise_for_status()
-            # Use raw bytes to let feedparser detect encoding correctly
-            feed = feedparser.parse(resp.content)
+            feed = feedparser.parse(resp.text)
         except Exception as ex:
-            logger.exception("FAILED to fetch %s -> %s: %s", s.get("name"), s.get("url"), ex)
+            print(f"FAILED to fetch {s.get('name')} -> {s.get('url')}: {ex}")
             continue
 
         for e in feed.entries[:50]:
@@ -100,7 +86,7 @@ def main():
 
     conn = connect()
     upsert_items(conn, items)
-    logger.info("Collected %d items", len(items))
+    print(f"Collected {len(items)} items")
 
 
 if __name__ == "__main__":
