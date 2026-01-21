@@ -4,15 +4,127 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Tue, 20 Jan 2026 18:23:19 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Jan 2026 06:23:58 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Tue, 20 Jan 2026 18:23:19 +0000</pubDate>
+  <pubDate>Wed, 21 Jan 2026 06:23:58 +0000</pubDate>
   <description>We present a novel differentiable grid-based representation for efficiently solving differential equations (DEs). Widely used architectures for neural solvers, such as sinusoidal neural networks, are coordinate-based MLPs that are both computationally intensive and slow to train. Although grid-based alternatives for implicit representations (e.g., Instant-NGP and K-Planes) train faster by… Tool-Integrated Reasoning (TIR) empowers large language models (LLMs) to tackle complex tasks by interleaving reasoning steps with external tool interactions. However, existing reinforcement learning methods typically rely on outcome- or trajectory-level rewards, assigning uniform advantages to all steps within a trajectory. This coarse-grained credit assignment fails to distinguish effective……</description>
+</item>
+
+<item>
+  <title>APEX-Agents</title>
+  <link>https://arxiv.org/abs/2601.14242v1</link>
+  <guid>https://arxiv.org/abs/2601.14242v1</guid>
+  <pubDate>Tue, 20 Jan 2026 18:53:44 +0000</pubDate>
+  <description>arXiv cs.AI - We introduce the AI Productivity Index for Agents (APEX-Agents), a benchmark for assessing whether AI agents can execute long-horizon, cross-application tasks created by investment banking analysts, management consultants, and corporate lawyers. APEX-Agents requires agents to navigate realistic work environments with files and tools. We test eight agents for the leaderboard using Pass@1. Gemini 3 </description>
+</item>
+
+<item>
+  <title>APEX-Agents</title>
+  <link>https://arxiv.org/abs/2601.14242v1</link>
+  <guid>https://arxiv.org/abs/2601.14242v1</guid>
+  <pubDate>Tue, 20 Jan 2026 18:53:44 +0000</pubDate>
+  <description>arXiv cs.LG - We introduce the AI Productivity Index for Agents (APEX-Agents), a benchmark for assessing whether AI agents can execute long-horizon, cross-application tasks created by investment banking analysts, management consultants, and corporate lawyers. APEX-Agents requires agents to navigate realistic work environments with files and tools. We test eight agents for the leaderboard using Pass@1. Gemini 3 </description>
+</item>
+
+<item>
+  <title>Spatiotemporal Wildfire Prediction and Reinforcement Learning for Helitack Suppression</title>
+  <link>https://arxiv.org/abs/2601.14238v1</link>
+  <guid>https://arxiv.org/abs/2601.14238v1</guid>
+  <pubDate>Tue, 20 Jan 2026 18:50:12 +0000</pubDate>
+  <description>arXiv cs.LG - Wildfires are growing in frequency and intensity, devastating ecosystems and communities while causing billions of dollars in suppression costs and economic damage annually in the U.S. Traditional wildfire management is mostly reactive, addressing fires only after they are detected. We introduce \textit{FireCastRL}, a proactive artificial intelligence (AI) framework that combines wildfire forecast</description>
+</item>
+
+<item>
+  <title>Opportunities in AI/ML for the Rubin LSST Dark Energy Science Collaboration</title>
+  <link>https://arxiv.org/abs/2601.14235v1</link>
+  <guid>https://arxiv.org/abs/2601.14235v1</guid>
+  <pubDate>Tue, 20 Jan 2026 18:46:42 +0000</pubDate>
+  <description>arXiv cs.AI - The Vera C. Rubin Observatory&apos;s Legacy Survey of Space and Time (LSST) will produce unprecedented volumes of heterogeneous astronomical data (images, catalogs, and alerts) that challenge traditional analysis pipelines. The LSST Dark Energy Science Collaboration (DESC) aims to derive robust constraints on dark energy and dark matter from these data, requiring methods that are statistically powerful</description>
+</item>
+
+<item>
+  <title>Opportunities in AI/ML for the Rubin LSST Dark Energy Science Collaboration</title>
+  <link>https://arxiv.org/abs/2601.14235v1</link>
+  <guid>https://arxiv.org/abs/2601.14235v1</guid>
+  <pubDate>Tue, 20 Jan 2026 18:46:42 +0000</pubDate>
+  <description>arXiv cs.LG - The Vera C. Rubin Observatory&apos;s Legacy Survey of Space and Time (LSST) will produce unprecedented volumes of heterogeneous astronomical data (images, catalogs, and alerts) that challenge traditional analysis pipelines. The LSST Dark Energy Science Collaboration (DESC) aims to derive robust constraints on dark energy and dark matter from these data, requiring methods that are statistically powerful</description>
+</item>
+
+<item>
+  <title>KAGE-Bench: Fast Known-Axis Visual Generalization Evaluation for Reinforcement Learning</title>
+  <link>https://arxiv.org/abs/2601.14232v1</link>
+  <guid>https://arxiv.org/abs/2601.14232v1</guid>
+  <pubDate>Tue, 20 Jan 2026 18:44:28 +0000</pubDate>
+  <description>arXiv cs.AI - Pixel-based reinforcement learning agents often fail under purely visual distribution shift even when latent dynamics and rewards are unchanged, but existing benchmarks entangle multiple sources of shift and hinder systematic analysis. We introduce KAGE-Env, a JAX-native 2D platformer that factorizes the observation process into independently controllable visual axes while keeping the underlying c</description>
+</item>
+
+<item>
+  <title>KAGE-Bench: Fast Known-Axis Visual Generalization Evaluation for Reinforcement Learning</title>
+  <link>https://arxiv.org/abs/2601.14232v1</link>
+  <guid>https://arxiv.org/abs/2601.14232v1</guid>
+  <pubDate>Tue, 20 Jan 2026 18:44:28 +0000</pubDate>
+  <description>arXiv cs.LG - Pixel-based reinforcement learning agents often fail under purely visual distribution shift even when latent dynamics and rewards are unchanged, but existing benchmarks entangle multiple sources of shift and hinder systematic analysis. We introduce KAGE-Env, a JAX-native 2D platformer that factorizes the observation process into independently controllable visual axes while keeping the underlying c</description>
+</item>
+
+<item>
+  <title>MASCOT: Towards Multi-Agent Socio-Collaborative Companion Systems</title>
+  <link>https://arxiv.org/abs/2601.14230v1</link>
+  <guid>https://arxiv.org/abs/2601.14230v1</guid>
+  <pubDate>Tue, 20 Jan 2026 18:44:04 +0000</pubDate>
+  <description>arXiv cs.AI - Multi-agent systems (MAS) have recently emerged as promising socio-collaborative companions for emotional and cognitive support. However, these systems frequently suffer from persona collapse--where agents revert to generic, homogenized assistant behaviors--and social sycophancy, which produces redundant, non-constructive dialogue. We propose MASCOT, a generalizable framework for multi-perspective</description>
+</item>
+
+<item>
+  <title>Attention-Based Offline Reinforcement Learning and Clustering for Interpretable Sepsis Treatment</title>
+  <link>https://arxiv.org/abs/2601.14228v1</link>
+  <guid>https://arxiv.org/abs/2601.14228v1</guid>
+  <pubDate>Tue, 20 Jan 2026 18:41:44 +0000</pubDate>
+  <description>arXiv cs.LG - Sepsis remains one of the leading causes of mortality in intensive care units, where timely and accurate treatment decisions can significantly impact patient outcomes. In this work, we propose an interpretable decision support framework. Our system integrates four core components: (1) a clustering-based stratification module that categorizes patients into low, intermediate, and high-risk groups up</description>
+</item>
+
+<item>
+  <title>Toward Efficient Agents: Memory, Tool learning, and Planning</title>
+  <link>https://arxiv.org/abs/2601.14192v1</link>
+  <guid>https://arxiv.org/abs/2601.14192v1</guid>
+  <pubDate>Tue, 20 Jan 2026 17:51:56 +0000</pubDate>
+  <description>arXiv cs.AI - Recent years have witnessed increasing interest in extending large language models into agentic systems. While the effectiveness of agents has continued to improve, efficiency, which is crucial for real-world deployment, has often been overlooked. This paper therefore investigates efficiency from three core components of agents: memory, tool learning, and planning, considering costs such as latenc</description>
+</item>
+
+<item>
+  <title>Paper2Rebuttal: A Multi-Agent Framework for Transparent Author Response Assistance</title>
+  <link>https://arxiv.org/abs/2601.14171v1</link>
+  <guid>https://arxiv.org/abs/2601.14171v1</guid>
+  <pubDate>Tue, 20 Jan 2026 17:23:51 +0000</pubDate>
+  <description>arXiv cs.AI - Writing effective rebuttals is a high-stakes task that demands more than linguistic fluency, as it requires precise alignment between reviewer intent and manuscript details. Current solutions typically treat this as a direct-to-text generation problem, suffering from hallucination, overlooked critiques, and a lack of verifiable grounding. To address these limitations, we introduce $\textbf{Rebutta</description>
+</item>
+
+<item>
+  <title>Remapping and navigation of an embedding space via error minimization: a fundamental organizational principle of cognition in natural and artificial systems</title>
+  <link>https://arxiv.org/abs/2601.14096v1</link>
+  <guid>https://arxiv.org/abs/2601.14096v1</guid>
+  <pubDate>Tue, 20 Jan 2026 15:57:36 +0000</pubDate>
+  <description>arXiv cs.AI - The emerging field of diverse intelligence seeks an integrated view of problem-solving in agents of very different provenance, composition, and substrates. From subcellular chemical networks to swarms of organisms, and across evolved, engineered, and chimeric systems, it is hypothesized that scale-invariant principles of decision-making can be discovered. We propose that cognition in both natural </description>
+</item>
+
+<item>
+  <title>Zero-shot adaptable task planning for autonomous construction robots: a comparative study of lightweight single and multi-AI agent systems</title>
+  <link>https://arxiv.org/abs/2601.14091v1</link>
+  <guid>https://arxiv.org/abs/2601.14091v1</guid>
+  <pubDate>Tue, 20 Jan 2026 15:54:33 +0000</pubDate>
+  <description>arXiv cs.AI - Robots are expected to play a major role in the future construction industry but face challenges due to high costs and difficulty adapting to dynamic tasks. This study explores the potential of foundation models to enhance the adaptability and generalizability of task planning in construction robots. Four models are proposed and implemented using lightweight, open-source large language models (LLM</description>
+</item>
+
+<item>
+  <title>LLMOrbit: A Circular Taxonomy of Large Language Models -From Scaling Walls to Agentic AI Systems</title>
+  <link>https://arxiv.org/abs/2601.14053v1</link>
+  <guid>https://arxiv.org/abs/2601.14053v1</guid>
+  <pubDate>Tue, 20 Jan 2026 15:06:19 +0000</pubDate>
+  <description>arXiv cs.LG - The field of artificial intelligence has undergone a revolution from foundational Transformer architectures to reasoning-capable systems approaching human-level performance. We present LLMOrbit, a comprehensive circular taxonomy navigating the landscape of large language models spanning 2019-2025. This survey examines over 50 models across 15 organizations through eight interconnected orbital dime</description>
 </item>
 
 <item>
@@ -348,146 +460,6 @@ AI summary: We study potential presence of statistical-computational gaps (SCG) 
   <description>arXiv cs.AI - Today&apos;s strongest video-language models (VLMs) remain proprietary. The strongest open-weight models either rely on synthetic data from proprietary VLMs, effectively distilling from them, or do not disclose their training data or recipe. As a result, the open-source community lacks the foundations needed to improve on the state-of-the-art video (and image) language models. Crucially, many downstrea
 
 AI summary: Today&apos;s strongest video-language models (VLMs) remain proprietary. The strongest open-weight models either rely on synthetic data from proprietary VLMs, effectively distilling from them, or do not disclose their training data or recipe. As a result, the open-source community lacks the foundations needed to improve on the state-of-the-art video (and image) language models. Crucially, many…</description>
-</item>
-
-<item>
-  <title>Procedural Fairness in Multi-Agent Bandits</title>
-  <link>https://arxiv.org/abs/2601.10600v1</link>
-  <guid>https://arxiv.org/abs/2601.10600v1</guid>
-  <pubDate>Thu, 15 Jan 2026 17:11:51 +0000</pubDate>
-  <description>arXiv cs.AI - In the context of multi-agent multi-armed bandits (MA-MAB), fairness is often reduced to outcomes: maximizing welfare, reducing inequality, or balancing utilities. However, evidence in psychology, economics, and Rawlsian theory suggests that fairness is also about process and who gets a say in the decisions being made. We introduce a new fairness objective, procedural fairness, which provides equa
-
-AI summary: In the context of multi-agent multi-armed bandits (MA-MAB), fairness is often reduced to outcomes: maximizing welfare, reducing inequality, or balancing utilities. However, evidence in psychology, economics, and Rawlsian theory suggests that fairness is also about process and who gets a say in the decisions being made. We introduce a new fairness objective, procedural fairness, which provides…</description>
-</item>
-
-<item>
-  <title>Procedural Fairness in Multi-Agent Bandits</title>
-  <link>https://arxiv.org/abs/2601.10600v1</link>
-  <guid>https://arxiv.org/abs/2601.10600v1</guid>
-  <pubDate>Thu, 15 Jan 2026 17:11:51 +0000</pubDate>
-  <description>arXiv cs.LG - In the context of multi-agent multi-armed bandits (MA-MAB), fairness is often reduced to outcomes: maximizing welfare, reducing inequality, or balancing utilities. However, evidence in psychology, economics, and Rawlsian theory suggests that fairness is also about process and who gets a say in the decisions being made. We introduce a new fairness objective, procedural fairness, which provides equa
-
-AI summary: In the context of multi-agent multi-armed bandits (MA-MAB), fairness is often reduced to outcomes: maximizing welfare, reducing inequality, or balancing utilities. However, evidence in psychology, economics, and Rawlsian theory suggests that fairness is also about process and who gets a say in the decisions being made. We introduce a new fairness objective, procedural fairness, which provides…</description>
-</item>
-
-<item>
-  <title>ProbFM: Probabilistic Time Series Foundation Model with Uncertainty Decomposition</title>
-  <link>https://arxiv.org/abs/2601.10591v1</link>
-  <guid>https://arxiv.org/abs/2601.10591v1</guid>
-  <pubDate>Thu, 15 Jan 2026 17:02:06 +0000</pubDate>
-  <description>arXiv cs.AI - Time Series Foundation Models (TSFMs) have emerged as a promising approach for zero-shot financial forecasting, demonstrating strong transferability and data efficiency gains. However, their adoption in financial applications is hindered by fundamental limitations in uncertainty quantification: current approaches either rely on restrictive distributional assumptions, conflate different sources of 
-
-AI summary: Time Series Foundation Models (TSFMs) have emerged as a promising approach for zero-shot financial forecasting, demonstrating strong transferability and data efficiency gains. However, their adoption in financial applications is hindered by fundamental limitations in uncertainty quantification: current approaches either rely on restrictive distributional assumptions, conflate different sources…</description>
-</item>
-
-<item>
-  <title>ProbFM: Probabilistic Time Series Foundation Model with Uncertainty Decomposition</title>
-  <link>https://arxiv.org/abs/2601.10591v1</link>
-  <guid>https://arxiv.org/abs/2601.10591v1</guid>
-  <pubDate>Thu, 15 Jan 2026 17:02:06 +0000</pubDate>
-  <description>arXiv cs.LG - Time Series Foundation Models (TSFMs) have emerged as a promising approach for zero-shot financial forecasting, demonstrating strong transferability and data efficiency gains. However, their adoption in financial applications is hindered by fundamental limitations in uncertainty quantification: current approaches either rely on restrictive distributional assumptions, conflate different sources of 
-
-AI summary: Time Series Foundation Models (TSFMs) have emerged as a promising approach for zero-shot financial forecasting, demonstrating strong transferability and data efficiency gains. However, their adoption in financial applications is hindered by fundamental limitations in uncertainty quantification: current approaches either rely on restrictive distributional assumptions, conflate different sources…</description>
-</item>
-
-<item>
-  <title>Searching for Quantum Effects in the Brain: A Bell-Type Test for Nonclassical Latent Representations in Autoencoders</title>
-  <link>https://arxiv.org/abs/2601.10588v1</link>
-  <guid>https://arxiv.org/abs/2601.10588v1</guid>
-  <pubDate>Thu, 15 Jan 2026 16:59:40 +0000</pubDate>
-  <description>arXiv cs.LG - Whether neural information processing is entirely classical or involves quantum-mechanical elements remains an open question. Here we propose a model-agnostic, information-theoretic test of nonclassicality that bypasses microscopic assumptions and instead probes the structure of neural representations themselves. Using autoencoders as a transparent model system, we introduce a Bell-type consistenc
-
-AI summary: Whether neural information processing is entirely classical or involves quantum-mechanical elements remains an open question. Here we propose a model-agnostic, information-theoretic test of nonclassicality that bypasses microscopic assumptions and instead probes the structure of neural representations themselves. Using autoencoders as a transparent model system, we introduce a Bell-type…</description>
-</item>
-
-<item>
-  <title>Adversarial Evasion Attacks on Computer Vision using SHAP Values</title>
-  <link>https://arxiv.org/abs/2601.10587v1</link>
-  <guid>https://arxiv.org/abs/2601.10587v1</guid>
-  <pubDate>Thu, 15 Jan 2026 16:58:55 +0000</pubDate>
-  <description>arXiv cs.AI - The paper introduces a white-box attack on computer vision models using SHAP values. It demonstrates how adversarial evasion attacks can compromise the performance of deep learning models by reducing output confidence or inducing misclassifications. Such attacks are particularly insidious as they can deceive the perception of an algorithm while eluding human perception due to their imperceptibilit
-
-AI summary: The paper introduces a white-box attack on computer vision models using SHAP values. It demonstrates how adversarial evasion attacks can compromise the performance of deep learning models by reducing output confidence or inducing misclassifications. Such attacks are particularly insidious as they can deceive the perception of an algorithm while eluding human perception due to their…</description>
-</item>
-
-<item>
-  <title>Combinatorial Optimization Augmented Machine Learning</title>
-  <link>https://arxiv.org/abs/2601.10583v1</link>
-  <guid>https://arxiv.org/abs/2601.10583v1</guid>
-  <pubDate>Thu, 15 Jan 2026 16:55:19 +0000</pubDate>
-  <description>arXiv cs.LG - Combinatorial optimization augmented machine learning (COAML) has recently emerged as a powerful paradigm for integrating predictive models with combinatorial decision-making. By embedding combinatorial optimization oracles into learning pipelines, COAML enables the construction of policies that are both data-driven and feasibility-preserving, bridging the traditions of machine learning, operation
-
-AI summary: Combinatorial optimization augmented machine learning (COAML) has recently emerged as a powerful paradigm for integrating predictive models with combinatorial decision-making. By embedding combinatorial optimization oracles into learning pipelines, COAML enables the construction of policies that are both data-driven and feasibility-preserving, bridging the traditions of machine learning,…</description>
-</item>
-
-<item>
-  <title>From Single to Multi-Agent Reasoning: Advancing GeneGPT for Genomics QA</title>
-  <link>https://arxiv.org/abs/2601.10581v1</link>
-  <guid>https://arxiv.org/abs/2601.10581v1</guid>
-  <pubDate>Thu, 15 Jan 2026 16:54:11 +0000</pubDate>
-  <description>arXiv cs.AI - Comprehending genomic information is essential for biomedical research, yet extracting data from complex distributed databases remains challenging. Large language models (LLMs) offer potential for genomic Question Answering (QA) but face limitations due to restricted access to domain-specific databases. GeneGPT is the current state-of-the-art system that enhances LLMs by utilizing specialized API 
-
-AI summary: Comprehending genomic information is essential for biomedical research, yet extracting data from complex distributed databases remains challenging. Large language models (LLMs) offer potential for genomic Question Answering (QA) but face limitations due to restricted access to domain-specific databases. GeneGPT is the current state-of-the-art system that enhances LLMs by utilizing specialized…</description>
-</item>
-
-<item>
-  <title>Generative AI collective behavior needs an interactionist paradigm</title>
-  <link>https://arxiv.org/abs/2601.10567v1</link>
-  <guid>https://arxiv.org/abs/2601.10567v1</guid>
-  <pubDate>Thu, 15 Jan 2026 16:29:23 +0000</pubDate>
-  <description>arXiv cs.AI - In this article, we argue that understanding the collective behavior of agents based on large language models (LLMs) is an essential area of inquiry, with important implications in terms of risks and benefits, impacting us as a society at many levels. We claim that the distinctive nature of LLMs--namely, their initialization with extensive pre-trained knowledge and implicit social priors, together
-
-AI summary: In this article, we argue that understanding the collective behavior of agents based on large language models (LLMs) is an essential area of inquiry, with important implications in terms of risks and benefits, impacting us as a society at many levels. We claim that the distinctive nature of LLMs--namely, their initialization with extensive pre-trained knowledge and implicit social priors,…</description>
-</item>
-
-<item>
-  <title>Generative AI collective behavior needs an interactionist paradigm</title>
-  <link>https://arxiv.org/abs/2601.10567v1</link>
-  <guid>https://arxiv.org/abs/2601.10567v1</guid>
-  <pubDate>Thu, 15 Jan 2026 16:29:23 +0000</pubDate>
-  <description>arXiv cs.LG - In this article, we argue that understanding the collective behavior of agents based on large language models (LLMs) is an essential area of inquiry, with important implications in terms of risks and benefits, impacting us as a society at many levels. We claim that the distinctive nature of LLMs--namely, their initialization with extensive pre-trained knowledge and implicit social priors, together
-
-AI summary: In this article, we argue that understanding the collective behavior of agents based on large language models (LLMs) is an essential area of inquiry, with important implications in terms of risks and benefits, impacting us as a society at many levels. We claim that the distinctive nature of LLMs--namely, their initialization with extensive pre-trained knowledge and implicit social priors,…</description>
-</item>
-
-<item>
-  <title>Representation-Aware Unlearning via Activation Signatures: From Suppression to Knowledge-Signature Erasure</title>
-  <link>https://arxiv.org/abs/2601.10566v1</link>
-  <guid>https://arxiv.org/abs/2601.10566v1</guid>
-  <pubDate>Thu, 15 Jan 2026 16:28:14 +0000</pubDate>
-  <description>arXiv cs.LG - Selective knowledge erasure from LLMs is critical for GDPR compliance and model safety, yet current unlearning methods conflate behavioral suppression with true knowledge removal, allowing latent capabilities to persist beneath surface-level refusals. In this work, we address this challenge by introducing Knowledge Immunization Framework (KIF), a representation-aware architecture that distinguishe
-
-AI summary: Selective knowledge erasure from LLMs is critical for GDPR compliance and model safety, yet current unlearning methods conflate behavioral suppression with true knowledge removal, allowing latent capabilities to persist beneath surface-level refusals. In this work, we address this challenge by introducing Knowledge Immunization Framework (KIF), a representation-aware architecture that…</description>
-</item>
-
-<item>
-  <title>Kolmogorov Arnold Networks and Multi-Layer Perceptrons: A Paradigm Shift in Neural Modelling</title>
-  <link>https://arxiv.org/abs/2601.10563v1</link>
-  <guid>https://arxiv.org/abs/2601.10563v1</guid>
-  <pubDate>Thu, 15 Jan 2026 16:26:49 +0000</pubDate>
-  <description>arXiv cs.LG - The research undertakes a comprehensive comparative analysis of Kolmogorov-Arnold Networks (KAN) and Multi-Layer Perceptrons (MLP), highlighting their effectiveness in solving essential computational challenges like nonlinear function approximation, time-series prediction, and multivariate classification. Rooted in Kolmogorov&apos;s representation theorem, KANs utilize adaptive spline-based activation 
-
-AI summary: The research undertakes a comprehensive comparative analysis of Kolmogorov-Arnold Networks (KAN) and Multi-Layer Perceptrons (MLP), highlighting their effectiveness in solving essential computational challenges like nonlinear function approximation, time-series prediction, and multivariate classification. Rooted in Kolmogorov&apos;s representation theorem, KANs utilize adaptive spline-based…</description>
-</item>
-
-<item>
-  <title>Process-Guided Concept Bottleneck Model</title>
-  <link>https://arxiv.org/abs/2601.10562v1</link>
-  <guid>https://arxiv.org/abs/2601.10562v1</guid>
-  <pubDate>Thu, 15 Jan 2026 16:25:55 +0000</pubDate>
-  <description>arXiv cs.AI - Concept Bottleneck Models (CBMs) improve the explainability of black-box Deep Learning (DL) by introducing intermediate semantic concepts. However, standard CBMs often overlook domain-specific relationships and causal mechanisms, and their dependence on complete concept labels limits applicability in scientific domains where supervision is sparse but processes are well defined. To address this, we
-
-AI summary: Concept Bottleneck Models (CBMs) improve the explainability of black-box Deep Learning (DL) by introducing intermediate semantic concepts. However, standard CBMs often overlook domain-specific relationships and causal mechanisms, and their dependence on complete concept labels limits applicability in scientific domains where supervision is sparse but processes are well defined. To address this,…</description>
-</item>
-
-<item>
-  <title>Process-Guided Concept Bottleneck Model</title>
-  <link>https://arxiv.org/abs/2601.10562v1</link>
-  <guid>https://arxiv.org/abs/2601.10562v1</guid>
-  <pubDate>Thu, 15 Jan 2026 16:25:55 +0000</pubDate>
-  <description>arXiv cs.LG - Concept Bottleneck Models (CBMs) improve the explainability of black-box Deep Learning (DL) by introducing intermediate semantic concepts. However, standard CBMs often overlook domain-specific relationships and causal mechanisms, and their dependence on complete concept labels limits applicability in scientific domains where supervision is sparse but processes are well defined. To address this, we
-
-AI summary: Concept Bottleneck Models (CBMs) improve the explainability of black-box Deep Learning (DL) by introducing intermediate semantic concepts. However, standard CBMs often overlook domain-specific relationships and causal mechanisms, and their dependence on complete concept labels limits applicability in scientific domains where supervision is sparse but processes are well defined. To address this,…</description>
 </item>
 
 </channel>
