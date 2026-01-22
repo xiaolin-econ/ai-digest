@@ -4,15 +4,119 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Wed, 21 Jan 2026 18:31:54 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Jan 2026 06:21:50 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Wed, 21 Jan 2026 18:31:54 +0000</pubDate>
+  <pubDate>Thu, 22 Jan 2026 06:21:50 +0000</pubDate>
   <description>We present a novel differentiable grid-based representation for efficiently solving differential equations (DEs). Widely used architectures for neural solvers, such as sinusoidal neural networks, are coordinate-based MLPs that are both computationally intensive and slow to train. Although grid-based alternatives for implicit representations (e.g., Instant-NGP and K-Planes) train faster by… Tool-Integrated Reasoning (TIR) empowers large language models (LLMs) to tackle complex tasks by interleaving reasoning steps with external tool interactions. However, existing reinforcement learning methods typically rely on outcome- or trajectory-level rewards, assigning uniform advantages to all steps within a trajectory. This coarse-grained credit assignment fails to distinguish effective……</description>
+</item>
+
+<item>
+  <title>RayRoPE: Projective Ray Positional Encoding for Multi-view Attention</title>
+  <link>https://arxiv.org/abs/2601.15275v1</link>
+  <guid>https://arxiv.org/abs/2601.15275v1</guid>
+  <pubDate>Wed, 21 Jan 2026 18:55:51 +0000</pubDate>
+  <description>arXiv cs.LG - We study positional encodings for multi-view transformers that process tokens from a set of posed input images, and seek a mechanism that encodes patches uniquely, allows SE(3)-invariant attention with multi-frequency similarity, and can be adaptive to the geometry of the underlying scene. We find that prior (absolute or relative) encoding schemes for multi-view attention do not meet the above des</description>
+</item>
+
+<item>
+  <title>Evaluation of Large Language Models in Legal Applications: Challenges, Methods, and Future Directions</title>
+  <link>https://arxiv.org/abs/2601.15267v1</link>
+  <guid>https://arxiv.org/abs/2601.15267v1</guid>
+  <pubDate>Wed, 21 Jan 2026 18:51:37 +0000</pubDate>
+  <description>arXiv cs.AI - Large language models (LLMs) are being increasingly integrated into legal applications, including judicial decision support, legal practice assistance, and public-facing legal services. While LLMs show strong potential in handling legal knowledge and tasks, their deployment in real-world legal settings raises critical concerns beyond surface-level accuracy, involving the soundness of legal reasoni</description>
+</item>
+
+<item>
+  <title>Deaf and Hard of Hearing Access to Intelligent Personal Assistants: Comparison of Voice-Based Options with an LLM-Powered Touch Interface</title>
+  <link>https://arxiv.org/abs/2601.15209v1</link>
+  <guid>https://arxiv.org/abs/2601.15209v1</guid>
+  <pubDate>Wed, 21 Jan 2026 17:33:00 +0000</pubDate>
+  <description>arXiv cs.AI - We investigate intelligent personal assistants (IPAs) accessibility for deaf and hard of hearing (DHH) people who can use their voice in everyday communication. The inability of IPAs to understand diverse accents including deaf speech renders them largely inaccessible to non-signing and speaking DHH individuals. Using an Echo Show, we compare the usability of natural language input via spoken Engl</description>
+</item>
+
+<item>
+  <title>Where Do AI Coding Agents Fail? An Empirical Study of Failed Agentic Pull Requests in GitHub</title>
+  <link>https://arxiv.org/abs/2601.15195v1</link>
+  <guid>https://arxiv.org/abs/2601.15195v1</guid>
+  <pubDate>Wed, 21 Jan 2026 17:12:46 +0000</pubDate>
+  <description>arXiv cs.AI - AI coding agents are now submitting pull requests (PRs) to software projects, acting not just as assistants but as autonomous contributors. As these agentic contributions are rapidly increasing across real repositories, little is known about how they behave in practice and why many of them fail to be merged. In this paper, we conduct a large-scale study of 33k agent-authored PRs made by five codin</description>
+</item>
+
+<item>
+  <title>The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models</title>
+  <link>https://arxiv.org/abs/2601.15165v1</link>
+  <guid>https://arxiv.org/abs/2601.15165v1</guid>
+  <pubDate>Wed, 21 Jan 2026 16:41:58 +0000</pubDate>
+  <description>arXiv cs.AI - Diffusion Large Language Models (dLLMs) break the rigid left-to-right constraint of traditional LLMs, enabling token generation in arbitrary orders. Intuitively, this flexibility implies a solution space that strictly supersets the fixed autoregressive trajectory, theoretically unlocking superior reasoning potential for general tasks like mathematics and coding. Consequently, numerous works have l</description>
+</item>
+
+<item>
+  <title>The Flexibility Trap: Why Arbitrary Order Limits Reasoning Potential in Diffusion Language Models</title>
+  <link>https://arxiv.org/abs/2601.15165v1</link>
+  <guid>https://arxiv.org/abs/2601.15165v1</guid>
+  <pubDate>Wed, 21 Jan 2026 16:41:58 +0000</pubDate>
+  <description>arXiv cs.LG - Diffusion Large Language Models (dLLMs) break the rigid left-to-right constraint of traditional LLMs, enabling token generation in arbitrary orders. Intuitively, this flexibility implies a solution space that strictly supersets the fixed autoregressive trajectory, theoretically unlocking superior reasoning potential for general tasks like mathematics and coding. Consequently, numerous works have l</description>
+</item>
+
+<item>
+  <title>Automated Rubrics for Reliable Evaluation of Medical Dialogue Systems</title>
+  <link>https://arxiv.org/abs/2601.15161v1</link>
+  <guid>https://arxiv.org/abs/2601.15161v1</guid>
+  <pubDate>Wed, 21 Jan 2026 16:40:41 +0000</pubDate>
+  <description>arXiv cs.AI - Large Language Models (LLMs) are increasingly used for clinical decision support, where hallucinations and unsafe suggestions may pose direct risks to patient safety. These risks are particularly challenging as they often manifest as subtle clinical errors that evade detection by generic metrics, while expert-authored fine-grained rubrics remain costly to construct and difficult to scale. In this </description>
+</item>
+
+<item>
+  <title>How to Build AI Agents by Augmenting LLMs with Codified Human Expert Domain Knowledge? A Software Engineering Framework</title>
+  <link>https://arxiv.org/abs/2601.15153v1</link>
+  <guid>https://arxiv.org/abs/2601.15153v1</guid>
+  <pubDate>Wed, 21 Jan 2026 16:23:22 +0000</pubDate>
+  <description>arXiv cs.AI - Critical domain knowledge typically resides with few experts, creating organizational bottlenecks in scalability and decision-making. Non-experts struggle to create effective visualizations, leading to suboptimal insights and diverting expert time. This paper investigates how to capture and embed human domain knowledge into AI agent systems through an industrial case study. We propose a software e</description>
+</item>
+
+<item>
+  <title>CLEANER: Self-Purified Trajectories Boost Agentic Reinforcement Learning</title>
+  <link>https://arxiv.org/abs/2601.15141v1</link>
+  <guid>https://arxiv.org/abs/2601.15141v1</guid>
+  <pubDate>Wed, 21 Jan 2026 16:14:30 +0000</pubDate>
+  <description>arXiv cs.LG - Agentic Reinforcement Learning (RL) has empowered Large Language Models (LLMs) to utilize tools like Python interpreters for complex problem-solving. However, for parameter-constrained models (e.g., 4B--7B), the exploration phase is often plagued by frequent execution failures, creating noisy trajectories that hinder policy optimization. Under standard outcome-based reward settings, this noise lea</description>
+</item>
+
+<item>
+  <title>Emerging from Ground: Addressing Intent Deviation in Tool-Using Agents via Deriving Real Calls into Virtual Trajectories</title>
+  <link>https://arxiv.org/abs/2601.15120v1</link>
+  <guid>https://arxiv.org/abs/2601.15120v1</guid>
+  <pubDate>Wed, 21 Jan 2026 15:58:54 +0000</pubDate>
+  <description>arXiv cs.AI - LLMs have advanced tool-using agents for real-world applications, yet they often lead to unexpected behaviors or results. Beyond obvious failures, the subtle issue of &quot;intent deviation&quot; severely hinders reliable evaluation and performance improvement. Existing post-training methods generally leverage either real system samples or virtual data simulated by LLMs. However, the former is costly due to</description>
+</item>
+
+<item>
+  <title>Memory Retention Is Not Enough to Master Memory Tasks in Reinforcement Learning</title>
+  <link>https://arxiv.org/abs/2601.15086v1</link>
+  <guid>https://arxiv.org/abs/2601.15086v1</guid>
+  <pubDate>Wed, 21 Jan 2026 15:27:23 +0000</pubDate>
+  <description>arXiv cs.LG - Effective decision-making in the real world depends on memory that is both stable and adaptive: environments change over time, and agents must retain relevant information over long horizons while also updating or overwriting outdated content when circumstances shift. Existing Reinforcement Learning (RL) benchmarks and memory-augmented agents focus primarily on retention, leaving the equally critic</description>
+</item>
+
+<item>
+  <title>Multi-Agent Constraint Factorization Reveals Latent Invariant Solution Structure</title>
+  <link>https://arxiv.org/abs/2601.15077v1</link>
+  <guid>https://arxiv.org/abs/2601.15077v1</guid>
+  <pubDate>Wed, 21 Jan 2026 15:23:04 +0000</pubDate>
+  <description>arXiv cs.LG - Multi-agent systems (MAS) composed of large language models often exhibit improved problem-solving performance despite operating on identical information. In this work, we provide a formal explanation for this phenomenon grounded in operator theory and constrained optimization. We model each agent as enforcing a distinct family of validity constraints on a shared solution state, and show that a MA</description>
+</item>
+
+<item>
+  <title>SmartOracle -- An Agentic Approach to Mitigate Noise in Differential Oracles</title>
+  <link>https://arxiv.org/abs/2601.15074v1</link>
+  <guid>https://arxiv.org/abs/2601.15074v1</guid>
+  <pubDate>Wed, 21 Jan 2026 15:20:53 +0000</pubDate>
+  <description>arXiv cs.LG - Differential fuzzers detect bugs by executing identical inputs across distinct implementations of the same specification, such as JavaScript interpreters. Validating the outputs requires an oracle and for differential testing of JavaScript, these are constructed manually, making them expensive, time-consuming, and prone to false positives. Worse, when the specification evolves, this manual effort </description>
 </item>
 
 <item>
@@ -330,136 +434,6 @@ AI summary: Our study examines how generative AI (GenAI) influences performance,
   <description>arXiv cs.LG - Modeling complex dynamical systems under varying conditions is computationally intensive, often rendering high-fidelity simulations intractable. Although reduced-order models (ROMs) offer a promising solution, current methods often struggle with stochastic dynamics and fail to quantify prediction uncertainty, limiting their utility in robust decision-making contexts. To address these challenges, w
 
 AI summary: Modeling complex dynamical systems under varying conditions is computationally intensive, often rendering high-fidelity simulations intractable. Although reduced-order models (ROMs) offer a promising solution, current methods often struggle with stochastic dynamics and fail to quantify prediction uncertainty, limiting their utility in robust decision-making contexts. To address these challenges,…</description>
-</item>
-
-<item>
-  <title>On the origin of neural scaling laws: from random graphs to natural language</title>
-  <link>https://arxiv.org/abs/2601.10684v1</link>
-  <guid>https://arxiv.org/abs/2601.10684v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:46:09 +0000</pubDate>
-  <description>arXiv cs.AI - Scaling laws have played a major role in the modern AI revolution, providing practitioners predictive power over how the model performance will improve with increasing data, compute, and number of model parameters. This has spurred an intense interest in the origin of neural scaling laws, with a common suggestion being that they arise from power law structure already present in the data. In this p
-
-AI summary: Scaling laws have played a major role in the modern AI revolution, providing practitioners predictive power over how the model performance will improve with increasing data, compute, and number of model parameters. This has spurred an intense interest in the origin of neural scaling laws, with a common suggestion being that they arise from power law structure already present in the data. In this…</description>
-</item>
-
-<item>
-  <title>On the origin of neural scaling laws: from random graphs to natural language</title>
-  <link>https://arxiv.org/abs/2601.10684v1</link>
-  <guid>https://arxiv.org/abs/2601.10684v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:46:09 +0000</pubDate>
-  <description>arXiv cs.LG - Scaling laws have played a major role in the modern AI revolution, providing practitioners predictive power over how the model performance will improve with increasing data, compute, and number of model parameters. This has spurred an intense interest in the origin of neural scaling laws, with a common suggestion being that they arise from power law structure already present in the data. In this p
-
-AI summary: Scaling laws have played a major role in the modern AI revolution, providing practitioners predictive power over how the model performance will improve with increasing data, compute, and number of model parameters. This has spurred an intense interest in the origin of neural scaling laws, with a common suggestion being that they arise from power law structure already present in the data. In this…</description>
-</item>
-
-<item>
-  <title>Structure and Diversity Aware Context Bubble Construction for Enterprise Retrieval Augmented Systems</title>
-  <link>https://arxiv.org/abs/2601.10681v1</link>
-  <guid>https://arxiv.org/abs/2601.10681v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:43:19 +0000</pubDate>
-  <description>arXiv cs.AI - Large language model (LLM) contexts are typically constructed using retrieval-augmented generation (RAG), which involves ranking and selecting the top-k passages. The approach causes fragmentation in information graphs in document structures, over-retrieval, and duplication of content alongside insufficient query context, including 2nd and 3rd order facets. In this paper, a structure-informed and 
-
-AI summary: Large language model (LLM) contexts are typically constructed using retrieval-augmented generation (RAG), which involves ranking and selecting the top-k passages. The approach causes fragmentation in information graphs in document structures, over-retrieval, and duplication of content alongside insufficient query context, including 2nd and 3rd order facets. In this paper, a structure-informed…</description>
-</item>
-
-<item>
-  <title>Are Your Reasoning Models Reasoning or Guessing? A Mechanistic Analysis of Hierarchical Reasoning Models</title>
-  <link>https://arxiv.org/abs/2601.10679v1</link>
-  <guid>https://arxiv.org/abs/2601.10679v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:42:50 +0000</pubDate>
-  <description>arXiv cs.AI - Hierarchical reasoning model (HRM) achieves extraordinary performance on various reasoning tasks, significantly outperforming large language model-based reasoners. To understand the strengths and potential failure modes of HRM, we conduct a mechanistic study on its reasoning patterns and find three surprising facts: (a) Failure of extremely simple puzzles, e.g., HRM can fail on a puzzle with only 
-
-AI summary: Hierarchical reasoning model (HRM) achieves extraordinary performance on various reasoning tasks, significantly outperforming large language model-based reasoners. To understand the strengths and potential failure modes of HRM, we conduct a mechanistic study on its reasoning patterns and find three surprising facts: (a) Failure of extremely simple puzzles, e.g., HRM can fail on a puzzle with…</description>
-</item>
-
-<item>
-  <title>Are Your Reasoning Models Reasoning or Guessing? A Mechanistic Analysis of Hierarchical Reasoning Models</title>
-  <link>https://arxiv.org/abs/2601.10679v1</link>
-  <guid>https://arxiv.org/abs/2601.10679v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:42:50 +0000</pubDate>
-  <description>arXiv cs.LG - Hierarchical reasoning model (HRM) achieves extraordinary performance on various reasoning tasks, significantly outperforming large language model-based reasoners. To understand the strengths and potential failure modes of HRM, we conduct a mechanistic study on its reasoning patterns and find three surprising facts: (a) Failure of extremely simple puzzles, e.g., HRM can fail on a puzzle with only 
-
-AI summary: Hierarchical reasoning model (HRM) achieves extraordinary performance on various reasoning tasks, significantly outperforming large language model-based reasoners. To understand the strengths and potential failure modes of HRM, we conduct a mechanistic study on its reasoning patterns and find three surprising facts: (a) Failure of extremely simple puzzles, e.g., HRM can fail on a puzzle with…</description>
-</item>
-
-<item>
-  <title>Single-Stage Huffman Encoder for ML Compression</title>
-  <link>https://arxiv.org/abs/2601.10673v1</link>
-  <guid>https://arxiv.org/abs/2601.10673v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:37:56 +0000</pubDate>
-  <description>arXiv cs.LG - Training and serving Large Language Models (LLMs) require partitioning data across multiple accelerators, where collective operations are frequently bottlenecked by network bandwidth. Lossless compression using Huffman codes is an effective way to alleviate the issue, however, its three-stage design requiring on-the-fly frequency analysis, codebook generation and transmission of codebook along wit
-
-AI summary: Training and serving Large Language Models (LLMs) require partitioning data across multiple accelerators, where collective operations are frequently bottlenecked by network bandwidth. Lossless compression using Huffman codes is an effective way to alleviate the issue, however, its three-stage design requiring on-the-fly frequency analysis, codebook generation and transmission of codebook along…</description>
-</item>
-
-<item>
-  <title>PACEvolve: Enabling Long-Horizon Progress-Aware Consistent Evolution</title>
-  <link>https://arxiv.org/abs/2601.10657v1</link>
-  <guid>https://arxiv.org/abs/2601.10657v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:25:23 +0000</pubDate>
-  <description>arXiv cs.LG - Large Language Models (LLMs) have emerged as powerful operators for evolutionary search, yet the design of efficient search scaffolds remains ad hoc. While promising, current LLM-in-the-loop systems lack a systematic approach to managing the evolutionary process. We identify three distinct failure modes: Context Pollution, where experiment history biases future candidate generation; Mode Collapse,
-
-AI summary: Large Language Models (LLMs) have emerged as powerful operators for evolutionary search, yet the design of efficient search scaffolds remains ad hoc. While promising, current LLM-in-the-loop systems lack a systematic approach to managing the evolutionary process. We identify three distinct failure modes: Context Pollution, where experiment history biases future candidate generation; Mode…</description>
-</item>
-
-<item>
-  <title>Multi-Property Synthesis</title>
-  <link>https://arxiv.org/abs/2601.10651v1</link>
-  <guid>https://arxiv.org/abs/2601.10651v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:18:33 +0000</pubDate>
-  <description>arXiv cs.AI - We study LTLf synthesis with multiple properties, where satisfying all properties may be impossible. Instead of enumerating subsets of properties, we compute in one fixed-point computation the relation between product-game states and the goal sets that are realizable from them, and we synthesize strategies achieving maximal realizable sets. We develop a fully symbolic algorithm that introduces Boo
-
-AI summary: We study LTLf synthesis with multiple properties, where satisfying all properties may be impossible. Instead of enumerating subsets of properties, we compute in one fixed-point computation the relation between product-game states and the goal sets that are realizable from them, and we synthesize strategies achieving maximal realizable sets. We develop a fully symbolic algorithm that introduces…</description>
-</item>
-
-<item>
-  <title>Adjusted Similarity Measures and a Violation of Expectations</title>
-  <link>https://arxiv.org/abs/2601.10641v1</link>
-  <guid>https://arxiv.org/abs/2601.10641v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:01:26 +0000</pubDate>
-  <description>arXiv cs.LG - Adjusted similarity measures, such as Cohen&apos;s kappa for inter-rater reliability and the adjusted Rand index used to compare clustering algorithms, are a vital tool for comparing discrete labellings. These measures are intended to have the property of 0 expectation under a null distribution and maximum value 1 under maximal similarity to aid in interpretation. Measures are frequently adjusted with 
-
-AI summary: Adjusted similarity measures, such as Cohen&apos;s kappa for inter-rater reliability and the adjusted Rand index used to compare clustering algorithms, are a vital tool for comparing discrete labellings. These measures are intended to have the property of 0 expectation under a null distribution and maximum value 1 under maximal similarity to aid in interpretation. Measures are frequently adjusted…</description>
-</item>
-
-<item>
-  <title>STEM: Scaling Transformers with Embedding Modules</title>
-  <link>https://arxiv.org/abs/2601.10639v1</link>
-  <guid>https://arxiv.org/abs/2601.10639v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:00:27 +0000</pubDate>
-  <description>arXiv cs.LG - Fine-grained sparsity promises higher parametric capacity without proportional per-token compute, but often suffers from training instability, load balancing, and communication overhead. We introduce STEM (Scaling Transformers with Embedding Modules), a static, token-indexed approach that replaces the FFN up-projection with a layer-local embedding lookup while keeping the gate and down-projection 
-
-AI summary: Fine-grained sparsity promises higher parametric capacity without proportional per-token compute, but often suffers from training instability, load balancing, and communication overhead. We introduce STEM (Scaling Transformers with Embedding Modules), a static, token-indexed approach that replaces the FFN up-projection with a layer-local embedding lookup while keeping the gate and…</description>
-</item>
-
-<item>
-  <title>Classification Imbalance as Transfer Learning</title>
-  <link>https://arxiv.org/abs/2601.10630v1</link>
-  <guid>https://arxiv.org/abs/2601.10630v1</guid>
-  <pubDate>Thu, 15 Jan 2026 17:49:36 +0000</pubDate>
-  <description>arXiv cs.LG - Classification imbalance arises when one class is much rarer than the other. We frame this setting as transfer learning under label (prior) shift between an imbalanced source distribution induced by the observed data and a balanced target distribution under which performance is evaluated. Within this framework, we study a family of oversampling procedures that augment the training data by generati
-
-AI summary: Classification imbalance arises when one class is much rarer than the other. We frame this setting as transfer learning under label (prior) shift between an imbalanced source distribution induced by the observed data and a balanced target distribution under which performance is evaluated. Within this framework, we study a family of oversampling procedures that augment the training data by…</description>
-</item>
-
-<item>
-  <title>Parametric RDT approach to computational gap of symmetric binary perceptron</title>
-  <link>https://arxiv.org/abs/2601.10628v1</link>
-  <guid>https://arxiv.org/abs/2601.10628v1</guid>
-  <pubDate>Thu, 15 Jan 2026 17:48:58 +0000</pubDate>
-  <description>arXiv cs.LG - We study potential presence of statistical-computational gaps (SCG) in symmetric binary perceptrons (SBP) via a parametric utilization of \emph{fully lifted random duality theory} (fl-RDT) [96]. A structural change from decreasingly to arbitrarily ordered $c$-sequence (a key fl-RDT parametric component) is observed on the second lifting level and associated with \emph{satisfiability} ($α_c$) -- \e
-
-AI summary: We study potential presence of statistical-computational gaps (SCG) in symmetric binary perceptrons (SBP) via a parametric utilization of \emph{fully lifted random duality theory} (fl-RDT) [96]. A structural change from decreasingly to arbitrarily ordered $c$-sequence (a key fl-RDT parametric component) is observed on the second lifting level and associated with \emph{satisfiability} ($α_c$) --…</description>
-</item>
-
-<item>
-  <title>Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding</title>
-  <link>https://arxiv.org/abs/2601.10611v1</link>
-  <guid>https://arxiv.org/abs/2601.10611v1</guid>
-  <pubDate>Thu, 15 Jan 2026 17:27:44 +0000</pubDate>
-  <description>arXiv cs.AI - Today&apos;s strongest video-language models (VLMs) remain proprietary. The strongest open-weight models either rely on synthetic data from proprietary VLMs, effectively distilling from them, or do not disclose their training data or recipe. As a result, the open-source community lacks the foundations needed to improve on the state-of-the-art video (and image) language models. Crucially, many downstrea
-
-AI summary: Today&apos;s strongest video-language models (VLMs) remain proprietary. The strongest open-weight models either rely on synthetic data from proprietary VLMs, effectively distilling from them, or do not disclose their training data or recipe. As a result, the open-source community lacks the foundations needed to improve on the state-of-the-art video (and image) language models. Crucially, many…</description>
 </item>
 
 </channel>
