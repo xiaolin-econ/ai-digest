@@ -4,15 +4,55 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Thu, 22 Jan 2026 18:24:02 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Jan 2026 06:22:01 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Thu, 22 Jan 2026 18:24:02 +0000</pubDate>
+  <pubDate>Fri, 23 Jan 2026 06:22:01 +0000</pubDate>
   <description>We present a novel differentiable grid-based representation for efficiently solving differential equations (DEs). Widely used architectures for neural solvers, such as sinusoidal neural networks, are coordinate-based MLPs that are both computationally intensive and slow to train. Although grid-based alternatives for implicit representations (e.g., Instant-NGP and K-Planes) train faster by… Tool-Integrated Reasoning (TIR) empowers large language models (LLMs) to tackle complex tasks by interleaving reasoning steps with external tool interactions. However, existing reinforcement learning methods typically rely on outcome- or trajectory-level rewards, assigning uniform advantages to all steps within a trajectory. This coarse-grained credit assignment fails to distinguish effective……</description>
+</item>
+
+<item>
+  <title>LLM-in-Sandbox Elicits General Agentic Intelligence</title>
+  <link>https://arxiv.org/abs/2601.16206v1</link>
+  <guid>https://arxiv.org/abs/2601.16206v1</guid>
+  <pubDate>Thu, 22 Jan 2026 18:57:09 +0000</pubDate>
+  <description>arXiv cs.AI - We introduce LLM-in-Sandbox, enabling LLMs to explore within a code sandbox (i.e., a virtual computer), to elicit general intelligence in non-code domains. We first demonstrate that strong LLMs, without additional training, exhibit generalization capabilities to leverage the code sandbox for non-code tasks. For example, LLMs spontaneously access external resources to acquire new knowledge, leverag</description>
+</item>
+
+<item>
+  <title>Delayed Assignments in Online Non-Centroid Clustering with Stochastic Arrivals</title>
+  <link>https://arxiv.org/abs/2601.16091v1</link>
+  <guid>https://arxiv.org/abs/2601.16091v1</guid>
+  <pubDate>Thu, 22 Jan 2026 16:42:05 +0000</pubDate>
+  <description>arXiv cs.AI - Clustering is a fundamental problem, aiming to partition a set of elements, like agents or data points, into clusters such that elements in the same cluster are closer to each other than to those in other clusters. In this paper, we present a new framework for studying online non-centroid clustering with delays, where elements, that arrive one at a time as points in a finite metric space, should b</description>
+</item>
+
+<item>
+  <title>Delayed Assignments in Online Non-Centroid Clustering with Stochastic Arrivals</title>
+  <link>https://arxiv.org/abs/2601.16091v1</link>
+  <guid>https://arxiv.org/abs/2601.16091v1</guid>
+  <pubDate>Thu, 22 Jan 2026 16:42:05 +0000</pubDate>
+  <description>arXiv cs.LG - Clustering is a fundamental problem, aiming to partition a set of elements, like agents or data points, into clusters such that elements in the same cluster are closer to each other than to those in other clusters. In this paper, we present a new framework for studying online non-centroid clustering with delays, where elements, that arrive one at a time as points in a finite metric space, should b</description>
+</item>
+
+<item>
+  <title>Controlling Long-Horizon Behavior in Language Model Agents with Explicit State Dynamics</title>
+  <link>https://arxiv.org/abs/2601.16087v1</link>
+  <guid>https://arxiv.org/abs/2601.16087v1</guid>
+  <pubDate>Thu, 22 Jan 2026 16:34:05 +0000</pubDate>
+  <description>arXiv cs.AI - Large language model (LLM) agents often exhibit abrupt shifts in tone and persona during extended interaction, reflecting the absence of explicit temporal structure governing agent-level state. While prior work emphasizes turn-local sentiment or static emotion classification, the role of explicit affective dynamics in shaping long-horizon agent behavior remains underexplored. This work investigate</description>
+</item>
+
+<item>
+  <title>AgriPINN: A Process-Informed Neural Network for Interpretable and Scalable Crop Biomass Prediction Under Water Stress</title>
+  <link>https://arxiv.org/abs/2601.16045v1</link>
+  <guid>https://arxiv.org/abs/2601.16045v1</guid>
+  <pubDate>Thu, 22 Jan 2026 15:20:00 +0000</pubDate>
+  <description>arXiv cs.AI - Accurate prediction of crop above-ground biomass (AGB) under water stress is critical for monitoring crop productivity, guiding irrigation, and supporting climate-resilient agriculture. Data-driven models scale well but often lack interpretability and degrade under distribution shift, whereas process-based crop models (e.g. DSSAT, APSIM, LINTUL5) require extensive calibration and are difficult to </description>
 </item>
 
 <item>
@@ -384,56 +424,6 @@ AI summary: Recent advances in end-to-end autonomous driving show that policies 
   <description>arXiv cs.LG - We study a semi-asynchronous client-server perceptron trained via iterative parameter mixing (IPM-style averaging): clients run local perceptron updates and a server forms a global model by aggregating the updates that arrive in each communication round. The setting captures three system effects in federated and distributed deployments: (i) stale updates due to delayed model delivery and delayed a
 
 AI summary: We study a semi-asynchronous client-server perceptron trained via iterative parameter mixing (IPM-style averaging): clients run local perceptron updates and a server forms a global model by aggregating the updates that arrive in each communication round. The setting captures three system effects in federated and distributed deployments: (i) stale updates due to delayed model delivery and delayed…</description>
-</item>
-
-<item>
-  <title>Grounding Agent Memory in Contextual Intent</title>
-  <link>https://arxiv.org/abs/2601.10702v1</link>
-  <guid>https://arxiv.org/abs/2601.10702v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:55:13 +0000</pubDate>
-  <description>arXiv cs.AI - Deploying large language models in long-horizon, goal-oriented interactions remains challenging because similar entities and facts recur under different latent goals and constraints, causing memory systems to retrieve context-mismatched evidence. We propose STITCH (Structured Intent Tracking in Contextual History), an agentic memory system that indexes each trajectory step with a structured retrie
-
-AI summary: Deploying large language models in long-horizon, goal-oriented interactions remains challenging because similar entities and facts recur under different latent goals and constraints, causing memory systems to retrieve context-mismatched evidence. We propose STITCH (Structured Intent Tracking in Contextual History), an agentic memory system that indexes each trajectory step with a structured…</description>
-</item>
-
-<item>
-  <title>Communication-Efficient and Privacy-Adaptable Mechanism -- a Federated Learning Scheme with Convergence Analysis</title>
-  <link>https://arxiv.org/abs/2601.10701v1</link>
-  <guid>https://arxiv.org/abs/2601.10701v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:55:00 +0000</pubDate>
-  <description>arXiv cs.LG - Federated learning enables multiple parties to jointly train learning models without sharing their own underlying data, offering a practical pathway to privacy-preserving collaboration under data-governance constraints. Continued study of federated learning is essential to address key challenges in it, including communication efficiency and privacy protection between parties. A recent line of work
-
-AI summary: Federated learning enables multiple parties to jointly train learning models without sharing their own underlying data, offering a practical pathway to privacy-preserving collaboration under data-governance constraints. Continued study of federated learning is essential to address key challenges in it, including communication efficiency and privacy protection between parties. A recent line of…</description>
-</item>
-
-<item>
-  <title>LIBERTy: A Causal Framework for Benchmarking Concept-Based Explanations of LLMs with Structural Counterfactuals</title>
-  <link>https://arxiv.org/abs/2601.10700v1</link>
-  <guid>https://arxiv.org/abs/2601.10700v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:54:50 +0000</pubDate>
-  <description>arXiv cs.AI - Concept-based explanations quantify how high-level concepts (e.g., gender or experience) influence model behavior, which is crucial for decision-makers in high-stakes domains. Recent work evaluates the faithfulness of such explanations by comparing them to reference causal effects estimated from counterfactuals. In practice, existing benchmarks rely on costly human-written counterfactuals that ser
-
-AI summary: Concept-based explanations quantify how high-level concepts (e.g., gender or experience) influence model behavior, which is crucial for decision-makers in high-stakes domains. Recent work evaluates the faithfulness of such explanations by comparing them to reference causal effects estimated from counterfactuals. In practice, existing benchmarks rely on costly human-written counterfactuals that…</description>
-</item>
-
-<item>
-  <title>The Impact of Generative AI on Architectural Conceptual Design: Performance, Creative Self-Efficacy and Cognitive Load</title>
-  <link>https://arxiv.org/abs/2601.10696v1</link>
-  <guid>https://arxiv.org/abs/2601.10696v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:52:59 +0000</pubDate>
-  <description>arXiv cs.AI - Our study examines how generative AI (GenAI) influences performance, creative self-efficacy, and cognitive load in architectural conceptual design tasks. Thirty-six student participants from Architectural Engineering and other disciplines completed a two-phase architectural design task, first independently and then with external tools (GenAI-assisted condition and control condition using an online
-
-AI summary: Our study examines how generative AI (GenAI) influences performance, creative self-efficacy, and cognitive load in architectural conceptual design tasks. Thirty-six student participants from Architectural Engineering and other disciplines completed a two-phase architectural design task, first independently and then with external tools (GenAI-assisted condition and control condition using an…</description>
-</item>
-
-<item>
-  <title>Data-driven stochastic reduced-order modeling of parametrized dynamical systems</title>
-  <link>https://arxiv.org/abs/2601.10690v1</link>
-  <guid>https://arxiv.org/abs/2601.10690v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:50:18 +0000</pubDate>
-  <description>arXiv cs.LG - Modeling complex dynamical systems under varying conditions is computationally intensive, often rendering high-fidelity simulations intractable. Although reduced-order models (ROMs) offer a promising solution, current methods often struggle with stochastic dynamics and fail to quantify prediction uncertainty, limiting their utility in robust decision-making contexts. To address these challenges, w
-
-AI summary: Modeling complex dynamical systems under varying conditions is computationally intensive, often rendering high-fidelity simulations intractable. Although reduced-order models (ROMs) offer a promising solution, current methods often struggle with stochastic dynamics and fail to quantify prediction uncertainty, limiting their utility in robust decision-making contexts. To address these challenges,…</description>
 </item>
 
 </channel>
