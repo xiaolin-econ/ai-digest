@@ -4,15 +4,111 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Sun, 25 Jan 2026 18:18:43 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Jan 2026 06:25:18 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Sun, 25 Jan 2026 18:18:43 +0000</pubDate>
-  <description>We present a novel differentiable grid-based representation for efficiently solving differential equations (DEs). Widely used architectures for neural solvers, such as sinusoidal neural networks, are coordinate-based MLPs that are both computationally intensive and slow to train. Although grid-based alternatives for implicit representations (e.g., Instant-NGP and K-Planes) train faster by… Tool-Integrated Reasoning (TIR) empowers large language models (LLMs) to tackle complex tasks by interleaving reasoning steps with external tool interactions. However, existing reinforcement learning methods typically rely on outcome- or trajectory-level rewards, assigning uniform advantages to all steps within a trajectory. This coarse-grained credit assignment fails to distinguish effective……</description>
+  <pubDate>Mon, 26 Jan 2026 06:25:18 +0000</pubDate>
+  <description>Masked diffusion models (MDMs) have emerged as a promising approach for language modeling, yet they face a performance gap compared to autoregressive models (ARMs) and require more training iterations. In this work, we present the Auto-Regressive Masked Diffusion (ARMD) model, an architecture designed to close this gap by unifying the training efficiency of autoregressive models with the parallel generation capabilities of diffusion-based models. Our key insight is to reframe the masked diffusion process as a block-wise causal model. This perspective allows us to design a strictly causal, permutation-equivariant architecture that computes all conditional probabilities across multiple denoising steps in a single, parallel forward pass. The resulting architecture supports efficient,…</description>
+</item>
+
+<item>
+  <title>Auto-Regressive Masked Diffusion Models</title>
+  <link>https://arxiv.org/abs/2601.16971v1</link>
+  <guid>https://arxiv.org/abs/2601.16971v1</guid>
+  <pubDate>Fri, 23 Jan 2026 18:42:30 +0000</pubDate>
+  <description>arXiv cs.LG - Masked diffusion models (MDMs) have emerged as a promising approach for language modeling, yet they face a performance gap compared to autoregressive models (ARMs) and require more training iterations. In this work, we present the Auto-Regressive Masked Diffusion (ARMD) model, an architecture designed to close this gap by unifying the training efficiency of autoregressive models with the parallel </description>
+</item>
+
+<item>
+  <title>Spatial-Agent: Agentic Geo-spatial Reasoning with Scientific Core Concepts</title>
+  <link>https://arxiv.org/abs/2601.16965v1</link>
+  <guid>https://arxiv.org/abs/2601.16965v1</guid>
+  <pubDate>Fri, 23 Jan 2026 18:33:45 +0000</pubDate>
+  <description>arXiv cs.AI - Geospatial reasoning is essential for real-world applications such as urban analytics, transportation planning, and disaster response. However, existing LLM-based agents often fail at genuine geospatial computation, relying instead on web search or pattern matching while hallucinating spatial relationships. We present Spatial-Agent, an AI agent grounded in foundational theories of spatial informat</description>
+</item>
+
+<item>
+  <title>AgentDrive: An Open Benchmark Dataset for Agentic AI Reasoning with LLM-Generated Scenarios in Autonomous Systems</title>
+  <link>https://arxiv.org/abs/2601.16964v1</link>
+  <guid>https://arxiv.org/abs/2601.16964v1</guid>
+  <pubDate>Fri, 23 Jan 2026 18:33:41 +0000</pubDate>
+  <description>arXiv cs.AI - The rapid advancement of large language models (LLMs) has sparked growing interest in their integration into autonomous systems for reasoning-driven perception, planning, and decision-making. However, evaluating and training such agentic AI models remains challenging due to the lack of large-scale, structured, and safety-critical benchmarks. This paper introduces AgentDrive, an open benchmark data</description>
+</item>
+
+<item>
+  <title>Evaluating Large Vision-language Models for Surgical Tool Detection</title>
+  <link>https://arxiv.org/abs/2601.16895v1</link>
+  <guid>https://arxiv.org/abs/2601.16895v1</guid>
+  <pubDate>Fri, 23 Jan 2026 17:00:46 +0000</pubDate>
+  <description>arXiv cs.AI - Surgery is a highly complex process, and artificial intelligence has emerged as a transformative force in supporting surgical guidance and decision-making. However, the unimodal nature of most current AI systems limits their ability to achieve a holistic understanding of surgical workflows. This highlights the need for general-purpose surgical AI systems capable of comprehensively modeling the int</description>
+</item>
+
+<item>
+  <title>MAGE-KT: Multi-Agent Graph-Enhanced Knowledge Tracing with Subgraph Retrieval and Asymmetric Fusion</title>
+  <link>https://arxiv.org/abs/2601.16886v1</link>
+  <guid>https://arxiv.org/abs/2601.16886v1</guid>
+  <pubDate>Fri, 23 Jan 2026 16:51:08 +0000</pubDate>
+  <description>arXiv cs.AI - Knowledge Tracing (KT) aims to model a student&apos;s learning trajectory and predict performance on the next question. A key challenge is how to better represent the relationships among students, questions, and knowledge concepts (KCs). Recently, graph-based KT paradigms have shown promise for this problem. However, existing methods have not sufficiently explored inter-concept relations, often inferre</description>
+</item>
+
+<item>
+  <title>Boosting Deep Reinforcement Learning with Semantic Knowledge for Robotic Manipulators</title>
+  <link>https://arxiv.org/abs/2601.16866v1</link>
+  <guid>https://arxiv.org/abs/2601.16866v1</guid>
+  <pubDate>Fri, 23 Jan 2026 16:14:28 +0000</pubDate>
+  <description>arXiv cs.AI - Deep Reinforcement Learning (DRL) is a powerful framework for solving complex sequential decision-making problems, particularly in robotic control. However, its practical deployment is often hindered by the substantial amount of experience required for learning, which results in high computational and time costs. In this work, we propose a novel integration of DRL with semantic knowledge in the fo</description>
+</item>
+
+<item>
+  <title>Mixture-of-Models: Unifying Heterogeneous Agents via N-Way Self-Evaluating Deliberation</title>
+  <link>https://arxiv.org/abs/2601.16863v1</link>
+  <guid>https://arxiv.org/abs/2601.16863v1</guid>
+  <pubDate>Fri, 23 Jan 2026 16:11:54 +0000</pubDate>
+  <description>arXiv cs.AI - This paper introduces the N-Way Self-Evaluating Deliberation (NSED) protocol, a Runtime Mixture-of-Models (MoM) architecture that constructs emergent composite models from a plurality of distinct expert agents. Unlike traditional Mixture-of-Experts (MoE) which rely on static gating networks, NSED employs a Dynamic Expertise Broker - a runtime optimization engine that treats model selection as a va</description>
+</item>
+
+<item>
+  <title>Mixture-of-Models: Unifying Heterogeneous Agents via N-Way Self-Evaluating Deliberation</title>
+  <link>https://arxiv.org/abs/2601.16863v1</link>
+  <guid>https://arxiv.org/abs/2601.16863v1</guid>
+  <pubDate>Fri, 23 Jan 2026 16:11:54 +0000</pubDate>
+  <description>arXiv cs.LG - This paper introduces the N-Way Self-Evaluating Deliberation (NSED) protocol, a Runtime Mixture-of-Models (MoM) architecture that constructs emergent composite models from a plurality of distinct expert agents. Unlike traditional Mixture-of-Experts (MoE) which rely on static gating networks, NSED employs a Dynamic Expertise Broker - a runtime optimization engine that treats model selection as a va</description>
+</item>
+
+<item>
+  <title>Privacy in Human-AI Romantic Relationships: Concerns, Boundaries, and Agency</title>
+  <link>https://arxiv.org/abs/2601.16824v1</link>
+  <guid>https://arxiv.org/abs/2601.16824v1</guid>
+  <pubDate>Fri, 23 Jan 2026 15:23:37 +0000</pubDate>
+  <description>arXiv cs.AI - An increasing number of LLM-based applications are being developed to facilitate romantic relationships with AI partners, yet the safety and privacy risks in these partnerships remain largely underexplored. In this work, we investigate privacy in human-AI romantic relationships through an interview study (N=17), examining participants&apos; experiences and privacy perceptions across stages of explorati</description>
+</item>
+
+<item>
+  <title>Will It Survive? Deciphering the Fate of AI-Generated Code in Open Source</title>
+  <link>https://arxiv.org/abs/2601.16809v1</link>
+  <guid>https://arxiv.org/abs/2601.16809v1</guid>
+  <pubDate>Fri, 23 Jan 2026 15:00:46 +0000</pubDate>
+  <description>arXiv cs.AI - The integration of AI agents as coding assistants into software development has raised questions about the long-term viability of AI agent-generated code. A prevailing hypothesis within the software engineering community suggests this code is &quot;disposable&quot;, meaning it is merged quickly but discarded shortly thereafter. If true, organizations risk shifting maintenance burden from generation to post-</description>
+</item>
+
+<item>
+  <title>An Efficient Insect-inspired Approach for Visual Point-goal Navigation</title>
+  <link>https://arxiv.org/abs/2601.16806v1</link>
+  <guid>https://arxiv.org/abs/2601.16806v1</guid>
+  <pubDate>Fri, 23 Jan 2026 14:57:04 +0000</pubDate>
+  <description>arXiv cs.AI - In this work we develop a novel insect-inspired agent for visual point-goal navigation. This combines abstracted models of two insect brain structures that have been implicated, respectively, in associative learning and path integration. We draw an analogy between the formal benchmark of the Habitat point-goal navigation task and the ability of insects to learn and refine visually guided paths aro</description>
+</item>
+
+<item>
+  <title>Building a Robust Risk-Based Access Control System to Combat Ransomware&apos;s Capability to Encrypt: A Machine Learning Approach</title>
+  <link>https://arxiv.org/abs/2601.16795v1</link>
+  <guid>https://arxiv.org/abs/2601.16795v1</guid>
+  <pubDate>Fri, 23 Jan 2026 14:48:35 +0000</pubDate>
+  <description>arXiv cs.LG - Ransomware core capability, unauthorized encryption, demands controls that identify and block malicious cryptographic activity without disrupting legitimate use. We present a probabilistic, risk-based access control architecture that couples machine learning inference with mandatory access control to regulate encryption on Linux in real time. The system builds a specialized dataset from the native</description>
 </item>
 
 <item>
@@ -317,113 +413,6 @@
   <guid>https://arxiv.org/abs/2601.11421v1</guid>
   <pubDate>Fri, 16 Jan 2026 16:42:05 +0000</pubDate>
   <description>arXiv cs.AI - Recently, with the rapid development of robot learning and imitation learning, numerous datasets and methods have emerged. However, these datasets and their task designs often lack systematic consideration and principles. This raises important questions: Do the current datasets and task designs truly advance the capabilities of robotic agents? Do evaluations on a few common tasks accurately reflec</description>
-</item>
-
-<item>
-  <title>Factored Value Functions for Graph-Based Multi-Agent Reinforcement Learning</title>
-  <link>https://arxiv.org/abs/2601.11401v1</link>
-  <guid>https://arxiv.org/abs/2601.11401v1</guid>
-  <pubDate>Fri, 16 Jan 2026 16:11:50 +0000</pubDate>
-  <description>arXiv cs.LG - Credit assignment is a core challenge in multi-agent reinforcement learning (MARL), especially in large-scale systems with structured, local interactions. Graph-based Markov decision processes (GMDPs) capture such settings via an influence graph, but standard critics are poorly aligned with this structure: global value functions provide weak per-agent learning signals, while existing local constru</description>
-</item>
-
-<item>
-  <title>Evaluating LLM Behavior in Hiring: Implicit Weights, Fairness Across Groups, and Alignment with Human Preferences</title>
-  <link>https://arxiv.org/abs/2601.11379v1</link>
-  <guid>https://arxiv.org/abs/2601.11379v1</guid>
-  <pubDate>Fri, 16 Jan 2026 15:38:03 +0000</pubDate>
-  <description>arXiv cs.AI - General-purpose Large Language Models (LLMs) show significant potential in recruitment applications, where decisions require reasoning over unstructured text, balancing multiple criteria, and inferring fit and competence from indirect productivity signals. Yet, it is still uncertain how LLMs assign importance to each attribute and whether such assignments are in line with economic principles, recr</description>
-</item>
-
-<item>
-  <title>Institutional AI: Governing LLM Collusion in Multi-Agent Cournot Markets via Public Governance Graphs</title>
-  <link>https://arxiv.org/abs/2601.11369v1</link>
-  <guid>https://arxiv.org/abs/2601.11369v1</guid>
-  <pubDate>Fri, 16 Jan 2026 15:26:56 +0000</pubDate>
-  <description>arXiv cs.AI - Multi-agent LLM ensembles can converge on coordinated, socially harmful equilibria. This paper advances an experimental framework for evaluating Institutional AI, our system-level approach to AI alignment that reframes alignment from preference engineering in agent-space to mechanism design in institution-space. Central to this approach is the governance graph, a public, immutable manifest that de</description>
-</item>
-
-<item>
-  <title>AstroReason-Bench: Evaluating Unified Agentic Planning across Heterogeneous Space Planning Problems</title>
-  <link>https://arxiv.org/abs/2601.11354v1</link>
-  <guid>https://arxiv.org/abs/2601.11354v1</guid>
-  <pubDate>Fri, 16 Jan 2026 15:02:41 +0000</pubDate>
-  <description>arXiv cs.AI - Recent advances in agentic Large Language Models (LLMs) have positioned them as generalist planners capable of reasoning and acting across diverse tasks. However, existing agent benchmarks largely focus on symbolic or weakly grounded environments, leaving their performance in physics-constrained real-world domains underexplored. We introduce AstroReason-Bench, a comprehensive benchmark for evaluat</description>
-</item>
-
-<item>
-  <title>Offline Reinforcement-Learning-Based Power Control for Application-Agnostic Energy Efficiency</title>
-  <link>https://arxiv.org/abs/2601.11352v1</link>
-  <guid>https://arxiv.org/abs/2601.11352v1</guid>
-  <pubDate>Fri, 16 Jan 2026 15:00:17 +0000</pubDate>
-  <description>arXiv cs.LG - Energy efficiency has become an integral aspect of modern computing infrastructure design, impacting the performance, cost, scalability, and durability of production systems. The incorporation of power actuation and sensing capabilities in CPU designs is indicative of this, enabling the deployment of system software that can actively monitor and adjust energy consumption and performance at runtime</description>
-</item>
-
-<item>
-  <title>FEATHer: Fourier-Efficient Adaptive Temporal Hierarchy Forecaster for Time-Series Forecasting</title>
-  <link>https://arxiv.org/abs/2601.11350v1</link>
-  <guid>https://arxiv.org/abs/2601.11350v1</guid>
-  <pubDate>Fri, 16 Jan 2026 14:57:41 +0000</pubDate>
-  <description>arXiv cs.AI - Time-series forecasting is fundamental in industrial domains like manufacturing and smart factories. As systems evolve toward automation, models must operate on edge devices (e.g., PLCs, microcontrollers) with strict constraints on latency and memory, limiting parameters to a few thousand. Conventional deep architectures are often impractical here. We propose the Fourier-Efficient Adaptive Tempora</description>
-</item>
-
-<item>
-  <title>How Much Would a Clinician Edit This Draft? Evaluating LLM Alignment for Patient Message Response Drafting</title>
-  <link>https://arxiv.org/abs/2601.11344v1</link>
-  <guid>https://arxiv.org/abs/2601.11344v1</guid>
-  <pubDate>Fri, 16 Jan 2026 14:48:00 +0000</pubDate>
-  <description>arXiv cs.AI - Large language models (LLMs) show promise in drafting responses to patient portal messages, yet their integration into clinical workflows raises various concerns, including whether they would actually save clinicians time and effort in their portal workload. We investigate LLM alignment with individual clinicians through a comprehensive evaluation of the patient message response drafting task. We </description>
-</item>
-
-<item>
-  <title>DInf-Grid: A Neural Differential Equation Solver with Differentiable Feature Grids</title>
-  <link>https://arxiv.org/abs/2601.10715v1</link>
-  <guid>https://arxiv.org/abs/2601.10715v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:59:57 +0000</pubDate>
-  <description>arXiv cs.LG - We present a novel differentiable grid-based representation for efficiently solving differential equations (DEs). Widely used architectures for neural solvers, such as sinusoidal neural networks, are coordinate-based MLPs that are both computationally intensive and slow to train. Although grid-based alternatives for implicit representations (e.g., Instant-NGP and K-Planes) train faster by exploiti
-
-AI summary: We present a novel differentiable grid-based representation for efficiently solving differential equations (DEs). Widely used architectures for neural solvers, such as sinusoidal neural networks, are coordinate-based MLPs that are both computationally intensive and slow to train. Although grid-based alternatives for implicit representations (e.g., Instant-NGP and K-Planes) train faster by…</description>
-</item>
-
-<item>
-  <title>MatchTIR: Fine-Grained Supervision for Tool-Integrated Reasoning via Bipartite Matching</title>
-  <link>https://arxiv.org/abs/2601.10712v1</link>
-  <guid>https://arxiv.org/abs/2601.10712v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:59:23 +0000</pubDate>
-  <description>arXiv cs.AI - Tool-Integrated Reasoning (TIR) empowers large language models (LLMs) to tackle complex tasks by interleaving reasoning steps with external tool interactions. However, existing reinforcement learning methods typically rely on outcome- or trajectory-level rewards, assigning uniform advantages to all steps within a trajectory. This coarse-grained credit assignment fails to distinguish effective tool
-
-AI summary: Tool-Integrated Reasoning (TIR) empowers large language models (LLMs) to tackle complex tasks by interleaving reasoning steps with external tool interactions. However, existing reinforcement learning methods typically rely on outcome- or trajectory-level rewards, assigning uniform advantages to all steps within a trajectory. This coarse-grained credit assignment fails to distinguish effective…</description>
-</item>
-
-<item>
-  <title>High-accuracy and dimension-free sampling with diffusions</title>
-  <link>https://arxiv.org/abs/2601.10708v1</link>
-  <guid>https://arxiv.org/abs/2601.10708v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:58:50 +0000</pubDate>
-  <description>arXiv cs.LG - Diffusion models have shown remarkable empirical success in sampling from rich multi-modal distributions. Their inference relies on numerically solving a certain differential equation. This differential equation cannot be solved in closed form, and its resolution via discretization typically requires many small iterations to produce \emph{high-quality} samples.
-  More precisely, prior works have s
-
-AI summary: Diffusion models have shown remarkable empirical success in sampling from rich multi-modal distributions. Their inference relies on numerically solving a certain differential equation. This differential equation cannot be solved in closed form, and its resolution via discretization typically requires many small iterations to produce \emph{high-quality} samples. More precisely, prior works have…</description>
-</item>
-
-<item>
-  <title>See Less, Drive Better: Generalizable End-to-End Autonomous Driving via Foundation Models Stochastic Patch Selection</title>
-  <link>https://arxiv.org/abs/2601.10707v1</link>
-  <guid>https://arxiv.org/abs/2601.10707v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:58:33 +0000</pubDate>
-  <description>arXiv cs.LG - Recent advances in end-to-end autonomous driving show that policies trained on patch-aligned features extracted from foundation models generalize better to Out-of-Distribution (OOD). We hypothesize that due to the self-attention mechanism, each patch feature implicitly embeds/contains information from all other patches, represented in a different way and intensity, making these descriptors highly 
-
-AI summary: Recent advances in end-to-end autonomous driving show that policies trained on patch-aligned features extracted from foundation models generalize better to Out-of-Distribution (OOD). We hypothesize that due to the self-attention mechanism, each patch feature implicitly embeds/contains information from all other patches, represented in a different way and intensity, making these descriptors…</description>
-</item>
-
-<item>
-  <title>Distributed Perceptron under Bounded Staleness, Partial Participation, and Noisy Communication</title>
-  <link>https://arxiv.org/abs/2601.10705v1</link>
-  <guid>https://arxiv.org/abs/2601.10705v1</guid>
-  <pubDate>Thu, 15 Jan 2026 18:56:54 +0000</pubDate>
-  <description>arXiv cs.LG - We study a semi-asynchronous client-server perceptron trained via iterative parameter mixing (IPM-style averaging): clients run local perceptron updates and a server forms a global model by aggregating the updates that arrive in each communication round. The setting captures three system effects in federated and distributed deployments: (i) stale updates due to delayed model delivery and delayed a
-
-AI summary: We study a semi-asynchronous client-server perceptron trained via iterative parameter mixing (IPM-style averaging): clients run local perceptron updates and a server forms a global model by aggregating the updates that arrive in each communication round. The setting captures three system effects in federated and distributed deployments: (i) stale updates due to delayed model delivery and delayed…</description>
 </item>
 
 </channel>
