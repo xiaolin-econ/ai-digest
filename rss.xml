@@ -4,15 +4,103 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Mon, 26 Jan 2026 18:22:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Jan 2026 06:22:31 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Mon, 26 Jan 2026 18:22:45 +0000</pubDate>
-  <description>Masked diffusion models (MDMs) have emerged as a promising approach for language modeling, yet they face a performance gap compared to autoregressive models (ARMs) and require more training iterations. In this work, we present the Auto-Regressive Masked Diffusion (ARMD) model, an architecture designed to close this gap by unifying the training efficiency of autoregressive models with the parallel generation capabilities of diffusion-based models. Our key insight is to reframe the masked diffusion process as a block-wise causal model. This perspective allows us to design a strictly causal, permutation-equivariant architecture that computes all conditional probabilities across multiple denoising steps in a single, parallel forward pass. The resulting architecture supports efficient,…</description>
+  <pubDate>Tue, 27 Jan 2026 06:22:31 +0000</pubDate>
+  <description>Text embeddings have become an essential part of a variety of language applications. However, methods for interpreting, exploring and reversing embedding spaces are limited, reducing transparency and precluding potentially valuable generative use cases. In this work, we align Large Language Models to embeddings of clinical trials using the recently reported Embedding Language Model (ELM) method. We develop an open-source, domain-agnostic ELM architecture and training framework, design training tasks for clinical trials, and introduce an expert-validated synthetic dataset. We then train a series of ELMs exploring the impact of tasks and training regimes. Our final model, ctELM, can accurately describe and compare unseen clinical trials from embeddings alone and produce plausible clinical…</description>
+</item>
+
+<item>
+  <title>ctELM: Decoding and Manipulating Embeddings of Clinical Trials with Embedding Language Models</title>
+  <link>https://arxiv.org/abs/2601.18796v1</link>
+  <guid>https://arxiv.org/abs/2601.18796v1</guid>
+  <pubDate>Mon, 26 Jan 2026 18:58:46 +0000</pubDate>
+  <description>arXiv cs.AI - Text embeddings have become an essential part of a variety of language applications. However, methods for interpreting, exploring and reversing embedding spaces are limited, reducing transparency and precluding potentially valuable generative use cases. In this work, we align Large Language Models to embeddings of clinical trials using the recently reported Embedding Language Model (ELM) method. W</description>
+</item>
+
+<item>
+  <title>ctELM: Decoding and Manipulating Embeddings of Clinical Trials with Embedding Language Models</title>
+  <link>https://arxiv.org/abs/2601.18796v1</link>
+  <guid>https://arxiv.org/abs/2601.18796v1</guid>
+  <pubDate>Mon, 26 Jan 2026 18:58:46 +0000</pubDate>
+  <description>arXiv cs.LG - Text embeddings have become an essential part of a variety of language applications. However, methods for interpreting, exploring and reversing embedding spaces are limited, reducing transparency and precluding potentially valuable generative use cases. In this work, we align Large Language Models to embeddings of clinical trials using the recently reported Embedding Language Model (ELM) method. W</description>
+</item>
+
+<item>
+  <title>MEGnifying Emotion: Sentiment Analysis from Annotated Brain Data</title>
+  <link>https://arxiv.org/abs/2601.18792v1</link>
+  <guid>https://arxiv.org/abs/2601.18792v1</guid>
+  <pubDate>Mon, 26 Jan 2026 18:55:44 +0000</pubDate>
+  <description>arXiv cs.LG - Decoding emotion from brain activity could unlock a deeper understanding of the human experience. While a number of existing datasets align brain data with speech and with speech transcripts, no datasets have annotated brain data with sentiment. To bridge this gap, we explore the use of pre-trained Text-to-Sentiment models to annotate non invasive brain recordings, acquired using magnetoencephalog</description>
+</item>
+
+<item>
+  <title>Subword-Based Comparative Linguistics across 242 Languages Using Wikipedia Glottosets</title>
+  <link>https://arxiv.org/abs/2601.18791v1</link>
+  <guid>https://arxiv.org/abs/2601.18791v1</guid>
+  <pubDate>Mon, 26 Jan 2026 18:55:28 +0000</pubDate>
+  <description>arXiv cs.AI - We present a large-scale comparative study of 242 Latin and Cyrillic-script languages using subword-based methodologies. By constructing &apos;glottosets&apos; from Wikipedia lexicons, we introduce a framework for simultaneous cross-linguistic comparison via Byte-Pair Encoding (BPE). Our approach utilizes rank-based subword vectors to analyze vocabulary overlap, lexical divergence, and language similarity a</description>
+</item>
+
+<item>
+  <title>Subword-Based Comparative Linguistics across 242 Languages Using Wikipedia Glottosets</title>
+  <link>https://arxiv.org/abs/2601.18791v1</link>
+  <guid>https://arxiv.org/abs/2601.18791v1</guid>
+  <pubDate>Mon, 26 Jan 2026 18:55:28 +0000</pubDate>
+  <description>arXiv cs.LG - We present a large-scale comparative study of 242 Latin and Cyrillic-script languages using subword-based methodologies. By constructing &apos;glottosets&apos; from Wikipedia lexicons, we introduce a framework for simultaneous cross-linguistic comparison via Byte-Pair Encoding (BPE). Our approach utilizes rank-based subword vectors to analyze vocabulary overlap, lexical divergence, and language similarity a</description>
+</item>
+
+<item>
+  <title>$α^3$-SecBench: A Large-Scale Evaluation Suite of Security, Resilience, and Trust for LLM-based UAV Agents over 6G Networks</title>
+  <link>https://arxiv.org/abs/2601.18754v1</link>
+  <guid>https://arxiv.org/abs/2601.18754v1</guid>
+  <pubDate>Mon, 26 Jan 2026 18:25:07 +0000</pubDate>
+  <description>arXiv cs.AI - Autonomous unmanned aerial vehicle (UAV) systems are increasingly deployed in safety-critical, networked environments where they must operate reliably in the presence of malicious adversaries. While recent benchmarks have evaluated large language model (LLM)-based UAV agents in reasoning, navigation, and efficiency, systematic assessment of security, resilience, and trust under adversarial conditi</description>
+</item>
+
+<item>
+  <title>Capturing P: On the Expressive Power and Efficient Evaluation of Boolean Retrieval</title>
+  <link>https://arxiv.org/abs/2601.18747v1</link>
+  <guid>https://arxiv.org/abs/2601.18747v1</guid>
+  <pubDate>Mon, 26 Jan 2026 18:07:40 +0000</pubDate>
+  <description>arXiv cs.AI - Modern information retrieval is transitioning from simple document filtering to complex, neuro-symbolic reasoning workflows. However, current retrieval architectures face a fundamental efficiency dilemma when handling the rigorous logical and arithmetic constraints required by this new paradigm. Standard iterator-based engines (Document-at-a-Time) do not natively support complex, nested logic grap</description>
+</item>
+
+<item>
+  <title>Why Keep Your Doubts to Yourself? Trading Visual Uncertainties in Multi-Agent Bandit Systems</title>
+  <link>https://arxiv.org/abs/2601.18735v1</link>
+  <guid>https://arxiv.org/abs/2601.18735v1</guid>
+  <pubDate>Mon, 26 Jan 2026 17:58:53 +0000</pubDate>
+  <description>arXiv cs.AI - Vision-Language Models (VLMs) enable powerful multi-agent systems, but scaling them is economically unsustainable: coordinating heterogeneous agents under information asymmetry often spirals costs. Existing paradigms, such as Mixture-of-Agents and knowledge-based routers, rely on heuristic proxies that ignore costs and collapse uncertainty structure, leading to provably suboptimal coordination. We</description>
+</item>
+
+<item>
+  <title>Why Keep Your Doubts to Yourself? Trading Visual Uncertainties in Multi-Agent Bandit Systems</title>
+  <link>https://arxiv.org/abs/2601.18735v1</link>
+  <guid>https://arxiv.org/abs/2601.18735v1</guid>
+  <pubDate>Mon, 26 Jan 2026 17:58:53 +0000</pubDate>
+  <description>arXiv cs.LG - Vision-Language Models (VLMs) enable powerful multi-agent systems, but scaling them is economically unsustainable: coordinating heterogeneous agents under information asymmetry often spirals costs. Existing paradigms, such as Mixture-of-Agents and knowledge-based routers, rely on heuristic proxies that ignore costs and collapse uncertainty structure, leading to provably suboptimal coordination. We</description>
+</item>
+
+<item>
+  <title>Advances and Innovations in the Multi-Agent Robotic System (MARS) Challenge</title>
+  <link>https://arxiv.org/abs/2601.18733v1</link>
+  <guid>https://arxiv.org/abs/2601.18733v1</guid>
+  <pubDate>Mon, 26 Jan 2026 17:56:19 +0000</pubDate>
+  <description>arXiv cs.AI - Recent advancements in multimodal large language models and vision-languageaction models have significantly driven progress in Embodied AI. As the field transitions toward more complex task scenarios, multi-agent system frameworks are becoming essential for achieving scalable, efficient, and collaborative solutions. This shift is fueled by three primary factors: increasing agent capabilities, enha</description>
+</item>
+
+<item>
+  <title>Optimal Use of Preferences in Artificial Intelligence Algorithms</title>
+  <link>https://arxiv.org/abs/2601.18732v1</link>
+  <guid>https://arxiv.org/abs/2601.18732v1</guid>
+  <pubDate>Mon, 26 Jan 2026 17:55:56 +0000</pubDate>
+  <description>arXiv cs.AI - Machine learning systems embed preferences either in training losses or through post-processing of calibrated predictions. Applying information design methods from Strack and Yang (2024), this paper provides decision problem agnostic conditions under which separation training preference free and applying preferences ex post is optimal. Unlike prior work that requires specifying downstream objectiv</description>
 </item>
 
 <item>
@@ -325,94 +413,6 @@
   <guid>https://arxiv.org/abs/2601.14228v1</guid>
   <pubDate>Tue, 20 Jan 2026 18:41:44 +0000</pubDate>
   <description>arXiv cs.LG - Sepsis remains one of the leading causes of mortality in intensive care units, where timely and accurate treatment decisions can significantly impact patient outcomes. In this work, we propose an interpretable decision support framework. Our system integrates four core components: (1) a clustering-based stratification module that categorizes patients into low, intermediate, and high-risk groups up</description>
-</item>
-
-<item>
-  <title>Toward Efficient Agents: Memory, Tool learning, and Planning</title>
-  <link>https://arxiv.org/abs/2601.14192v1</link>
-  <guid>https://arxiv.org/abs/2601.14192v1</guid>
-  <pubDate>Tue, 20 Jan 2026 17:51:56 +0000</pubDate>
-  <description>arXiv cs.AI - Recent years have witnessed increasing interest in extending large language models into agentic systems. While the effectiveness of agents has continued to improve, efficiency, which is crucial for real-world deployment, has often been overlooked. This paper therefore investigates efficiency from three core components of agents: memory, tool learning, and planning, considering costs such as latenc</description>
-</item>
-
-<item>
-  <title>Paper2Rebuttal: A Multi-Agent Framework for Transparent Author Response Assistance</title>
-  <link>https://arxiv.org/abs/2601.14171v1</link>
-  <guid>https://arxiv.org/abs/2601.14171v1</guid>
-  <pubDate>Tue, 20 Jan 2026 17:23:51 +0000</pubDate>
-  <description>arXiv cs.AI - Writing effective rebuttals is a high-stakes task that demands more than linguistic fluency, as it requires precise alignment between reviewer intent and manuscript details. Current solutions typically treat this as a direct-to-text generation problem, suffering from hallucination, overlooked critiques, and a lack of verifiable grounding. To address these limitations, we introduce $\textbf{Rebutta</description>
-</item>
-
-<item>
-  <title>Remapping and navigation of an embedding space via error minimization: a fundamental organizational principle of cognition in natural and artificial systems</title>
-  <link>https://arxiv.org/abs/2601.14096v1</link>
-  <guid>https://arxiv.org/abs/2601.14096v1</guid>
-  <pubDate>Tue, 20 Jan 2026 15:57:36 +0000</pubDate>
-  <description>arXiv cs.AI - The emerging field of diverse intelligence seeks an integrated view of problem-solving in agents of very different provenance, composition, and substrates. From subcellular chemical networks to swarms of organisms, and across evolved, engineered, and chimeric systems, it is hypothesized that scale-invariant principles of decision-making can be discovered. We propose that cognition in both natural </description>
-</item>
-
-<item>
-  <title>Zero-shot adaptable task planning for autonomous construction robots: a comparative study of lightweight single and multi-AI agent systems</title>
-  <link>https://arxiv.org/abs/2601.14091v1</link>
-  <guid>https://arxiv.org/abs/2601.14091v1</guid>
-  <pubDate>Tue, 20 Jan 2026 15:54:33 +0000</pubDate>
-  <description>arXiv cs.AI - Robots are expected to play a major role in the future construction industry but face challenges due to high costs and difficulty adapting to dynamic tasks. This study explores the potential of foundation models to enhance the adaptability and generalizability of task planning in construction robots. Four models are proposed and implemented using lightweight, open-source large language models (LLM</description>
-</item>
-
-<item>
-  <title>LLMOrbit: A Circular Taxonomy of Large Language Models -From Scaling Walls to Agentic AI Systems</title>
-  <link>https://arxiv.org/abs/2601.14053v1</link>
-  <guid>https://arxiv.org/abs/2601.14053v1</guid>
-  <pubDate>Tue, 20 Jan 2026 15:06:19 +0000</pubDate>
-  <description>arXiv cs.LG - The field of artificial intelligence has undergone a revolution from foundational Transformer architectures to reasoning-capable systems approaching human-level performance. We present LLMOrbit, a comprehensive circular taxonomy navigating the landscape of large language models spanning 2019-2025. This survey examines over 50 models across 15 organizations through eight interconnected orbital dime</description>
-</item>
-
-<item>
-  <title>The Poisoned Apple Effect: Strategic Manipulation of Mediated Markets via Technology Expansion of AI Agents</title>
-  <link>https://arxiv.org/abs/2601.11496v1</link>
-  <guid>https://arxiv.org/abs/2601.11496v1</guid>
-  <pubDate>Fri, 16 Jan 2026 18:18:03 +0000</pubDate>
-  <description>arXiv cs.AI - The integration of AI agents into economic markets fundamentally alters the landscape of strategic interaction. We investigate the economic implications of expanding the set of available technologies in three canonical game-theoretic settings: bargaining (resource division), negotiation (asymmetric information trade), and persuasion (strategic information transmission). We find that simply increas</description>
-</item>
-
-<item>
-  <title>BoxMind: Closed-loop AI strategy optimization for elite boxing validated in the 2024 Olympics</title>
-  <link>https://arxiv.org/abs/2601.11492v1</link>
-  <guid>https://arxiv.org/abs/2601.11492v1</guid>
-  <pubDate>Fri, 16 Jan 2026 18:14:46 +0000</pubDate>
-  <description>arXiv cs.AI - Competitive sports require sophisticated tactical analysis, yet combat disciplines like boxing remain underdeveloped in AI-driven analytics due to the complexity of action dynamics and the lack of structured tactical representations. To address this, we present BoxMind, a closed-loop AI expert system validated in elite boxing competition. By defining atomic punch events with precise temporal bound</description>
-</item>
-
-<item>
-  <title>Health Facility Location in Ethiopia: Leveraging LLMs to Integrate Expert Knowledge into Algorithmic Planning</title>
-  <link>https://arxiv.org/abs/2601.11479v1</link>
-  <guid>https://arxiv.org/abs/2601.11479v1</guid>
-  <pubDate>Fri, 16 Jan 2026 18:02:09 +0000</pubDate>
-  <description>arXiv cs.AI - Ethiopia&apos;s Ministry of Health is upgrading health posts to improve access to essential services, particularly in rural areas. Limited resources, however, require careful prioritization of which facilities to upgrade to maximize population coverage while accounting for diverse expert and stakeholder preferences. In collaboration with the Ethiopian Public Health Institute and Ministry of Health, we </description>
-</item>
-
-<item>
-  <title>Low-Rank Key Value Attention</title>
-  <link>https://arxiv.org/abs/2601.11471v1</link>
-  <guid>https://arxiv.org/abs/2601.11471v1</guid>
-  <pubDate>Fri, 16 Jan 2026 17:56:40 +0000</pubDate>
-  <description>arXiv cs.LG - Transformer pretraining is increasingly constrained by memory and compute requirements, with the key-value (KV) cache emerging as a dominant bottleneck during training and autoregressive decoding. We propose \textit{low-rank KV adaptation} (LRKV), a simple modification of multi-head attention that reduces KV cache memory by exploiting redundancy across attention heads while preserving full token-l</description>
-</item>
-
-<item>
-  <title>Inter-patient ECG Arrhythmia Classification with LGNs and LUTNs</title>
-  <link>https://arxiv.org/abs/2601.11433v1</link>
-  <guid>https://arxiv.org/abs/2601.11433v1</guid>
-  <pubDate>Fri, 16 Jan 2026 16:55:36 +0000</pubDate>
-  <description>arXiv cs.LG - Deep Differentiable Logic Gate Networks (LGNs) and Lookup Table Networks (LUTNs) are demonstrated to be suitable for the automatic classification of electrocardiograms (ECGs) using the inter-patient paradigm. The methods are benchmarked using the MIT-BIH arrhythmia data set, achieving up to 94.28% accuracy and a $jκ$ index of 0.683 on a four-class classification problem. Our models use between 2.8</description>
-</item>
-
-<item>
-  <title>The Great March 100: 100 Detail-oriented Tasks for Evaluating Embodied AI Agents</title>
-  <link>https://arxiv.org/abs/2601.11421v1</link>
-  <guid>https://arxiv.org/abs/2601.11421v1</guid>
-  <pubDate>Fri, 16 Jan 2026 16:42:05 +0000</pubDate>
-  <description>arXiv cs.AI - Recently, with the rapid development of robot learning and imitation learning, numerous datasets and methods have emerged. However, these datasets and their task designs often lack systematic consideration and principles. This raises important questions: Do the current datasets and task designs truly advance the capabilities of robotic agents? Do evaluations on a few common tasks accurately reflec</description>
 </item>
 
 </channel>
