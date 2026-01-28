@@ -4,15 +4,103 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Tue, 27 Jan 2026 18:26:00 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Jan 2026 06:24:23 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Tue, 27 Jan 2026 18:26:00 +0000</pubDate>
-  <description>Text embeddings have become an essential part of a variety of language applications. However, methods for interpreting, exploring and reversing embedding spaces are limited, reducing transparency and precluding potentially valuable generative use cases. In this work, we align Large Language Models to embeddings of clinical trials using the recently reported Embedding Language Model (ELM) method. We develop an open-source, domain-agnostic ELM architecture and training framework, design training tasks for clinical trials, and introduce an expert-validated synthetic dataset. We then train a series of ELMs exploring the impact of tasks and training regimes. Our final model, ctELM, can accurately describe and compare unseen clinical trials from embeddings alone and produce plausible clinical…</description>
+  <pubDate>Wed, 28 Jan 2026 06:24:23 +0000</pubDate>
+  <description>Convolutional Neural Networks (CNNs) rely on fixed-size kernels scanning local patches, which limits their ability to capture global context or long-range dependencies without very deep architectures. Vision Transformers (ViTs), in turn, provide global connectivity but lack spatial inductive bias, depend on explicit positional encodings, and remain tied to the initial patch size. Bridging these limitations requires a representation that is both structured and global. We introduce SONIC (Spectral Oriented Neural Invariant Convolutions), a continuous spectral parameterisation that models convolutional operators using a small set of shared, orientation-selective components. These components define smooth responses across the full frequency domain, yielding global receptive fields and…</description>
+</item>
+
+<item>
+  <title>SONIC: Spectral Oriented Neural Invariant Convolutions</title>
+  <link>https://arxiv.org/abs/2601.19884v1</link>
+  <guid>https://arxiv.org/abs/2601.19884v1</guid>
+  <pubDate>Tue, 27 Jan 2026 18:51:11 +0000</pubDate>
+  <description>arXiv cs.LG - Convolutional Neural Networks (CNNs) rely on fixed-size kernels scanning local patches, which limits their ability to capture global context or long-range dependencies without very deep architectures. Vision Transformers (ViTs), in turn, provide global connectivity but lack spatial inductive bias, depend on explicit positional encodings, and remain tied to the initial patch size. Bridging these li</description>
+</item>
+
+<item>
+  <title>Unsupervised Learning of Efficient Exploration: Pre-training Adaptive Policies via Self-Imposed Goals</title>
+  <link>https://arxiv.org/abs/2601.19810v1</link>
+  <guid>https://arxiv.org/abs/2601.19810v1</guid>
+  <pubDate>Tue, 27 Jan 2026 17:10:29 +0000</pubDate>
+  <description>arXiv cs.AI - Unsupervised pre-training can equip reinforcement learning agents with prior knowledge and accelerate learning in downstream tasks. A promising direction, grounded in human development, investigates agents that learn by setting and pursuing their own goals. The core challenge lies in how to effectively generate, select, and learn from such goals. Our focus is on broad distributions of downstream t</description>
+</item>
+
+<item>
+  <title>Unsupervised Learning of Efficient Exploration: Pre-training Adaptive Policies via Self-Imposed Goals</title>
+  <link>https://arxiv.org/abs/2601.19810v1</link>
+  <guid>https://arxiv.org/abs/2601.19810v1</guid>
+  <pubDate>Tue, 27 Jan 2026 17:10:29 +0000</pubDate>
+  <description>arXiv cs.LG - Unsupervised pre-training can equip reinforcement learning agents with prior knowledge and accelerate learning in downstream tasks. A promising direction, grounded in human development, investigates agents that learn by setting and pursuing their own goals. The core challenge lies in how to effectively generate, select, and learn from such goals. Our focus is on broad distributions of downstream t</description>
+</item>
+
+<item>
+  <title>Component-Aware Pruning Framework for Neural Network Controllers via Gradient-Based Importance Estimation</title>
+  <link>https://arxiv.org/abs/2601.19794v1</link>
+  <guid>https://arxiv.org/abs/2601.19794v1</guid>
+  <pubDate>Tue, 27 Jan 2026 16:53:19 +0000</pubDate>
+  <description>arXiv cs.LG - The transition from monolithic to multi-component neural architectures in advanced neural network controllers poses substantial challenges due to the high computational complexity of the latter. Conventional model compression techniques for complexity reduction, such as structured pruning based on norm-based metrics to estimate the relative importance of distinct parameter groups, often fail to ca</description>
+</item>
+
+<item>
+  <title>CASTER: Breaking the Cost-Performance Barrier in Multi-Agent Orchestration via Context-Aware Strategy for Task Efficient Routing</title>
+  <link>https://arxiv.org/abs/2601.19793v1</link>
+  <guid>https://arxiv.org/abs/2601.19793v1</guid>
+  <pubDate>Tue, 27 Jan 2026 16:52:47 +0000</pubDate>
+  <description>arXiv cs.AI - Graph-based Multi-Agent Systems (MAS) enable complex cyclic workflows but suffer from inefficient static model allocation, where deploying strong models uniformly wastes computation on trivial sub-tasks. We propose CASTER (Context-Aware Strategy for Task Efficient Routing), a lightweight router for dynamic model selection in graph-based MAS. CASTER employs a Dual-Signal Router that combines semant</description>
+</item>
+
+<item>
+  <title>LVLMs and Humans Ground Differently in Referential Communication</title>
+  <link>https://arxiv.org/abs/2601.19792v1</link>
+  <guid>https://arxiv.org/abs/2601.19792v1</guid>
+  <pubDate>Tue, 27 Jan 2026 16:52:20 +0000</pubDate>
+  <description>arXiv cs.AI - For generative AI agents to partner effectively with human users, the ability to accurately predict human intent is critical. But this ability to collaborate remains limited by a critical deficit: an inability to model common ground. Here, we present a referential communication experiment with a factorial design involving director-matcher pairs (human-human, human-AI, AI-human, and AI-AI) that int</description>
+</item>
+
+<item>
+  <title>Reimagining Peer Review Process Through Multi-Agent Mechanism Design</title>
+  <link>https://arxiv.org/abs/2601.19778v1</link>
+  <guid>https://arxiv.org/abs/2601.19778v1</guid>
+  <pubDate>Tue, 27 Jan 2026 16:43:11 +0000</pubDate>
+  <description>arXiv cs.AI - The software engineering research community faces a systemic crisis: peer review is failing under growing submissions, misaligned incentives, and reviewer fatigue. Community surveys reveal that researchers perceive the process as &quot;broken.&quot; This position paper argues that these dysfunctions are mechanism design failures amenable to computational solutions. We propose modeling the research community</description>
+</item>
+
+<item>
+  <title>Agentic Design Patterns: A System-Theoretic Framework</title>
+  <link>https://arxiv.org/abs/2601.19752v1</link>
+  <guid>https://arxiv.org/abs/2601.19752v1</guid>
+  <pubDate>Tue, 27 Jan 2026 16:14:08 +0000</pubDate>
+  <description>arXiv cs.AI - With the development of foundation model (FM), agentic AI systems are getting more attention, yet their inherent issues like hallucination and poor reasoning, coupled with the frequent ad-hoc nature of system design, lead to unreliable and brittle applications. Existing efforts to characterise agentic design patterns often lack a rigorous systems-theoretic foundation, resulting in high-level or co</description>
+</item>
+
+<item>
+  <title>Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation</title>
+  <link>https://arxiv.org/abs/2601.19747v1</link>
+  <guid>https://arxiv.org/abs/2601.19747v1</guid>
+  <pubDate>Tue, 27 Jan 2026 16:10:23 +0000</pubDate>
+  <description>arXiv cs.AI - In the rapidly evolving field of Electronic Design Automation (EDA), the deployment of Large Language Models (LLMs) for Register-Transfer Level (RTL) design has emerged as a promising direction. However, silicon-grade correctness remains bottlenecked by: (i) limited test coverage and reliability of simulation-centric evaluation, (ii) regressions and repair hallucinations introduced by iterative de</description>
+</item>
+
+<item>
+  <title>Quantum Circuit Pre-Synthesis: Learning Local Edits to Reduce $T$-count</title>
+  <link>https://arxiv.org/abs/2601.19738v1</link>
+  <guid>https://arxiv.org/abs/2601.19738v1</guid>
+  <pubDate>Tue, 27 Jan 2026 15:58:05 +0000</pubDate>
+  <description>arXiv cs.AI - Compiling quantum circuits into Clifford+$T$ gates is a central task for fault-tolerant quantum computing using stabilizer codes. In the near term, $T$ gates will dominate the cost of fault tolerant implementations, and any reduction in the number of such expensive gates could mean the difference between being able to run a circuit or not. While exact synthesis is exponentially hard in the number </description>
+</item>
+
+<item>
+  <title>Quantum Circuit Pre-Synthesis: Learning Local Edits to Reduce $T$-count</title>
+  <link>https://arxiv.org/abs/2601.19738v1</link>
+  <guid>https://arxiv.org/abs/2601.19738v1</guid>
+  <pubDate>Tue, 27 Jan 2026 15:58:05 +0000</pubDate>
+  <description>arXiv cs.LG - Compiling quantum circuits into Clifford+$T$ gates is a central task for fault-tolerant quantum computing using stabilizer codes. In the near term, $T$ gates will dominate the cost of fault tolerant implementations, and any reduction in the number of such expensive gates could mean the difference between being able to run a circuit or not. While exact synthesis is exponentially hard in the number </description>
 </item>
 
 <item>
@@ -325,94 +413,6 @@
   <guid>https://arxiv.org/abs/2601.15086v1</guid>
   <pubDate>Wed, 21 Jan 2026 15:27:23 +0000</pubDate>
   <description>arXiv cs.LG - Effective decision-making in the real world depends on memory that is both stable and adaptive: environments change over time, and agents must retain relevant information over long horizons while also updating or overwriting outdated content when circumstances shift. Existing Reinforcement Learning (RL) benchmarks and memory-augmented agents focus primarily on retention, leaving the equally critic</description>
-</item>
-
-<item>
-  <title>Multi-Agent Constraint Factorization Reveals Latent Invariant Solution Structure</title>
-  <link>https://arxiv.org/abs/2601.15077v1</link>
-  <guid>https://arxiv.org/abs/2601.15077v1</guid>
-  <pubDate>Wed, 21 Jan 2026 15:23:04 +0000</pubDate>
-  <description>arXiv cs.LG - Multi-agent systems (MAS) composed of large language models often exhibit improved problem-solving performance despite operating on identical information. In this work, we provide a formal explanation for this phenomenon grounded in operator theory and constrained optimization. We model each agent as enforcing a distinct family of validity constraints on a shared solution state, and show that a MA</description>
-</item>
-
-<item>
-  <title>SmartOracle -- An Agentic Approach to Mitigate Noise in Differential Oracles</title>
-  <link>https://arxiv.org/abs/2601.15074v1</link>
-  <guid>https://arxiv.org/abs/2601.15074v1</guid>
-  <pubDate>Wed, 21 Jan 2026 15:20:53 +0000</pubDate>
-  <description>arXiv cs.LG - Differential fuzzers detect bugs by executing identical inputs across distinct implementations of the same specification, such as JavaScript interpreters. Validating the outputs requires an oracle and for differential testing of JavaScript, these are constructed manually, making them expensive, time-consuming, and prone to false positives. Worse, when the specification evolves, this manual effort </description>
-</item>
-
-<item>
-  <title>APEX-Agents</title>
-  <link>https://arxiv.org/abs/2601.14242v1</link>
-  <guid>https://arxiv.org/abs/2601.14242v1</guid>
-  <pubDate>Tue, 20 Jan 2026 18:53:44 +0000</pubDate>
-  <description>arXiv cs.AI - We introduce the AI Productivity Index for Agents (APEX-Agents), a benchmark for assessing whether AI agents can execute long-horizon, cross-application tasks created by investment banking analysts, management consultants, and corporate lawyers. APEX-Agents requires agents to navigate realistic work environments with files and tools. We test eight agents for the leaderboard using Pass@1. Gemini 3 </description>
-</item>
-
-<item>
-  <title>APEX-Agents</title>
-  <link>https://arxiv.org/abs/2601.14242v1</link>
-  <guid>https://arxiv.org/abs/2601.14242v1</guid>
-  <pubDate>Tue, 20 Jan 2026 18:53:44 +0000</pubDate>
-  <description>arXiv cs.LG - We introduce the AI Productivity Index for Agents (APEX-Agents), a benchmark for assessing whether AI agents can execute long-horizon, cross-application tasks created by investment banking analysts, management consultants, and corporate lawyers. APEX-Agents requires agents to navigate realistic work environments with files and tools. We test eight agents for the leaderboard using Pass@1. Gemini 3 </description>
-</item>
-
-<item>
-  <title>Spatiotemporal Wildfire Prediction and Reinforcement Learning for Helitack Suppression</title>
-  <link>https://arxiv.org/abs/2601.14238v1</link>
-  <guid>https://arxiv.org/abs/2601.14238v1</guid>
-  <pubDate>Tue, 20 Jan 2026 18:50:12 +0000</pubDate>
-  <description>arXiv cs.LG - Wildfires are growing in frequency and intensity, devastating ecosystems and communities while causing billions of dollars in suppression costs and economic damage annually in the U.S. Traditional wildfire management is mostly reactive, addressing fires only after they are detected. We introduce \textit{FireCastRL}, a proactive artificial intelligence (AI) framework that combines wildfire forecast</description>
-</item>
-
-<item>
-  <title>Opportunities in AI/ML for the Rubin LSST Dark Energy Science Collaboration</title>
-  <link>https://arxiv.org/abs/2601.14235v1</link>
-  <guid>https://arxiv.org/abs/2601.14235v1</guid>
-  <pubDate>Tue, 20 Jan 2026 18:46:42 +0000</pubDate>
-  <description>arXiv cs.AI - The Vera C. Rubin Observatory&apos;s Legacy Survey of Space and Time (LSST) will produce unprecedented volumes of heterogeneous astronomical data (images, catalogs, and alerts) that challenge traditional analysis pipelines. The LSST Dark Energy Science Collaboration (DESC) aims to derive robust constraints on dark energy and dark matter from these data, requiring methods that are statistically powerful</description>
-</item>
-
-<item>
-  <title>Opportunities in AI/ML for the Rubin LSST Dark Energy Science Collaboration</title>
-  <link>https://arxiv.org/abs/2601.14235v1</link>
-  <guid>https://arxiv.org/abs/2601.14235v1</guid>
-  <pubDate>Tue, 20 Jan 2026 18:46:42 +0000</pubDate>
-  <description>arXiv cs.LG - The Vera C. Rubin Observatory&apos;s Legacy Survey of Space and Time (LSST) will produce unprecedented volumes of heterogeneous astronomical data (images, catalogs, and alerts) that challenge traditional analysis pipelines. The LSST Dark Energy Science Collaboration (DESC) aims to derive robust constraints on dark energy and dark matter from these data, requiring methods that are statistically powerful</description>
-</item>
-
-<item>
-  <title>KAGE-Bench: Fast Known-Axis Visual Generalization Evaluation for Reinforcement Learning</title>
-  <link>https://arxiv.org/abs/2601.14232v1</link>
-  <guid>https://arxiv.org/abs/2601.14232v1</guid>
-  <pubDate>Tue, 20 Jan 2026 18:44:28 +0000</pubDate>
-  <description>arXiv cs.AI - Pixel-based reinforcement learning agents often fail under purely visual distribution shift even when latent dynamics and rewards are unchanged, but existing benchmarks entangle multiple sources of shift and hinder systematic analysis. We introduce KAGE-Env, a JAX-native 2D platformer that factorizes the observation process into independently controllable visual axes while keeping the underlying c</description>
-</item>
-
-<item>
-  <title>KAGE-Bench: Fast Known-Axis Visual Generalization Evaluation for Reinforcement Learning</title>
-  <link>https://arxiv.org/abs/2601.14232v1</link>
-  <guid>https://arxiv.org/abs/2601.14232v1</guid>
-  <pubDate>Tue, 20 Jan 2026 18:44:28 +0000</pubDate>
-  <description>arXiv cs.LG - Pixel-based reinforcement learning agents often fail under purely visual distribution shift even when latent dynamics and rewards are unchanged, but existing benchmarks entangle multiple sources of shift and hinder systematic analysis. We introduce KAGE-Env, a JAX-native 2D platformer that factorizes the observation process into independently controllable visual axes while keeping the underlying c</description>
-</item>
-
-<item>
-  <title>MASCOT: Towards Multi-Agent Socio-Collaborative Companion Systems</title>
-  <link>https://arxiv.org/abs/2601.14230v1</link>
-  <guid>https://arxiv.org/abs/2601.14230v1</guid>
-  <pubDate>Tue, 20 Jan 2026 18:44:04 +0000</pubDate>
-  <description>arXiv cs.AI - Multi-agent systems (MAS) have recently emerged as promising socio-collaborative companions for emotional and cognitive support. However, these systems frequently suffer from persona collapse--where agents revert to generic, homogenized assistant behaviors--and social sycophancy, which produces redundant, non-constructive dialogue. We propose MASCOT, a generalizable framework for multi-perspective</description>
-</item>
-
-<item>
-  <title>Attention-Based Offline Reinforcement Learning and Clustering for Interpretable Sepsis Treatment</title>
-  <link>https://arxiv.org/abs/2601.14228v1</link>
-  <guid>https://arxiv.org/abs/2601.14228v1</guid>
-  <pubDate>Tue, 20 Jan 2026 18:41:44 +0000</pubDate>
-  <description>arXiv cs.LG - Sepsis remains one of the leading causes of mortality in intensive care units, where timely and accurate treatment decisions can significantly impact patient outcomes. In this work, we propose an interpretable decision support framework. Our system integrates four core components: (1) a clustering-based stratification module that categorizes patients into low, intermediate, and high-risk groups up</description>
 </item>
 
 </channel>
