@@ -4,15 +4,135 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Sun, 01 Feb 2026 18:22:14 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 02 Feb 2026 06:52:31 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Sun, 01 Feb 2026 18:22:14 +0000</pubDate>
-  <description>Cybersecurity operations demand assistant LLMs that support diverse workflows without exposing sensitive data. Existing solutions either rely on proprietary APIs with privacy risks or on open models lacking domain adaptation. To bridge this gap, we curate 11.8B tokens of cybersecurity-focused continual pretraining data via large-scale web filtering and manual collection of high-quality resources, spanning 28.6K documents across frameworks, offensive techniques, and security tools. Building on this, we design an agentic augmentation pipeline that simulates expert workflows to generate 266K multi-turn cybersecurity samples for supervised fine-tuning. Combined with general open-source LLM data, these resources enable the training of RedSage, an open-source, locally deployable cybersecurity…</description>
+  <pubDate>Mon, 02 Feb 2026 06:52:31 +0000</pubDate>
+  <description>Shared autonomy systems require principled methods for inferring user intent and determining appropriate assistance levels. This is a central challenge in human-robot interaction, where systems must be successful while being mindful of user agency. Previous approaches relied on static blending ratios or separated goal inference from assistance arbitration, leading to suboptimal performance in unstructured environments. We introduce BRACE (Bayesian Reinforcement Assistance with Context Encoding), a novel framework that fine-tunes Bayesian intent inference and context-adaptive assistance through an architecture enabling end-to-end gradient flow between intent inference and assistance arbitration. Our pipeline conditions collaborative control policies on environmental context and complete…</description>
+</item>
+
+<item>
+  <title>End-to-end Optimization of Belief and Policy Learning in Shared Autonomy Paradigms</title>
+  <link>https://arxiv.org/abs/2601.23285v1</link>
+  <guid>https://arxiv.org/abs/2601.23285v1</guid>
+  <pubDate>Fri, 30 Jan 2026 18:59:16 +0000</pubDate>
+  <description>arXiv cs.AI - Shared autonomy systems require principled methods for inferring user intent and determining appropriate assistance levels. This is a central challenge in human-robot interaction, where systems must be successful while being mindful of user agency. Previous approaches relied on static blending ratios or separated goal inference from assistance arbitration, leading to suboptimal performance in unst</description>
+</item>
+
+<item>
+  <title>End-to-end Optimization of Belief and Policy Learning in Shared Autonomy Paradigms</title>
+  <link>https://arxiv.org/abs/2601.23285v1</link>
+  <guid>https://arxiv.org/abs/2601.23285v1</guid>
+  <pubDate>Fri, 30 Jan 2026 18:59:16 +0000</pubDate>
+  <description>arXiv cs.LG - Shared autonomy systems require principled methods for inferring user intent and determining appropriate assistance levels. This is a central challenge in human-robot interaction, where systems must be successful while being mindful of user agency. Previous approaches relied on static blending ratios or separated goal inference from assistance arbitration, leading to suboptimal performance in unst</description>
+</item>
+
+<item>
+  <title>FOCUS: DLLMs Know How to Tame Their Compute Bound</title>
+  <link>https://arxiv.org/abs/2601.23278v1</link>
+  <guid>https://arxiv.org/abs/2601.23278v1</guid>
+  <pubDate>Fri, 30 Jan 2026 18:52:06 +0000</pubDate>
+  <description>arXiv cs.LG - Diffusion Large Language Models (DLLMs) offer a compelling alternative to Auto-Regressive models, but their deployment is constrained by high decoding cost. In this work, we identify a key inefficiency in DLLM decoding: while computation is parallelized over token blocks, only a small subset of tokens is decodable at each diffusion step, causing most compute to be wasted on non-decodable tokens. W</description>
+</item>
+
+<item>
+  <title>Denoising the Deep Sky: Physics-Based CCD Noise Formation for Astronomical Imaging</title>
+  <link>https://arxiv.org/abs/2601.23276v1</link>
+  <guid>https://arxiv.org/abs/2601.23276v1</guid>
+  <pubDate>Fri, 30 Jan 2026 18:47:54 +0000</pubDate>
+  <description>arXiv cs.LG - Astronomical imaging remains noise-limited under practical observing constraints, while standard calibration pipelines mainly remove structured artifacts and leave stochastic noise largely unresolved. Learning-based denoising is promising, yet progress is hindered by scarce paired training data and the need for physically interpretable and reproducible models in scientific workflows. We propose a </description>
+</item>
+
+<item>
+  <title>IRL-DAL: Safe and Adaptive Trajectory Planning for Autonomous Driving via Energy-Guided Diffusion Models</title>
+  <link>https://arxiv.org/abs/2601.23266v1</link>
+  <guid>https://arxiv.org/abs/2601.23266v1</guid>
+  <pubDate>Fri, 30 Jan 2026 18:34:10 +0000</pubDate>
+  <description>arXiv cs.AI - This paper proposes a novel inverse reinforcement learning framework using a diffusion-based adaptive lookahead planner (IRL-DAL) for autonomous vehicles. Training begins with imitation from an expert finite state machine (FSM) controller to provide a stable initialization. Environment terms are combined with an IRL discriminator signal to align with expert goals. Reinforcement learning (RL) is th</description>
+</item>
+
+<item>
+  <title>Now You Hear Me: Audio Narrative Attacks Against Large Audio-Language Models</title>
+  <link>https://arxiv.org/abs/2601.23255v1</link>
+  <guid>https://arxiv.org/abs/2601.23255v1</guid>
+  <pubDate>Fri, 30 Jan 2026 18:23:02 +0000</pubDate>
+  <description>arXiv cs.AI - Large audio-language models increasingly operate on raw speech inputs, enabling more seamless integration across domains such as voice assistants, education, and clinical triage. This transition, however, introduces a distinct class of vulnerabilities that remain largely uncharacterized. We examine the security implications of this modality shift by designing a text-to-audio jailbreak that embeds </description>
+</item>
+
+<item>
+  <title>ShotFinder: Imagination-Driven Open-Domain Video Shot Retrieval via Web Search</title>
+  <link>https://arxiv.org/abs/2601.23232v1</link>
+  <guid>https://arxiv.org/abs/2601.23232v1</guid>
+  <pubDate>Fri, 30 Jan 2026 18:01:17 +0000</pubDate>
+  <description>arXiv cs.AI - In recent years, large language models (LLMs) have made rapid progress in information retrieval, yet existing research has mainly focused on text or static multimodal settings. Open-domain video shot retrieval, which involves richer temporal structure and more complex semantics, still lacks systematic benchmarks and analysis. To fill this gap, we introduce ShotFinder, a benchmark that formalizes e</description>
+</item>
+
+<item>
+  <title>Scaling Multiagent Systems with Process Rewards</title>
+  <link>https://arxiv.org/abs/2601.23228v1</link>
+  <guid>https://arxiv.org/abs/2601.23228v1</guid>
+  <pubDate>Fri, 30 Jan 2026 17:55:27 +0000</pubDate>
+  <description>arXiv cs.AI - While multiagent systems have shown promise for tackling complex tasks via specialization, finetuning multiple agents simultaneously faces two key challenges: (1) credit assignment across agents, and (2) sample efficiency of expensive multiagent rollouts. In this work, we propose finetuning multiagent systems with per-action process rewards from AI feedback (MAPPA) to address both. Through assigni</description>
+</item>
+
+<item>
+  <title>MonoScale: Scaling Multi-Agent System with Monotonic Improvement</title>
+  <link>https://arxiv.org/abs/2601.23219v1</link>
+  <guid>https://arxiv.org/abs/2601.23219v1</guid>
+  <pubDate>Fri, 30 Jan 2026 17:44:49 +0000</pubDate>
+  <description>arXiv cs.AI - In recent years, LLM-based multi-agent systems (MAS) have advanced rapidly, using a router to decompose tasks and delegate subtasks to specialized agents. A natural way to expand capability is to scale up the agent pool by continually integrating new functional agents or tool interfaces, but naive expansion can trigger performance collapse when the router cold-starts on newly added, heterogeneous,</description>
+</item>
+
+<item>
+  <title>Tackling air quality with SAPIENS</title>
+  <link>https://arxiv.org/abs/2601.23215v1</link>
+  <guid>https://arxiv.org/abs/2601.23215v1</guid>
+  <pubDate>Fri, 30 Jan 2026 17:41:38 +0000</pubDate>
+  <description>arXiv cs.LG - Air pollution is a chronic problem in large cities worldwide and awareness is rising as the long-term health implications become clearer. Vehicular traffic has been identified as a major contributor to poor air quality. In a lot of cities the publicly available air quality measurements and forecasts are coarse-grained both in space and time. However, in general, real-time traffic intensity data is</description>
+</item>
+
+<item>
+  <title>High-quality generation of dynamic game content via small language models: A proof of concept</title>
+  <link>https://arxiv.org/abs/2601.23206v1</link>
+  <guid>https://arxiv.org/abs/2601.23206v1</guid>
+  <pubDate>Fri, 30 Jan 2026 17:30:59 +0000</pubDate>
+  <description>arXiv cs.AI - Large language models (LLMs) offer promise for dynamic game content generation, but they face critical barriers, including narrative incoherence and high operational costs. Due to their large size, they are often accessed in the cloud, limiting their application in offline games. Many of these practical issues are solved by pivoting to small language models (SLMs), but existing studies using SLMs </description>
+</item>
+
+<item>
+  <title>Ensuring Semantics in Weights of Implicit Neural Representations through the Implicit Function Theorem</title>
+  <link>https://arxiv.org/abs/2601.23181v1</link>
+  <guid>https://arxiv.org/abs/2601.23181v1</guid>
+  <pubDate>Fri, 30 Jan 2026 17:05:37 +0000</pubDate>
+  <description>arXiv cs.LG - Weight Space Learning (WSL), which frames neural network weights as a data modality, is an emerging field with potential for tasks like meta-learning or transfer learning. Particularly, Implicit Neural Representations (INRs) provide a convenient testbed, where each set of weights determines the corresponding individual data sample as a mapping from coordinates to contextual values. So far, a preci</description>
+</item>
+
+<item>
+  <title>TriSpec: Ternary Speculative Decoding via Lightweight Proxy Verification</title>
+  <link>https://arxiv.org/abs/2601.23180v1</link>
+  <guid>https://arxiv.org/abs/2601.23180v1</guid>
+  <pubDate>Fri, 30 Jan 2026 17:04:18 +0000</pubDate>
+  <description>arXiv cs.LG - Inference efficiency in Large Language Models (LLMs) is fundamentally limited by their serial, autoregressive generation, especially as reasoning becomes a key capability and response sequences grow longer. Speculative decoding (SD) offers a powerful solution, providing significant speed-ups through its lightweight drafting and parallel verification mechanism. While existing work has nearly satura</description>
+</item>
+
+<item>
+  <title>Beyond Fixed Frames: Dynamic Character-Aligned Speech Tokenization</title>
+  <link>https://arxiv.org/abs/2601.23174v1</link>
+  <guid>https://arxiv.org/abs/2601.23174v1</guid>
+  <pubDate>Fri, 30 Jan 2026 16:58:40 +0000</pubDate>
+  <description>arXiv cs.AI - Neural audio codecs are at the core of modern conversational speech technologies, converting continuous speech into sequences of discrete tokens that can be processed by LLMs. However, existing codecs typically operate at fixed frame rates, allocating tokens uniformly in time and producing unnecessarily long sequences. In this work, we introduce DyCAST, a Dynamic Character-Aligned Speech Tokenizer</description>
+</item>
+
+<item>
+  <title>Beyond Fixed Frames: Dynamic Character-Aligned Speech Tokenization</title>
+  <link>https://arxiv.org/abs/2601.23174v1</link>
+  <guid>https://arxiv.org/abs/2601.23174v1</guid>
+  <pubDate>Fri, 30 Jan 2026 16:58:40 +0000</pubDate>
+  <description>arXiv cs.LG - Neural audio codecs are at the core of modern conversational speech technologies, converting continuous speech into sequences of discrete tokens that can be processed by LLMs. However, existing codecs typically operate at fixed frame rates, allocating tokens uniformly in time and producing unnecessarily long sequences. In this work, we introduce DyCAST, a Dynamic Character-Aligned Speech Tokenizer</description>
 </item>
 
 <item>
@@ -293,126 +413,6 @@
   <guid>https://arxiv.org/abs/2601.18796v1</guid>
   <pubDate>Mon, 26 Jan 2026 18:58:46 +0000</pubDate>
   <description>arXiv cs.AI - Text embeddings have become an essential part of a variety of language applications. However, methods for interpreting, exploring and reversing embedding spaces are limited, reducing transparency and precluding potentially valuable generative use cases. In this work, we align Large Language Models to embeddings of clinical trials using the recently reported Embedding Language Model (ELM) method. W</description>
-</item>
-
-<item>
-  <title>ctELM: Decoding and Manipulating Embeddings of Clinical Trials with Embedding Language Models</title>
-  <link>https://arxiv.org/abs/2601.18796v1</link>
-  <guid>https://arxiv.org/abs/2601.18796v1</guid>
-  <pubDate>Mon, 26 Jan 2026 18:58:46 +0000</pubDate>
-  <description>arXiv cs.LG - Text embeddings have become an essential part of a variety of language applications. However, methods for interpreting, exploring and reversing embedding spaces are limited, reducing transparency and precluding potentially valuable generative use cases. In this work, we align Large Language Models to embeddings of clinical trials using the recently reported Embedding Language Model (ELM) method. W</description>
-</item>
-
-<item>
-  <title>MEGnifying Emotion: Sentiment Analysis from Annotated Brain Data</title>
-  <link>https://arxiv.org/abs/2601.18792v1</link>
-  <guid>https://arxiv.org/abs/2601.18792v1</guid>
-  <pubDate>Mon, 26 Jan 2026 18:55:44 +0000</pubDate>
-  <description>arXiv cs.LG - Decoding emotion from brain activity could unlock a deeper understanding of the human experience. While a number of existing datasets align brain data with speech and with speech transcripts, no datasets have annotated brain data with sentiment. To bridge this gap, we explore the use of pre-trained Text-to-Sentiment models to annotate non invasive brain recordings, acquired using magnetoencephalog</description>
-</item>
-
-<item>
-  <title>Subword-Based Comparative Linguistics across 242 Languages Using Wikipedia Glottosets</title>
-  <link>https://arxiv.org/abs/2601.18791v1</link>
-  <guid>https://arxiv.org/abs/2601.18791v1</guid>
-  <pubDate>Mon, 26 Jan 2026 18:55:28 +0000</pubDate>
-  <description>arXiv cs.AI - We present a large-scale comparative study of 242 Latin and Cyrillic-script languages using subword-based methodologies. By constructing &apos;glottosets&apos; from Wikipedia lexicons, we introduce a framework for simultaneous cross-linguistic comparison via Byte-Pair Encoding (BPE). Our approach utilizes rank-based subword vectors to analyze vocabulary overlap, lexical divergence, and language similarity a</description>
-</item>
-
-<item>
-  <title>Subword-Based Comparative Linguistics across 242 Languages Using Wikipedia Glottosets</title>
-  <link>https://arxiv.org/abs/2601.18791v1</link>
-  <guid>https://arxiv.org/abs/2601.18791v1</guid>
-  <pubDate>Mon, 26 Jan 2026 18:55:28 +0000</pubDate>
-  <description>arXiv cs.LG - We present a large-scale comparative study of 242 Latin and Cyrillic-script languages using subword-based methodologies. By constructing &apos;glottosets&apos; from Wikipedia lexicons, we introduce a framework for simultaneous cross-linguistic comparison via Byte-Pair Encoding (BPE). Our approach utilizes rank-based subword vectors to analyze vocabulary overlap, lexical divergence, and language similarity a</description>
-</item>
-
-<item>
-  <title>$α^3$-SecBench: A Large-Scale Evaluation Suite of Security, Resilience, and Trust for LLM-based UAV Agents over 6G Networks</title>
-  <link>https://arxiv.org/abs/2601.18754v1</link>
-  <guid>https://arxiv.org/abs/2601.18754v1</guid>
-  <pubDate>Mon, 26 Jan 2026 18:25:07 +0000</pubDate>
-  <description>arXiv cs.AI - Autonomous unmanned aerial vehicle (UAV) systems are increasingly deployed in safety-critical, networked environments where they must operate reliably in the presence of malicious adversaries. While recent benchmarks have evaluated large language model (LLM)-based UAV agents in reasoning, navigation, and efficiency, systematic assessment of security, resilience, and trust under adversarial conditi</description>
-</item>
-
-<item>
-  <title>Capturing P: On the Expressive Power and Efficient Evaluation of Boolean Retrieval</title>
-  <link>https://arxiv.org/abs/2601.18747v1</link>
-  <guid>https://arxiv.org/abs/2601.18747v1</guid>
-  <pubDate>Mon, 26 Jan 2026 18:07:40 +0000</pubDate>
-  <description>arXiv cs.AI - Modern information retrieval is transitioning from simple document filtering to complex, neuro-symbolic reasoning workflows. However, current retrieval architectures face a fundamental efficiency dilemma when handling the rigorous logical and arithmetic constraints required by this new paradigm. Standard iterator-based engines (Document-at-a-Time) do not natively support complex, nested logic grap</description>
-</item>
-
-<item>
-  <title>Why Keep Your Doubts to Yourself? Trading Visual Uncertainties in Multi-Agent Bandit Systems</title>
-  <link>https://arxiv.org/abs/2601.18735v1</link>
-  <guid>https://arxiv.org/abs/2601.18735v1</guid>
-  <pubDate>Mon, 26 Jan 2026 17:58:53 +0000</pubDate>
-  <description>arXiv cs.AI - Vision-Language Models (VLMs) enable powerful multi-agent systems, but scaling them is economically unsustainable: coordinating heterogeneous agents under information asymmetry often spirals costs. Existing paradigms, such as Mixture-of-Agents and knowledge-based routers, rely on heuristic proxies that ignore costs and collapse uncertainty structure, leading to provably suboptimal coordination. We</description>
-</item>
-
-<item>
-  <title>Why Keep Your Doubts to Yourself? Trading Visual Uncertainties in Multi-Agent Bandit Systems</title>
-  <link>https://arxiv.org/abs/2601.18735v1</link>
-  <guid>https://arxiv.org/abs/2601.18735v1</guid>
-  <pubDate>Mon, 26 Jan 2026 17:58:53 +0000</pubDate>
-  <description>arXiv cs.LG - Vision-Language Models (VLMs) enable powerful multi-agent systems, but scaling them is economically unsustainable: coordinating heterogeneous agents under information asymmetry often spirals costs. Existing paradigms, such as Mixture-of-Agents and knowledge-based routers, rely on heuristic proxies that ignore costs and collapse uncertainty structure, leading to provably suboptimal coordination. We</description>
-</item>
-
-<item>
-  <title>Advances and Innovations in the Multi-Agent Robotic System (MARS) Challenge</title>
-  <link>https://arxiv.org/abs/2601.18733v1</link>
-  <guid>https://arxiv.org/abs/2601.18733v1</guid>
-  <pubDate>Mon, 26 Jan 2026 17:56:19 +0000</pubDate>
-  <description>arXiv cs.AI - Recent advancements in multimodal large language models and vision-languageaction models have significantly driven progress in Embodied AI. As the field transitions toward more complex task scenarios, multi-agent system frameworks are becoming essential for achieving scalable, efficient, and collaborative solutions. This shift is fueled by three primary factors: increasing agent capabilities, enha</description>
-</item>
-
-<item>
-  <title>Optimal Use of Preferences in Artificial Intelligence Algorithms</title>
-  <link>https://arxiv.org/abs/2601.18732v1</link>
-  <guid>https://arxiv.org/abs/2601.18732v1</guid>
-  <pubDate>Mon, 26 Jan 2026 17:55:56 +0000</pubDate>
-  <description>arXiv cs.AI - Machine learning systems embed preferences either in training losses or through post-processing of calibrated predictions. Applying information design methods from Strack and Yang (2024), this paper provides decision problem agnostic conditions under which separation training preference free and applying preferences ex post is optimal. Unlike prior work that requires specifying downstream objectiv</description>
-</item>
-
-<item>
-  <title>Auto-Regressive Masked Diffusion Models</title>
-  <link>https://arxiv.org/abs/2601.16971v1</link>
-  <guid>https://arxiv.org/abs/2601.16971v1</guid>
-  <pubDate>Fri, 23 Jan 2026 18:42:30 +0000</pubDate>
-  <description>arXiv cs.LG - Masked diffusion models (MDMs) have emerged as a promising approach for language modeling, yet they face a performance gap compared to autoregressive models (ARMs) and require more training iterations. In this work, we present the Auto-Regressive Masked Diffusion (ARMD) model, an architecture designed to close this gap by unifying the training efficiency of autoregressive models with the parallel </description>
-</item>
-
-<item>
-  <title>Spatial-Agent: Agentic Geo-spatial Reasoning with Scientific Core Concepts</title>
-  <link>https://arxiv.org/abs/2601.16965v1</link>
-  <guid>https://arxiv.org/abs/2601.16965v1</guid>
-  <pubDate>Fri, 23 Jan 2026 18:33:45 +0000</pubDate>
-  <description>arXiv cs.AI - Geospatial reasoning is essential for real-world applications such as urban analytics, transportation planning, and disaster response. However, existing LLM-based agents often fail at genuine geospatial computation, relying instead on web search or pattern matching while hallucinating spatial relationships. We present Spatial-Agent, an AI agent grounded in foundational theories of spatial informat</description>
-</item>
-
-<item>
-  <title>AgentDrive: An Open Benchmark Dataset for Agentic AI Reasoning with LLM-Generated Scenarios in Autonomous Systems</title>
-  <link>https://arxiv.org/abs/2601.16964v1</link>
-  <guid>https://arxiv.org/abs/2601.16964v1</guid>
-  <pubDate>Fri, 23 Jan 2026 18:33:41 +0000</pubDate>
-  <description>arXiv cs.AI - The rapid advancement of large language models (LLMs) has sparked growing interest in their integration into autonomous systems for reasoning-driven perception, planning, and decision-making. However, evaluating and training such agentic AI models remains challenging due to the lack of large-scale, structured, and safety-critical benchmarks. This paper introduces AgentDrive, an open benchmark data</description>
-</item>
-
-<item>
-  <title>Evaluating Large Vision-language Models for Surgical Tool Detection</title>
-  <link>https://arxiv.org/abs/2601.16895v1</link>
-  <guid>https://arxiv.org/abs/2601.16895v1</guid>
-  <pubDate>Fri, 23 Jan 2026 17:00:46 +0000</pubDate>
-  <description>arXiv cs.AI - Surgery is a highly complex process, and artificial intelligence has emerged as a transformative force in supporting surgical guidance and decision-making. However, the unimodal nature of most current AI systems limits their ability to achieve a holistic understanding of surgical workflows. This highlights the need for general-purpose surgical AI systems capable of comprehensively modeling the int</description>
-</item>
-
-<item>
-  <title>MAGE-KT: Multi-Agent Graph-Enhanced Knowledge Tracing with Subgraph Retrieval and Asymmetric Fusion</title>
-  <link>https://arxiv.org/abs/2601.16886v1</link>
-  <guid>https://arxiv.org/abs/2601.16886v1</guid>
-  <pubDate>Fri, 23 Jan 2026 16:51:08 +0000</pubDate>
-  <description>arXiv cs.AI - Knowledge Tracing (KT) aims to model a student&apos;s learning trajectory and predict performance on the next question. A key challenge is how to better represent the relationships among students, questions, and knowledge concepts (KCs). Recently, graph-based KT paradigms have shown promise for this problem. However, existing methods have not sufficiently explored inter-concept relations, often inferre</description>
 </item>
 
 </channel>
