@@ -4,15 +4,119 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Mon, 02 Feb 2026 18:32:01 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 03 Feb 2026 06:38:35 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Mon, 02 Feb 2026 18:32:01 +0000</pubDate>
-  <description>Shared autonomy systems require principled methods for inferring user intent and determining appropriate assistance levels. This is a central challenge in human-robot interaction, where systems must be successful while being mindful of user agency. Previous approaches relied on static blending ratios or separated goal inference from assistance arbitration, leading to suboptimal performance in unstructured environments. We introduce BRACE (Bayesian Reinforcement Assistance with Context Encoding), a novel framework that fine-tunes Bayesian intent inference and context-adaptive assistance through an architecture enabling end-to-end gradient flow between intent inference and assistance arbitration. Our pipeline conditions collaborative control policies on environmental context and complete…</description>
+  <pubDate>Tue, 03 Feb 2026 06:38:35 +0000</pubDate>
+  <description>Clinical brain-to-text interfaces are designed for paralysed patients who cannot provide extensive training recordings. Pre-training improves data-efficient generalisation by learning statistical priors across subjects, but these priors critically depend on context. While natural speech might unfold gradually over minutes, most methods pre-train with only a few seconds of context. Thus, we propose MEG-XL, a model pre-trained with 2.5 minutes of MEG context per sample, 5-300x longer than prior work, and equivalent to 191k tokens, capturing extended neural context. Fine-tuning on the task of word decoding from brain data, MEG-XL matches supervised performance with a fraction of the data (e.g. 1hr vs 50hrs) and outperforms brain foundation models. We find that models pre-trained with longer…</description>
+</item>
+
+<item>
+  <title>MEG-XL: Data-Efficient Brain-to-Text via Long-Context Pre-Training</title>
+  <link>https://arxiv.org/abs/2602.02494v1</link>
+  <guid>https://arxiv.org/abs/2602.02494v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:59:50 +0000</pubDate>
+  <description>arXiv cs.LG - Clinical brain-to-text interfaces are designed for paralysed patients who cannot provide extensive training recordings. Pre-training improves data-efficient generalisation by learning statistical priors across subjects, but these priors critically depend on context. While natural speech might unfold gradually over minutes, most methods pre-train with only a few seconds of context. Thus, we propose</description>
+</item>
+
+<item>
+  <title>RLAnything: Forge Environment, Policy, and Reward Model in Completely Dynamic RL System</title>
+  <link>https://arxiv.org/abs/2602.02488v1</link>
+  <guid>https://arxiv.org/abs/2602.02488v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:59:04 +0000</pubDate>
+  <description>arXiv cs.LG - We propose RLAnything, a reinforcement learning framework that dynamically forges environment, policy, and reward models through closed-loop optimization, amplifying learning signals and strengthening the overall RL system for any LLM or agentic scenarios. Specifically, the policy is trained with integrated feedback from step-wise and outcome signals, while the reward model is jointly optimized vi</description>
+</item>
+
+<item>
+  <title>RE-TRAC: REcursive TRAjectory Compression for Deep Search Agents</title>
+  <link>https://arxiv.org/abs/2602.02486v1</link>
+  <guid>https://arxiv.org/abs/2602.02486v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:58:07 +0000</pubDate>
+  <description>arXiv cs.AI - LLM-based deep research agents are largely built on the ReAct framework. This linear design makes it difficult to revisit earlier states, branch into alternative search directions, or maintain global awareness under long contexts, often leading to local optima, redundant exploration, and inefficient search. We propose Re-TRAC, an agentic framework that performs cross-trajectory exploration by gene</description>
+</item>
+
+<item>
+  <title>Expanding the Capabilities of Reinforcement Learning via Text Feedback</title>
+  <link>https://arxiv.org/abs/2602.02482v1</link>
+  <guid>https://arxiv.org/abs/2602.02482v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:56:56 +0000</pubDate>
+  <description>arXiv cs.LG - The success of RL for LLM post-training stems from an unreasonably uninformative source: a single bit of information per rollout as binary reward or preference label. At the other extreme, distillation offers dense supervision but requires demonstrations, which are costly and difficult to scale. We study text feedback as an intermediate signal: richer than scalar rewards, yet cheaper than complete</description>
+</item>
+
+<item>
+  <title>AgentRx: Diagnosing AI Agent Failures from Execution Trajectories</title>
+  <link>https://arxiv.org/abs/2602.02475v1</link>
+  <guid>https://arxiv.org/abs/2602.02475v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:54:07 +0000</pubDate>
+  <description>arXiv cs.AI - AI agents often fail in ways that are difficult to localize because executions are probabilistic, long-horizon, multi-agent, and mediated by noisy tool outputs. We address this gap by manually annotating failed agent runs and release a novel benchmark of 115 failed trajectories spanning structured API workflows, incident management, and open-ended web/file tasks. Each trajectory is annotated with </description>
+</item>
+
+<item>
+  <title>MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents</title>
+  <link>https://arxiv.org/abs/2602.02474v1</link>
+  <guid>https://arxiv.org/abs/2602.02474v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:53:28 +0000</pubDate>
+  <description>arXiv cs.AI - Most Large Language Model (LLM) agent memory systems rely on a small set of static, hand-designed operations for extracting memory. These fixed procedures hard-code human priors about what to store and how to revise memory, making them rigid under diverse interaction patterns and inefficient on long histories. To this end, we present \textbf{MemSkill}, which reframes these operations as learnable </description>
+</item>
+
+<item>
+  <title>MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents</title>
+  <link>https://arxiv.org/abs/2602.02474v1</link>
+  <guid>https://arxiv.org/abs/2602.02474v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:53:28 +0000</pubDate>
+  <description>arXiv cs.LG - Most Large Language Model (LLM) agent memory systems rely on a small set of static, hand-designed operations for extracting memory. These fixed procedures hard-code human priors about what to store and how to revise memory, making them rigid under diverse interaction patterns and inefficient on long histories. To this end, we present \textbf{MemSkill}, which reframes these operations as learnable </description>
+</item>
+
+<item>
+  <title>Multi-head automated segmentation by incorporating detection head into the contextual layer neural network</title>
+  <link>https://arxiv.org/abs/2602.02471v1</link>
+  <guid>https://arxiv.org/abs/2602.02471v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:51:25 +0000</pubDate>
+  <description>arXiv cs.AI - Deep learning based auto segmentation is increasingly used in radiotherapy, but conventional models often produce anatomically implausible false positives, or hallucinations, in slices lacking target structures. We propose a gated multi-head Transformer architecture based on Swin U-Net, augmented with inter-slice context integration and a parallel detection head, which jointly performs slice-level</description>
+</item>
+
+<item>
+  <title>Avenir-Web: Human-Experience-Imitating Multimodal Web Agents with Mixture of Grounding Experts</title>
+  <link>https://arxiv.org/abs/2602.02468v1</link>
+  <guid>https://arxiv.org/abs/2602.02468v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:50:07 +0000</pubDate>
+  <description>arXiv cs.AI - Despite advances in multimodal large language models, autonomous web agents still struggle to reliably execute long-horizon tasks on complex and dynamic web interfaces. Existing agents often suffer from inaccurate element grounding, the absence of site-specific procedural knowledge, and unstable long-term task tracking and memory, particularly when operating over complex Document Object Model stru</description>
+</item>
+
+<item>
+  <title>Drift-Bench: Diagnosing Cooperative Breakdowns in LLM Agents under Input Faults via Multi-Turn Interaction</title>
+  <link>https://arxiv.org/abs/2602.02455v1</link>
+  <guid>https://arxiv.org/abs/2602.02455v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:46:16 +0000</pubDate>
+  <description>arXiv cs.AI - As Large Language Models transition to autonomous agents, user inputs frequently violate cooperative assumptions (e.g., implicit intent, missing parameters, false presuppositions, or ambiguous expressions), creating execution risks that text-only evaluations do not capture. Existing benchmarks typically assume well-specified instructions or restrict evaluation to text-only, single-turn clarificati</description>
+</item>
+
+<item>
+  <title>Energy-Efficient Neuromorphic Computing for Edge AI: A Framework with Adaptive Spiking Neural Networks and Hardware-Aware Optimization</title>
+  <link>https://arxiv.org/abs/2602.02439v1</link>
+  <guid>https://arxiv.org/abs/2602.02439v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:34:48 +0000</pubDate>
+  <description>arXiv cs.LG - Edge AI applications increasingly require ultra-low-power, low-latency inference. Neuromorphic computing based on event-driven spiking neural networks (SNNs) offers an attractive path, but practical deployment on resource-constrained devices is limited by training difficulty, hardware-mapping overheads, and sensitivity to temporal dynamics. We present NeuEdge, a framework that combines adaptive SN</description>
+</item>
+
+<item>
+  <title>UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing</title>
+  <link>https://arxiv.org/abs/2602.02437v1</link>
+  <guid>https://arxiv.org/abs/2602.02437v1</guid>
+  <pubDate>Mon, 02 Feb 2026 18:34:35 +0000</pubDate>
+  <description>arXiv cs.AI - Unified multimodal models often struggle with complex synthesis tasks that demand deep reasoning, and typically treat text-to-image generation and image editing as isolated capabilities rather than interconnected reasoning steps. To address this, we propose UniReason, a unified framework that harmonizes these two tasks through a dual reasoning paradigm. We formulate generation as world knowledge-e</description>
+</item>
+
+<item>
+  <title>David vs. Goliath: Verifiable Agent-to-Agent Jailbreaking via Reinforcement Learning</title>
+  <link>https://arxiv.org/abs/2602.02395v1</link>
+  <guid>https://arxiv.org/abs/2602.02395v1</guid>
+  <pubDate>Mon, 02 Feb 2026 17:56:55 +0000</pubDate>
+  <description>arXiv cs.AI - The evolution of large language models into autonomous agents introduces adversarial failures that exploit legitimate tool privileges, transforming safety evaluation in tool-augmented environments from a subjective NLP task into an objective control problem. We formalize this threat model as Tag-Along Attacks: a scenario where a tool-less adversary &quot;tags along&quot; on the trusted privileges of a safet</description>
 </item>
 
 <item>
@@ -309,110 +413,6 @@
   <guid>https://arxiv.org/abs/2601.20720v1</guid>
   <pubDate>Wed, 28 Jan 2026 15:53:32 +0000</pubDate>
   <description>arXiv cs.AI - End-to-end perception and trajectory prediction from raw sensor data is one of the key capabilities for autonomous driving. Modular pipelines restrict information flow and can amplify upstream errors. Recent query-based, fully differentiable perception-and-prediction (PnP) models mitigate these issues, yet the complementarity of cameras and LiDAR in the query-space has not been sufficiently explor</description>
-</item>
-
-<item>
-  <title>Adapting the Behavior of Reinforcement Learning Agents to Changing Action Spaces and Reward Functions</title>
-  <link>https://arxiv.org/abs/2601.20714v1</link>
-  <guid>https://arxiv.org/abs/2601.20714v1</guid>
-  <pubDate>Wed, 28 Jan 2026 15:46:51 +0000</pubDate>
-  <description>arXiv cs.AI - Reinforcement Learning (RL) agents often struggle in real-world applications where environmental conditions are non-stationary, particularly when reward functions shift or the available action space expands. This paper introduces MORPHIN, a self-adaptive Q-learning framework that enables on-the-fly adaptation without full retraining. By integrating concept drift detection with dynamic adjustments </description>
-</item>
-
-<item>
-  <title>SONIC: Spectral Oriented Neural Invariant Convolutions</title>
-  <link>https://arxiv.org/abs/2601.19884v1</link>
-  <guid>https://arxiv.org/abs/2601.19884v1</guid>
-  <pubDate>Tue, 27 Jan 2026 18:51:11 +0000</pubDate>
-  <description>arXiv cs.LG - Convolutional Neural Networks (CNNs) rely on fixed-size kernels scanning local patches, which limits their ability to capture global context or long-range dependencies without very deep architectures. Vision Transformers (ViTs), in turn, provide global connectivity but lack spatial inductive bias, depend on explicit positional encodings, and remain tied to the initial patch size. Bridging these li</description>
-</item>
-
-<item>
-  <title>Unsupervised Learning of Efficient Exploration: Pre-training Adaptive Policies via Self-Imposed Goals</title>
-  <link>https://arxiv.org/abs/2601.19810v1</link>
-  <guid>https://arxiv.org/abs/2601.19810v1</guid>
-  <pubDate>Tue, 27 Jan 2026 17:10:29 +0000</pubDate>
-  <description>arXiv cs.AI - Unsupervised pre-training can equip reinforcement learning agents with prior knowledge and accelerate learning in downstream tasks. A promising direction, grounded in human development, investigates agents that learn by setting and pursuing their own goals. The core challenge lies in how to effectively generate, select, and learn from such goals. Our focus is on broad distributions of downstream t</description>
-</item>
-
-<item>
-  <title>Unsupervised Learning of Efficient Exploration: Pre-training Adaptive Policies via Self-Imposed Goals</title>
-  <link>https://arxiv.org/abs/2601.19810v1</link>
-  <guid>https://arxiv.org/abs/2601.19810v1</guid>
-  <pubDate>Tue, 27 Jan 2026 17:10:29 +0000</pubDate>
-  <description>arXiv cs.LG - Unsupervised pre-training can equip reinforcement learning agents with prior knowledge and accelerate learning in downstream tasks. A promising direction, grounded in human development, investigates agents that learn by setting and pursuing their own goals. The core challenge lies in how to effectively generate, select, and learn from such goals. Our focus is on broad distributions of downstream t</description>
-</item>
-
-<item>
-  <title>Component-Aware Pruning Framework for Neural Network Controllers via Gradient-Based Importance Estimation</title>
-  <link>https://arxiv.org/abs/2601.19794v1</link>
-  <guid>https://arxiv.org/abs/2601.19794v1</guid>
-  <pubDate>Tue, 27 Jan 2026 16:53:19 +0000</pubDate>
-  <description>arXiv cs.LG - The transition from monolithic to multi-component neural architectures in advanced neural network controllers poses substantial challenges due to the high computational complexity of the latter. Conventional model compression techniques for complexity reduction, such as structured pruning based on norm-based metrics to estimate the relative importance of distinct parameter groups, often fail to ca</description>
-</item>
-
-<item>
-  <title>CASTER: Breaking the Cost-Performance Barrier in Multi-Agent Orchestration via Context-Aware Strategy for Task Efficient Routing</title>
-  <link>https://arxiv.org/abs/2601.19793v1</link>
-  <guid>https://arxiv.org/abs/2601.19793v1</guid>
-  <pubDate>Tue, 27 Jan 2026 16:52:47 +0000</pubDate>
-  <description>arXiv cs.AI - Graph-based Multi-Agent Systems (MAS) enable complex cyclic workflows but suffer from inefficient static model allocation, where deploying strong models uniformly wastes computation on trivial sub-tasks. We propose CASTER (Context-Aware Strategy for Task Efficient Routing), a lightweight router for dynamic model selection in graph-based MAS. CASTER employs a Dual-Signal Router that combines semant</description>
-</item>
-
-<item>
-  <title>LVLMs and Humans Ground Differently in Referential Communication</title>
-  <link>https://arxiv.org/abs/2601.19792v1</link>
-  <guid>https://arxiv.org/abs/2601.19792v1</guid>
-  <pubDate>Tue, 27 Jan 2026 16:52:20 +0000</pubDate>
-  <description>arXiv cs.AI - For generative AI agents to partner effectively with human users, the ability to accurately predict human intent is critical. But this ability to collaborate remains limited by a critical deficit: an inability to model common ground. Here, we present a referential communication experiment with a factorial design involving director-matcher pairs (human-human, human-AI, AI-human, and AI-AI) that int</description>
-</item>
-
-<item>
-  <title>Reimagining Peer Review Process Through Multi-Agent Mechanism Design</title>
-  <link>https://arxiv.org/abs/2601.19778v1</link>
-  <guid>https://arxiv.org/abs/2601.19778v1</guid>
-  <pubDate>Tue, 27 Jan 2026 16:43:11 +0000</pubDate>
-  <description>arXiv cs.AI - The software engineering research community faces a systemic crisis: peer review is failing under growing submissions, misaligned incentives, and reviewer fatigue. Community surveys reveal that researchers perceive the process as &quot;broken.&quot; This position paper argues that these dysfunctions are mechanism design failures amenable to computational solutions. We propose modeling the research community</description>
-</item>
-
-<item>
-  <title>Agentic Design Patterns: A System-Theoretic Framework</title>
-  <link>https://arxiv.org/abs/2601.19752v1</link>
-  <guid>https://arxiv.org/abs/2601.19752v1</guid>
-  <pubDate>Tue, 27 Jan 2026 16:14:08 +0000</pubDate>
-  <description>arXiv cs.AI - With the development of foundation model (FM), agentic AI systems are getting more attention, yet their inherent issues like hallucination and poor reasoning, coupled with the frequent ad-hoc nature of system design, lead to unreliable and brittle applications. Existing efforts to characterise agentic design patterns often lack a rigorous systems-theoretic foundation, resulting in high-level or co</description>
-</item>
-
-<item>
-  <title>Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation</title>
-  <link>https://arxiv.org/abs/2601.19747v1</link>
-  <guid>https://arxiv.org/abs/2601.19747v1</guid>
-  <pubDate>Tue, 27 Jan 2026 16:10:23 +0000</pubDate>
-  <description>arXiv cs.AI - In the rapidly evolving field of Electronic Design Automation (EDA), the deployment of Large Language Models (LLMs) for Register-Transfer Level (RTL) design has emerged as a promising direction. However, silicon-grade correctness remains bottlenecked by: (i) limited test coverage and reliability of simulation-centric evaluation, (ii) regressions and repair hallucinations introduced by iterative de</description>
-</item>
-
-<item>
-  <title>Quantum Circuit Pre-Synthesis: Learning Local Edits to Reduce $T$-count</title>
-  <link>https://arxiv.org/abs/2601.19738v1</link>
-  <guid>https://arxiv.org/abs/2601.19738v1</guid>
-  <pubDate>Tue, 27 Jan 2026 15:58:05 +0000</pubDate>
-  <description>arXiv cs.AI - Compiling quantum circuits into Clifford+$T$ gates is a central task for fault-tolerant quantum computing using stabilizer codes. In the near term, $T$ gates will dominate the cost of fault tolerant implementations, and any reduction in the number of such expensive gates could mean the difference between being able to run a circuit or not. While exact synthesis is exponentially hard in the number </description>
-</item>
-
-<item>
-  <title>Quantum Circuit Pre-Synthesis: Learning Local Edits to Reduce $T$-count</title>
-  <link>https://arxiv.org/abs/2601.19738v1</link>
-  <guid>https://arxiv.org/abs/2601.19738v1</guid>
-  <pubDate>Tue, 27 Jan 2026 15:58:05 +0000</pubDate>
-  <description>arXiv cs.LG - Compiling quantum circuits into Clifford+$T$ gates is a central task for fault-tolerant quantum computing using stabilizer codes. In the near term, $T$ gates will dominate the cost of fault tolerant implementations, and any reduction in the number of such expensive gates could mean the difference between being able to run a circuit or not. While exact synthesis is exponentially hard in the number </description>
-</item>
-
-<item>
-  <title>ctELM: Decoding and Manipulating Embeddings of Clinical Trials with Embedding Language Models</title>
-  <link>https://arxiv.org/abs/2601.18796v1</link>
-  <guid>https://arxiv.org/abs/2601.18796v1</guid>
-  <pubDate>Mon, 26 Jan 2026 18:58:46 +0000</pubDate>
-  <description>arXiv cs.AI - Text embeddings have become an essential part of a variety of language applications. However, methods for interpreting, exploring and reversing embedding spaces are limited, reducing transparency and precluding potentially valuable generative use cases. In this work, we align Large Language Models to embeddings of clinical trials using the recently reported Embedding Language Model (ELM) method. W</description>
 </item>
 
 </channel>
