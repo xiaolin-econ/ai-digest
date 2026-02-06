@@ -4,15 +4,151 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Thu, 05 Feb 2026 18:37:00 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 06 Feb 2026 06:41:30 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Thu, 05 Feb 2026 18:37:00 +0000</pubDate>
-  <description>Continual reinforcement learning (CRL) requires agents to learn from a sequence of tasks without forgetting previously acquired policies. In this work, we introduce a novel benchmark suite for CRL based on realistically simulated robots in the Gazebo simulator. Our Continual Robotic Simulation Suite (CRoSS) benchmarks rely on two robotic platforms: a two-wheeled differential-drive robot with lidar, camera and bumper sensor, and a robotic arm with seven joints. The former represent an agent in line-following and object-pushing scenarios, where variation of visual and structural parameters yields a large number of distinct tasks, whereas the latter is used in two goal-reaching scenarios with high-level cartesian hand position control (modeled after the Continual World benchmark), and…</description>
+  <pubDate>Fri, 06 Feb 2026 06:41:30 +0000</pubDate>
+  <description>Multi-agent systems built from prompted large language models can improve multi-round reasoning, yet most existing pipelines rely on fixed, trajectory-wide communication patterns that are poorly matched to the stage-dependent needs of iterative problem solving. We introduce DyTopo, a manager-guided multi-agent framework that reconstructs a sparse directed communication graph at each round. Conditioned on the manager&apos;s round goal, each agent outputs lightweight natural-language query (need) and \key (offer) descriptors; DyTopo embeds these descriptors and performs semantic matching, routing private messages only along the induced edges. Across code generation and mathematical reasoning benchmarks and four LLM backbones, DyTopo consistently outperforms over the strongest baseline (avg.…</description>
+</item>
+
+<item>
+  <title>DyTopo: Dynamic Topology Routing for Multi-Agent Reasoning via Semantic Matching</title>
+  <link>https://arxiv.org/abs/2602.06039v1</link>
+  <guid>https://arxiv.org/abs/2602.06039v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:59:51 +0000</pubDate>
+  <description>arXiv cs.AI - Multi-agent systems built from prompted large language models can improve multi-round reasoning, yet most existing pipelines rely on fixed, trajectory-wide communication patterns that are poorly matched to the stage-dependent needs of iterative problem solving. We introduce DyTopo, a manager-guided multi-agent framework that reconstructs a sparse directed communication graph at each round. Conditi</description>
+</item>
+
+<item>
+  <title>CommCP: Efficient Multi-Agent Coordination via LLM-Based Communication with Conformal Prediction</title>
+  <link>https://arxiv.org/abs/2602.06038v1</link>
+  <guid>https://arxiv.org/abs/2602.06038v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:59:45 +0000</pubDate>
+  <description>arXiv cs.AI - To complete assignments provided by humans in natural language, robots must interpret commands, generate and answer relevant questions for scene understanding, and manipulate target objects. Real-world deployments often require multiple heterogeneous robots with different manipulation capabilities to handle different assignments cooperatively. Beyond the need for specialized manipulation skills, e</description>
+</item>
+
+<item>
+  <title>CommCP: Efficient Multi-Agent Coordination via LLM-Based Communication with Conformal Prediction</title>
+  <link>https://arxiv.org/abs/2602.06038v1</link>
+  <guid>https://arxiv.org/abs/2602.06038v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:59:45 +0000</pubDate>
+  <description>arXiv cs.LG - To complete assignments provided by humans in natural language, robots must interpret commands, generate and answer relevant questions for scene understanding, and manipulate target objects. Real-world deployments often require multiple heterogeneous robots with different manipulation capabilities to handle different assignments cooperatively. Beyond the need for specialized manipulation skills, e</description>
+</item>
+
+<item>
+  <title>PhysicsAgentABM: Physics-Guided Generative Agent-Based Modeling</title>
+  <link>https://arxiv.org/abs/2602.06030v1</link>
+  <guid>https://arxiv.org/abs/2602.06030v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:59:01 +0000</pubDate>
+  <description>arXiv cs.LG - Large language model (LLM)-based multi-agent systems enable expressive agent reasoning but are expensive to scale and poorly calibrated for timestep-aligned state-transition simulation, while classical agent-based models (ABMs) offer interpretability but struggle to integrate rich individual-level signals and non-stationary behaviors. We propose PhysicsAgentABM, which shifts inference to behaviora</description>
+</item>
+
+<item>
+  <title>Curiosity is Knowledge: Self-Consistent Learning and No-Regret Optimization with Active Inference</title>
+  <link>https://arxiv.org/abs/2602.06029v1</link>
+  <guid>https://arxiv.org/abs/2602.06029v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:58:32 +0000</pubDate>
+  <description>arXiv cs.LG - Active inference (AIF) unifies exploration and exploitation by minimizing the Expected Free Energy (EFE), balancing epistemic value (information gain) and pragmatic value (task performance) through a curiosity coefficient. Yet it has been unclear when this balance yields both coherent learning and efficient decision-making: insufficient curiosity can drive myopic exploitation and prevent uncertain</description>
+</item>
+
+<item>
+  <title>Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory</title>
+  <link>https://arxiv.org/abs/2602.06025v1</link>
+  <guid>https://arxiv.org/abs/2602.06025v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:57:09 +0000</pubDate>
+  <description>arXiv cs.AI - Memory is increasingly central to Large Language Model (LLM) agents operating beyond a single context window, yet most existing systems rely on offline, query-agnostic memory construction that can be inefficient and may discard query-critical information. Although runtime memory utilization is a natural alternative, prior work often incurs substantial overhead and offers limited explicit control o</description>
+</item>
+
+<item>
+  <title>Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory</title>
+  <link>https://arxiv.org/abs/2602.06025v1</link>
+  <guid>https://arxiv.org/abs/2602.06025v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:57:09 +0000</pubDate>
+  <description>arXiv cs.LG - Memory is increasingly central to Large Language Model (LLM) agents operating beyond a single context window, yet most existing systems rely on offline, query-agnostic memory construction that can be inefficient and may discard query-critical information. Although runtime memory utilization is a natural alternative, prior work often incurs substantial overhead and offers limited explicit control o</description>
+</item>
+
+<item>
+  <title>Learning Event-Based Shooter Models from Virtual Reality Experiments</title>
+  <link>https://arxiv.org/abs/2602.06023v1</link>
+  <guid>https://arxiv.org/abs/2602.06023v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:56:49 +0000</pubDate>
+  <description>arXiv cs.AI - Virtual reality (VR) has emerged as a powerful tool for evaluating school security measures in high-risk scenarios such as school shootings, offering experimental control and high behavioral fidelity. However, assessing new interventions in VR requires recruiting new participant cohorts for each condition, making large-scale or iterative evaluation difficult. These limitations are especially restr</description>
+</item>
+
+<item>
+  <title>Multi-Token Prediction via Self-Distillation</title>
+  <link>https://arxiv.org/abs/2602.06019v1</link>
+  <guid>https://arxiv.org/abs/2602.06019v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:54:48 +0000</pubDate>
+  <description>arXiv cs.LG - Existing techniques for accelerating language model inference, such as speculative decoding, require training auxiliary speculator models and building and deploying complex inference pipelines. We consider a new approach for converting a pretrained autoregressive language model from a slow single next token prediction model into a fast standalone multi-token prediction model using a simple online </description>
+</item>
+
+<item>
+  <title>AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions</title>
+  <link>https://arxiv.org/abs/2602.06008v1</link>
+  <guid>https://arxiv.org/abs/2602.06008v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:50:36 +0000</pubDate>
+  <description>arXiv cs.AI - Large language model (LLM)-based agents are increasingly expected to negotiate, coordinate, and transact autonomously, yet existing benchmarks lack principled settings for evaluating language-mediated economic interaction among multiple agents. We introduce AgenticPay, a benchmark and simulation framework for multi-agent buyer-seller negotiation driven by natural language. AgenticPay models market</description>
+</item>
+
+<item>
+  <title>AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions</title>
+  <link>https://arxiv.org/abs/2602.06008v1</link>
+  <guid>https://arxiv.org/abs/2602.06008v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:50:36 +0000</pubDate>
+  <description>arXiv cs.LG - Large language model (LLM)-based agents are increasingly expected to negotiate, coordinate, and transact autonomously, yet existing benchmarks lack principled settings for evaluating language-mediated economic interaction among multiple agents. We introduce AgenticPay, a benchmark and simulation framework for multi-agent buyer-seller negotiation driven by natural language. AgenticPay models market</description>
+</item>
+
+<item>
+  <title>Layer-wise LoRA fine-tuning: a similarity metric approach</title>
+  <link>https://arxiv.org/abs/2602.05988v1</link>
+  <guid>https://arxiv.org/abs/2602.05988v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:38:53 +0000</pubDate>
+  <description>arXiv cs.LG - Pre-training Large Language Models (LLMs) on web-scale datasets becomes fundamental for advancing general-purpose AI. In contrast, enhancing their predictive performance on downstream tasks typically involves adapting their knowledge through fine-tuning. Parameter-efficient fine-tuning techniques, such as Low-Rank Adaptation (LoRA), aim to reduce the computational cost of this process by freezing </description>
+</item>
+
+<item>
+  <title>Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</title>
+  <link>https://arxiv.org/abs/2602.05965v1</link>
+  <guid>https://arxiv.org/abs/2602.05965v1</guid>
+  <pubDate>Thu, 05 Feb 2026 18:20:21 +0000</pubDate>
+  <description>arXiv cs.AI - Agentic systems solve complex tasks by coordinating multiple agents that iteratively reason, invoke tools, and exchange intermediate results. To improve robustness and solution quality, recent approaches deploy multiple agent teams running in parallel to explore diverse reasoning trajectories. However, parallel execution comes at a significant computational cost: when different teams independently</description>
+</item>
+
+<item>
+  <title>Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025</title>
+  <link>https://arxiv.org/abs/2602.05930v1</link>
+  <guid>https://arxiv.org/abs/2602.05930v1</guid>
+  <pubDate>Thu, 05 Feb 2026 17:43:35 +0000</pubDate>
+  <description>arXiv cs.AI - Large language models (LLMs) are increasingly used in academic writing workflows, yet they frequently hallucinate by generating citations to sources that do not exist. This study analyzes 100 AI-generated hallucinated citations that appeared in papers accepted by the 2025 Conference on Neural Information Processing Systems (NeurIPS), one of the world&apos;s most prestigious AI conferences. Despite revi</description>
+</item>
+
+<item>
+  <title>Quantum Reinforcement Learning with Transformers for the Capacitated Vehicle Routing Problem</title>
+  <link>https://arxiv.org/abs/2602.05920v1</link>
+  <guid>https://arxiv.org/abs/2602.05920v1</guid>
+  <pubDate>Thu, 05 Feb 2026 17:32:14 +0000</pubDate>
+  <description>arXiv cs.AI - This paper addresses the Capacitated Vehicle Routing Problem (CVRP) by comparing classical and quantum Reinforcement Learning (RL) approaches. An Advantage Actor-Critic (A2C) agent is implemented in classical, full quantum, and hybrid variants, integrating transformer architectures to capture the relationships between vehicles, clients, and the depot through self- and cross-attention mechanisms. T</description>
+</item>
+
+<item>
+  <title>Parity, Sensitivity, and Transformers</title>
+  <link>https://arxiv.org/abs/2602.05896v1</link>
+  <guid>https://arxiv.org/abs/2602.05896v1</guid>
+  <pubDate>Thu, 05 Feb 2026 17:14:33 +0000</pubDate>
+  <description>arXiv cs.AI - The transformer architecture is almost a decade old. Despite that, we still have a limited understanding of what this architecture can or cannot compute. For instance, can a 1-layer transformer solve PARITY -- or more generally -- which kinds of transformers can do it? Known constructions for PARITY have at least 2 layers and employ impractical features: either a length-dependent positional encodi</description>
+</item>
+
+<item>
+  <title>Metric Hedonic Games on the Line</title>
+  <link>https://arxiv.org/abs/2602.05888v1</link>
+  <guid>https://arxiv.org/abs/2602.05888v1</guid>
+  <pubDate>Thu, 05 Feb 2026 17:05:08 +0000</pubDate>
+  <description>arXiv cs.AI - Hedonic games are fundamental models for investigating the formation of coalitions among a set of strategic agents, where every agent has a certain utility for every possible coalition of agents it can be part of. To avoid the intractability of defining exponentially many utilities for all possible coalitions, many variants with succinct representations of the agents&apos; utility functions have been d</description>
 </item>
 
 <item>
@@ -277,142 +413,6 @@
   <guid>https://arxiv.org/abs/2602.02488v1</guid>
   <pubDate>Mon, 02 Feb 2026 18:59:04 +0000</pubDate>
   <description>arXiv cs.LG - We propose RLAnything, a reinforcement learning framework that dynamically forges environment, policy, and reward models through closed-loop optimization, amplifying learning signals and strengthening the overall RL system for any LLM or agentic scenarios. Specifically, the policy is trained with integrated feedback from step-wise and outcome signals, while the reward model is jointly optimized vi</description>
-</item>
-
-<item>
-  <title>RE-TRAC: REcursive TRAjectory Compression for Deep Search Agents</title>
-  <link>https://arxiv.org/abs/2602.02486v1</link>
-  <guid>https://arxiv.org/abs/2602.02486v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:58:07 +0000</pubDate>
-  <description>arXiv cs.AI - LLM-based deep research agents are largely built on the ReAct framework. This linear design makes it difficult to revisit earlier states, branch into alternative search directions, or maintain global awareness under long contexts, often leading to local optima, redundant exploration, and inefficient search. We propose Re-TRAC, an agentic framework that performs cross-trajectory exploration by gene</description>
-</item>
-
-<item>
-  <title>Expanding the Capabilities of Reinforcement Learning via Text Feedback</title>
-  <link>https://arxiv.org/abs/2602.02482v1</link>
-  <guid>https://arxiv.org/abs/2602.02482v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:56:56 +0000</pubDate>
-  <description>arXiv cs.LG - The success of RL for LLM post-training stems from an unreasonably uninformative source: a single bit of information per rollout as binary reward or preference label. At the other extreme, distillation offers dense supervision but requires demonstrations, which are costly and difficult to scale. We study text feedback as an intermediate signal: richer than scalar rewards, yet cheaper than complete</description>
-</item>
-
-<item>
-  <title>AgentRx: Diagnosing AI Agent Failures from Execution Trajectories</title>
-  <link>https://arxiv.org/abs/2602.02475v1</link>
-  <guid>https://arxiv.org/abs/2602.02475v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:54:07 +0000</pubDate>
-  <description>arXiv cs.AI - AI agents often fail in ways that are difficult to localize because executions are probabilistic, long-horizon, multi-agent, and mediated by noisy tool outputs. We address this gap by manually annotating failed agent runs and release a novel benchmark of 115 failed trajectories spanning structured API workflows, incident management, and open-ended web/file tasks. Each trajectory is annotated with </description>
-</item>
-
-<item>
-  <title>MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents</title>
-  <link>https://arxiv.org/abs/2602.02474v1</link>
-  <guid>https://arxiv.org/abs/2602.02474v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:53:28 +0000</pubDate>
-  <description>arXiv cs.AI - Most Large Language Model (LLM) agent memory systems rely on a small set of static, hand-designed operations for extracting memory. These fixed procedures hard-code human priors about what to store and how to revise memory, making them rigid under diverse interaction patterns and inefficient on long histories. To this end, we present \textbf{MemSkill}, which reframes these operations as learnable </description>
-</item>
-
-<item>
-  <title>MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents</title>
-  <link>https://arxiv.org/abs/2602.02474v1</link>
-  <guid>https://arxiv.org/abs/2602.02474v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:53:28 +0000</pubDate>
-  <description>arXiv cs.LG - Most Large Language Model (LLM) agent memory systems rely on a small set of static, hand-designed operations for extracting memory. These fixed procedures hard-code human priors about what to store and how to revise memory, making them rigid under diverse interaction patterns and inefficient on long histories. To this end, we present \textbf{MemSkill}, which reframes these operations as learnable </description>
-</item>
-
-<item>
-  <title>Multi-head automated segmentation by incorporating detection head into the contextual layer neural network</title>
-  <link>https://arxiv.org/abs/2602.02471v1</link>
-  <guid>https://arxiv.org/abs/2602.02471v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:51:25 +0000</pubDate>
-  <description>arXiv cs.AI - Deep learning based auto segmentation is increasingly used in radiotherapy, but conventional models often produce anatomically implausible false positives, or hallucinations, in slices lacking target structures. We propose a gated multi-head Transformer architecture based on Swin U-Net, augmented with inter-slice context integration and a parallel detection head, which jointly performs slice-level</description>
-</item>
-
-<item>
-  <title>Avenir-Web: Human-Experience-Imitating Multimodal Web Agents with Mixture of Grounding Experts</title>
-  <link>https://arxiv.org/abs/2602.02468v1</link>
-  <guid>https://arxiv.org/abs/2602.02468v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:50:07 +0000</pubDate>
-  <description>arXiv cs.AI - Despite advances in multimodal large language models, autonomous web agents still struggle to reliably execute long-horizon tasks on complex and dynamic web interfaces. Existing agents often suffer from inaccurate element grounding, the absence of site-specific procedural knowledge, and unstable long-term task tracking and memory, particularly when operating over complex Document Object Model stru</description>
-</item>
-
-<item>
-  <title>Drift-Bench: Diagnosing Cooperative Breakdowns in LLM Agents under Input Faults via Multi-Turn Interaction</title>
-  <link>https://arxiv.org/abs/2602.02455v1</link>
-  <guid>https://arxiv.org/abs/2602.02455v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:46:16 +0000</pubDate>
-  <description>arXiv cs.AI - As Large Language Models transition to autonomous agents, user inputs frequently violate cooperative assumptions (e.g., implicit intent, missing parameters, false presuppositions, or ambiguous expressions), creating execution risks that text-only evaluations do not capture. Existing benchmarks typically assume well-specified instructions or restrict evaluation to text-only, single-turn clarificati</description>
-</item>
-
-<item>
-  <title>Energy-Efficient Neuromorphic Computing for Edge AI: A Framework with Adaptive Spiking Neural Networks and Hardware-Aware Optimization</title>
-  <link>https://arxiv.org/abs/2602.02439v1</link>
-  <guid>https://arxiv.org/abs/2602.02439v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:34:48 +0000</pubDate>
-  <description>arXiv cs.LG - Edge AI applications increasingly require ultra-low-power, low-latency inference. Neuromorphic computing based on event-driven spiking neural networks (SNNs) offers an attractive path, but practical deployment on resource-constrained devices is limited by training difficulty, hardware-mapping overheads, and sensitivity to temporal dynamics. We present NeuEdge, a framework that combines adaptive SN</description>
-</item>
-
-<item>
-  <title>UniReason 1.0: A Unified Reasoning Framework for World Knowledge Aligned Image Generation and Editing</title>
-  <link>https://arxiv.org/abs/2602.02437v1</link>
-  <guid>https://arxiv.org/abs/2602.02437v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:34:35 +0000</pubDate>
-  <description>arXiv cs.AI - Unified multimodal models often struggle with complex synthesis tasks that demand deep reasoning, and typically treat text-to-image generation and image editing as isolated capabilities rather than interconnected reasoning steps. To address this, we propose UniReason, a unified framework that harmonizes these two tasks through a dual reasoning paradigm. We formulate generation as world knowledge-e</description>
-</item>
-
-<item>
-  <title>David vs. Goliath: Verifiable Agent-to-Agent Jailbreaking via Reinforcement Learning</title>
-  <link>https://arxiv.org/abs/2602.02395v1</link>
-  <guid>https://arxiv.org/abs/2602.02395v1</guid>
-  <pubDate>Mon, 02 Feb 2026 17:56:55 +0000</pubDate>
-  <description>arXiv cs.AI - The evolution of large language models into autonomous agents introduces adversarial failures that exploit legitimate tool privileges, transforming safety evaluation in tool-augmented environments from a subjective NLP task into an objective control problem. We formalize this threat model as Tag-Along Attacks: a scenario where a tool-less adversary &quot;tags along&quot; on the trusted privileges of a safet</description>
-</item>
-
-<item>
-  <title>End-to-end Optimization of Belief and Policy Learning in Shared Autonomy Paradigms</title>
-  <link>https://arxiv.org/abs/2601.23285v1</link>
-  <guid>https://arxiv.org/abs/2601.23285v1</guid>
-  <pubDate>Fri, 30 Jan 2026 18:59:16 +0000</pubDate>
-  <description>arXiv cs.AI - Shared autonomy systems require principled methods for inferring user intent and determining appropriate assistance levels. This is a central challenge in human-robot interaction, where systems must be successful while being mindful of user agency. Previous approaches relied on static blending ratios or separated goal inference from assistance arbitration, leading to suboptimal performance in unst</description>
-</item>
-
-<item>
-  <title>End-to-end Optimization of Belief and Policy Learning in Shared Autonomy Paradigms</title>
-  <link>https://arxiv.org/abs/2601.23285v1</link>
-  <guid>https://arxiv.org/abs/2601.23285v1</guid>
-  <pubDate>Fri, 30 Jan 2026 18:59:16 +0000</pubDate>
-  <description>arXiv cs.LG - Shared autonomy systems require principled methods for inferring user intent and determining appropriate assistance levels. This is a central challenge in human-robot interaction, where systems must be successful while being mindful of user agency. Previous approaches relied on static blending ratios or separated goal inference from assistance arbitration, leading to suboptimal performance in unst</description>
-</item>
-
-<item>
-  <title>FOCUS: DLLMs Know How to Tame Their Compute Bound</title>
-  <link>https://arxiv.org/abs/2601.23278v1</link>
-  <guid>https://arxiv.org/abs/2601.23278v1</guid>
-  <pubDate>Fri, 30 Jan 2026 18:52:06 +0000</pubDate>
-  <description>arXiv cs.LG - Diffusion Large Language Models (DLLMs) offer a compelling alternative to Auto-Regressive models, but their deployment is constrained by high decoding cost. In this work, we identify a key inefficiency in DLLM decoding: while computation is parallelized over token blocks, only a small subset of tokens is decodable at each diffusion step, causing most compute to be wasted on non-decodable tokens. W</description>
-</item>
-
-<item>
-  <title>Denoising the Deep Sky: Physics-Based CCD Noise Formation for Astronomical Imaging</title>
-  <link>https://arxiv.org/abs/2601.23276v1</link>
-  <guid>https://arxiv.org/abs/2601.23276v1</guid>
-  <pubDate>Fri, 30 Jan 2026 18:47:54 +0000</pubDate>
-  <description>arXiv cs.LG - Astronomical imaging remains noise-limited under practical observing constraints, while standard calibration pipelines mainly remove structured artifacts and leave stochastic noise largely unresolved. Learning-based denoising is promising, yet progress is hindered by scarce paired training data and the need for physically interpretable and reproducible models in scientific workflows. We propose a </description>
-</item>
-
-<item>
-  <title>IRL-DAL: Safe and Adaptive Trajectory Planning for Autonomous Driving via Energy-Guided Diffusion Models</title>
-  <link>https://arxiv.org/abs/2601.23266v1</link>
-  <guid>https://arxiv.org/abs/2601.23266v1</guid>
-  <pubDate>Fri, 30 Jan 2026 18:34:10 +0000</pubDate>
-  <description>arXiv cs.AI - This paper proposes a novel inverse reinforcement learning framework using a diffusion-based adaptive lookahead planner (IRL-DAL) for autonomous vehicles. Training begins with imitation from an expert finite state machine (FSM) controller to provide a stable initialization. Environment terms are combined with an IRL discriminator signal to align with expert goals. Reinforcement learning (RL) is th</description>
-</item>
-
-<item>
-  <title>Now You Hear Me: Audio Narrative Attacks Against Large Audio-Language Models</title>
-  <link>https://arxiv.org/abs/2601.23255v1</link>
-  <guid>https://arxiv.org/abs/2601.23255v1</guid>
-  <pubDate>Fri, 30 Jan 2026 18:23:02 +0000</pubDate>
-  <description>arXiv cs.AI - Large audio-language models increasingly operate on raw speech inputs, enabling more seamless integration across domains such as voice assistants, education, and clinical triage. This transition, however, introduces a distinct class of vulnerabilities that remain largely uncharacterized. We examine the security implications of this modality shift by designing a text-to-audio jailbreak that embeds </description>
 </item>
 
 </channel>
