@@ -4,15 +4,127 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Sun, 08 Feb 2026 18:23:54 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 09 Feb 2026 06:55:07 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Sun, 08 Feb 2026 18:23:54 +0000</pubDate>
-  <description>Multi-agent systems built from prompted large language models can improve multi-round reasoning, yet most existing pipelines rely on fixed, trajectory-wide communication patterns that are poorly matched to the stage-dependent needs of iterative problem solving. We introduce DyTopo, a manager-guided multi-agent framework that reconstructs a sparse directed communication graph at each round. Conditioned on the manager&apos;s round goal, each agent outputs lightweight natural-language query (need) and \key (offer) descriptors; DyTopo embeds these descriptors and performs semantic matching, routing private messages only along the induced edges. Across code generation and mathematical reasoning benchmarks and four LLM backbones, DyTopo consistently outperforms over the strongest baseline (avg.…</description>
+  <pubDate>Mon, 09 Feb 2026 06:55:07 +0000</pubDate>
+  <description>Addressing class imbalance is a central challenge in credit card fraud detection, as it directly impacts predictive reliability in real-world financial systems. To overcome this, the study proposes an enhanced workflow based on the Explainable Boosting Machine (EBM)-a transparent, state-of-the-art implementation of the GA2M algorithm-optimized through systematic hyperparameter tuning, feature selection, and preprocessing refinement. Rather than relying on conventional sampling techniques that may introduce bias or cause information loss, the optimized EBM achieves an effective balance between accuracy and interpretability, enabling precise detection of fraudulent transactions while providing actionable insights into feature importance and interaction effects. Furthermore, the Taguchi…</description>
+</item>
+
+<item>
+  <title>Improving Credit Card Fraud Detection with an Optimized Explainable Boosting Machine</title>
+  <link>https://arxiv.org/abs/2602.06955v1</link>
+  <guid>https://arxiv.org/abs/2602.06955v1</guid>
+  <pubDate>Fri, 06 Feb 2026 18:56:17 +0000</pubDate>
+  <description>arXiv cs.LG - Addressing class imbalance is a central challenge in credit card fraud detection, as it directly impacts predictive reliability in real-world financial systems. To overcome this, the study proposes an enhanced workflow based on the Explainable Boosting Machine (EBM)-a transparent, state-of-the-art implementation of the GA2M algorithm-optimized through systematic hyperparameter tuning, feature sele</description>
+</item>
+
+<item>
+  <title>DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos</title>
+  <link>https://arxiv.org/abs/2602.06949v1</link>
+  <guid>https://arxiv.org/abs/2602.06949v1</guid>
+  <pubDate>Fri, 06 Feb 2026 18:49:43 +0000</pubDate>
+  <description>arXiv cs.AI - Being able to simulate the outcomes of actions in varied environments will revolutionize the development of generalist agents at scale. However, modeling these world dynamics, especially for dexterous robotics tasks, poses significant challenges due to limited data coverage and scarce action labels. As an endeavor towards this end, we introduce DreamDojo, a foundation world model that learns diver</description>
+</item>
+
+<item>
+  <title>DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos</title>
+  <link>https://arxiv.org/abs/2602.06949v1</link>
+  <guid>https://arxiv.org/abs/2602.06949v1</guid>
+  <pubDate>Fri, 06 Feb 2026 18:49:43 +0000</pubDate>
+  <description>arXiv cs.LG - Being able to simulate the outcomes of actions in varied environments will revolutionize the development of generalist agents at scale. However, modeling these world dynamics, especially for dexterous robotics tasks, poses significant challenges due to limited data coverage and scarce action labels. As an endeavor towards this end, we introduce DreamDojo, a foundation world model that learns diver</description>
+</item>
+
+<item>
+  <title>Agentic Uncertainty Reveals Agentic Overconfidence</title>
+  <link>https://arxiv.org/abs/2602.06948v1</link>
+  <guid>https://arxiv.org/abs/2602.06948v1</guid>
+  <pubDate>Fri, 06 Feb 2026 18:49:35 +0000</pubDate>
+  <description>arXiv cs.AI - Can AI agents predict whether they will succeed at a task? We study agentic uncertainty by eliciting success probability estimates before, during, and after task execution. All results exhibit agentic overconfidence: some agents that succeed only 22% of the time predict 77% success. Counterintuitively, pre-execution assessment with strictly less information tends to yield better discrimination tha</description>
+</item>
+
+<item>
+  <title>Agentic Uncertainty Reveals Agentic Overconfidence</title>
+  <link>https://arxiv.org/abs/2602.06948v1</link>
+  <guid>https://arxiv.org/abs/2602.06948v1</guid>
+  <pubDate>Fri, 06 Feb 2026 18:49:35 +0000</pubDate>
+  <description>arXiv cs.LG - Can AI agents predict whether they will succeed at a task? We study agentic uncertainty by eliciting success probability estimates before, during, and after task execution. All results exhibit agentic overconfidence: some agents that succeed only 22% of the time predict 77% success. Counterintuitively, pre-execution assessment with strictly less information tends to yield better discrimination tha</description>
+</item>
+
+<item>
+  <title>Reciprocal Latent Fields for Precomputed Sound Propagation</title>
+  <link>https://arxiv.org/abs/2602.06937v1</link>
+  <guid>https://arxiv.org/abs/2602.06937v1</guid>
+  <pubDate>Fri, 06 Feb 2026 18:31:11 +0000</pubDate>
+  <description>arXiv cs.LG - Realistic sound propagation is essential for immersion in a virtual scene, yet physically accurate wave-based simulations remain computationally prohibitive for real-time applications. Wave coding methods address this limitation by precomputing and compressing impulse responses of a given scene into a set of scalar acoustic parameters, which can reach unmanageable sizes in large environments with </description>
+</item>
+
+<item>
+  <title>Implementing Grassroots Logic Programs with Multiagent Transition Systems and AI</title>
+  <link>https://arxiv.org/abs/2602.06934v1</link>
+  <guid>https://arxiv.org/abs/2602.06934v1</guid>
+  <pubDate>Fri, 06 Feb 2026 18:30:11 +0000</pubDate>
+  <description>arXiv cs.AI - Grassroots Logic Programs (GLP) is a concurrent logic programming language with variables partitioned into paired \emph{readers} and \emph{writers}, conjuring both linear logic and futures/promises: an assignment is produced at most once via the sole occurrence of a writer (promise) and consumed at most once via the sole occurrence of its paired reader (future), and may contain additional readers </description>
+</item>
+
+<item>
+  <title>When RL Meets Adaptive Speculative Training: A Unified Training-Serving System</title>
+  <link>https://arxiv.org/abs/2602.06932v1</link>
+  <guid>https://arxiv.org/abs/2602.06932v1</guid>
+  <pubDate>Fri, 06 Feb 2026 18:28:54 +0000</pubDate>
+  <description>arXiv cs.LG - Speculative decoding can significantly accelerate LLM serving, yet most deployments today disentangle speculator training from serving, treating speculator training as a standalone offline modeling problem. We show that this decoupled formulation introduces substantial deployment and adaptation lag: (1) high time-to-serve, since a speculator must be trained offline for a considerable period before</description>
+</item>
+
+<item>
+  <title>From Kepler to Newton: Inductive Biases Guide Learned World Models in Transformers</title>
+  <link>https://arxiv.org/abs/2602.06923v1</link>
+  <guid>https://arxiv.org/abs/2602.06923v1</guid>
+  <pubDate>Fri, 06 Feb 2026 18:17:37 +0000</pubDate>
+  <description>arXiv cs.AI - Can general-purpose AI architectures go beyond prediction to discover the physical laws governing the universe? True intelligence relies on &quot;world models&quot; -- causal abstractions that allow an agent to not only predict future states but understand the underlying governing dynamics. While previous &quot;AI Physicist&quot; approaches have successfully recovered such laws, they typically rely on strong, domain-</description>
+</item>
+
+<item>
+  <title>From Kepler to Newton: Inductive Biases Guide Learned World Models in Transformers</title>
+  <link>https://arxiv.org/abs/2602.06923v1</link>
+  <guid>https://arxiv.org/abs/2602.06923v1</guid>
+  <pubDate>Fri, 06 Feb 2026 18:17:37 +0000</pubDate>
+  <description>arXiv cs.LG - Can general-purpose AI architectures go beyond prediction to discover the physical laws governing the universe? True intelligence relies on &quot;world models&quot; -- causal abstractions that allow an agent to not only predict future states but understand the underlying governing dynamics. While previous &quot;AI Physicist&quot; approaches have successfully recovered such laws, they typically rely on strong, domain-</description>
+</item>
+
+<item>
+  <title>TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging of LLM-Generated Code</title>
+  <link>https://arxiv.org/abs/2602.06875v1</link>
+  <guid>https://arxiv.org/abs/2602.06875v1</guid>
+  <pubDate>Fri, 06 Feb 2026 16:59:48 +0000</pubDate>
+  <description>arXiv cs.AI - Large Language Models (LLMs) often generate code with subtle but critical bugs, especially for complex tasks. Existing automated repair methods typically rely on superficial pass/fail signals, offering limited visibility into program behavior and hindering precise error localization. In addition, without a way to learn from prior failures, repair processes often fall into repetitive and inefficien</description>
+</item>
+
+<item>
+  <title>AIRS-Bench: a Suite of Tasks for Frontier AI Research Science Agents</title>
+  <link>https://arxiv.org/abs/2602.06855v1</link>
+  <guid>https://arxiv.org/abs/2602.06855v1</guid>
+  <pubDate>Fri, 06 Feb 2026 16:45:02 +0000</pubDate>
+  <description>arXiv cs.AI - LLM agents hold significant promise for advancing scientific research. To accelerate this progress, we introduce AIRS-Bench (the AI Research Science Benchmark), a suite of 20 tasks sourced from state-of-the-art machine learning papers. These tasks span diverse domains, including language modeling, mathematics, bioinformatics, and time series forecasting. AIRS-Bench tasks assess agentic capabilitie</description>
+</item>
+
+<item>
+  <title>From Features to Actions: Explainability in Traditional and Agentic AI Systems</title>
+  <link>https://arxiv.org/abs/2602.06841v1</link>
+  <guid>https://arxiv.org/abs/2602.06841v1</guid>
+  <pubDate>Fri, 06 Feb 2026 16:34:29 +0000</pubDate>
+  <description>arXiv cs.AI - Over the last decade, explainable AI has primarily focused on interpreting individual model predictions, producing post-hoc explanations that relate inputs to outputs under a fixed decision structure. Recent advances in large language models (LLMs) have enabled agentic AI systems whose behaviour unfolds over multi-step trajectories. In these settings, success and failure are determined by sequence</description>
+</item>
+
+<item>
+  <title>LLM Active Alignment: A Nash Equilibrium Perspective</title>
+  <link>https://arxiv.org/abs/2602.06836v1</link>
+  <guid>https://arxiv.org/abs/2602.06836v1</guid>
+  <pubDate>Fri, 06 Feb 2026 16:26:03 +0000</pubDate>
+  <description>arXiv cs.AI - We develop a game-theoretic framework for predicting and steering the behavior of populations of large language models (LLMs) through Nash equilibrium (NE) analysis. To avoid the intractability of equilibrium computation in open-ended text spaces, we model each agent&apos;s action as a mixture over human subpopulations. Agents choose actively and strategically which groups to align with, yielding an in</description>
 </item>
 
 <item>
@@ -301,118 +413,6 @@
   <guid>https://arxiv.org/abs/2602.03816v1</guid>
   <pubDate>Tue, 03 Feb 2026 18:18:30 +0000</pubDate>
   <description>arXiv cs.LG - We propose SymPlex, a reinforcement learning framework for discovering analytical symbolic solutions to partial differential equations (PDEs) without access to ground-truth expressions. SymPlex formulates symbolic PDE solving as tree-structured decision-making and optimizes candidate solutions using only the PDE and its boundary conditions. At its core is SymFormer, a structure-aware Transformer t</description>
-</item>
-
-<item>
-  <title>Understanding Agent Scaling in LLM-Based Multi-Agent Systems via Diversity</title>
-  <link>https://arxiv.org/abs/2602.03794v1</link>
-  <guid>https://arxiv.org/abs/2602.03794v1</guid>
-  <pubDate>Tue, 03 Feb 2026 17:58:10 +0000</pubDate>
-  <description>arXiv cs.AI - LLM-based multi-agent systems (MAS) have emerged as a promising approach to tackle complex tasks that are difficult for individual LLMs. A natural strategy is to scale performance by increasing the number of agents; however, we find that such scaling exhibits strong diminishing returns in homogeneous settings, while introducing heterogeneity (e.g., different models, prompts, or tools) continues to</description>
-</item>
-
-<item>
-  <title>Understanding Agent Scaling in LLM-Based Multi-Agent Systems via Diversity</title>
-  <link>https://arxiv.org/abs/2602.03794v1</link>
-  <guid>https://arxiv.org/abs/2602.03794v1</guid>
-  <pubDate>Tue, 03 Feb 2026 17:58:10 +0000</pubDate>
-  <description>arXiv cs.LG - LLM-based multi-agent systems (MAS) have emerged as a promising approach to tackle complex tasks that are difficult for individual LLMs. A natural strategy is to scale performance by increasing the number of agents; however, we find that such scaling exhibits strong diminishing returns in homogeneous settings, while introducing heterogeneity (e.g., different models, prompts, or tools) continues to</description>
-</item>
-
-<item>
-  <title>WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents</title>
-  <link>https://arxiv.org/abs/2602.03792v1</link>
-  <guid>https://arxiv.org/abs/2602.03792v1</guid>
-  <pubDate>Tue, 03 Feb 2026 17:55:04 +0000</pubDate>
-  <description>arXiv cs.AI - Prompt injection attacks manipulate webpage content to cause web agents to execute attacker-specified tasks instead of the user&apos;s intended ones. Existing methods for detecting and localizing such attacks achieve limited effectiveness, as their underlying assumptions often do not hold in the web-agent setting. In this work, we propose WebSentinel, a two-step approach for detecting and localizing pr</description>
-</item>
-
-<item>
-  <title>AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration</title>
-  <link>https://arxiv.org/abs/2602.03786v1</link>
-  <guid>https://arxiv.org/abs/2602.03786v1</guid>
-  <pubDate>Tue, 03 Feb 2026 17:46:16 +0000</pubDate>
-  <description>arXiv cs.AI - Language agents have shown strong promise for task automation. Realizing this promise for increasingly complex, long-horizon tasks has driven the rise of a sub-agent-as-tools paradigm for multi-turn task solving. However, existing designs still lack a dynamic abstraction view of sub-agents, thereby hurting adaptability. We address this challenge with a unified, framework-agnostic agent abstraction</description>
-</item>
-
-<item>
-  <title>Efficient Estimation of Kernel Surrogate Models for Task Attribution</title>
-  <link>https://arxiv.org/abs/2602.03783v1</link>
-  <guid>https://arxiv.org/abs/2602.03783v1</guid>
-  <pubDate>Tue, 03 Feb 2026 17:43:48 +0000</pubDate>
-  <description>arXiv cs.AI - Modern AI agents such as large language models are trained on diverse tasks -- translation, code generation, mathematical reasoning, and text prediction -- simultaneously. A key question is to quantify how each individual training task influences performance on a target task, a problem we refer to as task attribution. The direct approach, leave-one-out retraining, measures the effect of removing e</description>
-</item>
-
-<item>
-  <title>Efficient Estimation of Kernel Surrogate Models for Task Attribution</title>
-  <link>https://arxiv.org/abs/2602.03783v1</link>
-  <guid>https://arxiv.org/abs/2602.03783v1</guid>
-  <pubDate>Tue, 03 Feb 2026 17:43:48 +0000</pubDate>
-  <description>arXiv cs.LG - Modern AI agents such as large language models are trained on diverse tasks -- translation, code generation, mathematical reasoning, and text prediction -- simultaneously. A key question is to quantify how each individual training task influences performance on a target task, a problem we refer to as task attribution. The direct approach, leave-one-out retraining, measures the effect of removing e</description>
-</item>
-
-<item>
-  <title>DiffLOB: Diffusion Models for Counterfactual Generation in Limit Order Books</title>
-  <link>https://arxiv.org/abs/2602.03776v1</link>
-  <guid>https://arxiv.org/abs/2602.03776v1</guid>
-  <pubDate>Tue, 03 Feb 2026 17:34:56 +0000</pubDate>
-  <description>arXiv cs.AI - Modern generative models for limit order books (LOBs) can reproduce realistic market dynamics, but remain fundamentally passive: they either model what typically happens without accounting for hypothetical future market conditions, or they require interaction with another agent to explore alternative outcomes. This limits their usefulness for stress testing, scenario analysis, and decision-making.</description>
-</item>
-
-<item>
-  <title>An Empirical Study of Collective Behaviors and Social Dynamics in Large Language Model Agents</title>
-  <link>https://arxiv.org/abs/2602.03775v1</link>
-  <guid>https://arxiv.org/abs/2602.03775v1</guid>
-  <pubDate>Tue, 03 Feb 2026 17:34:32 +0000</pubDate>
-  <description>arXiv cs.AI - Large Language Models (LLMs) increasingly mediate our social, cultural, and political interactions. While they can simulate some aspects of human behavior and decision-making, it is still underexplored whether repeated interactions with other agents amplify their biases or lead to exclusionary behaviors. To this end, we study Chirper.ai-an LLM-driven social media platform-analyzing 7M posts and in</description>
-</item>
-
-<item>
-  <title>Reasoning Cache: Continual Improvement Over Long Horizons via Short-Horizon RL</title>
-  <link>https://arxiv.org/abs/2602.03773v1</link>
-  <guid>https://arxiv.org/abs/2602.03773v1</guid>
-  <pubDate>Tue, 03 Feb 2026 17:34:04 +0000</pubDate>
-  <description>arXiv cs.LG - Large Language Models (LLMs) that can continually improve beyond their training budgets are able to solve increasingly difficult problems by adapting at test time, a property we refer to as extrapolation. However, standard reinforcement learning (RL) operates over fixed problem distributions and training budgets, which limits extrapolation amidst distribution shift at test time. To address this, w</description>
-</item>
-
-<item>
-  <title>Zero-shot large vision-language model prompting for automated bone identification in paleoradiology x-ray archives</title>
-  <link>https://arxiv.org/abs/2602.03750v1</link>
-  <guid>https://arxiv.org/abs/2602.03750v1</guid>
-  <pubDate>Tue, 03 Feb 2026 17:14:23 +0000</pubDate>
-  <description>arXiv cs.AI - Paleoradiology, the use of modern imaging technologies to study archaeological and anthropological remains, offers new windows on millennial scale patterns of human health. Unfortunately, the radiographs collected during field campaigns are heterogeneous: bones are disarticulated, positioning is ad hoc, and laterality markers are often absent. Additionally, factors such as age at death, age of bon</description>
-</item>
-
-<item>
-  <title>Cognitively Diverse Multiple-Choice Question Generation: A Hybrid Multi-Agent Framework with Large Language Models</title>
-  <link>https://arxiv.org/abs/2602.03704v1</link>
-  <guid>https://arxiv.org/abs/2602.03704v1</guid>
-  <pubDate>Tue, 03 Feb 2026 16:26:47 +0000</pubDate>
-  <description>arXiv cs.AI - Recent advances in large language models (LLMs) have made automated multiple-choice question (MCQ) generation increasingly feasible; however, reliably producing items that satisfy controlled cognitive demands remains a challenge. To address this gap, we introduce ReQUESTA, a hybrid, multi-agent framework for generating cognitively diverse MCQs that systematically target text-based, inferential, an</description>
-</item>
-
-<item>
-  <title>Agent Primitives: Reusable Latent Building Blocks for Multi-Agent Systems</title>
-  <link>https://arxiv.org/abs/2602.03695v1</link>
-  <guid>https://arxiv.org/abs/2602.03695v1</guid>
-  <pubDate>Tue, 03 Feb 2026 16:17:53 +0000</pubDate>
-  <description>arXiv cs.AI - While existing multi-agent systems (MAS) can handle complex problems by enabling collaboration among multiple agents, they are often highly task-specific, relying on manually crafted agent roles and interaction prompts, which leads to increased architectural complexity and limited reusability across tasks. Moreover, most MAS communicate primarily through natural language, making them vulnerable to</description>
-</item>
-
-<item>
-  <title>MEG-XL: Data-Efficient Brain-to-Text via Long-Context Pre-Training</title>
-  <link>https://arxiv.org/abs/2602.02494v1</link>
-  <guid>https://arxiv.org/abs/2602.02494v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:59:50 +0000</pubDate>
-  <description>arXiv cs.LG - Clinical brain-to-text interfaces are designed for paralysed patients who cannot provide extensive training recordings. Pre-training improves data-efficient generalisation by learning statistical priors across subjects, but these priors critically depend on context. While natural speech might unfold gradually over minutes, most methods pre-train with only a few seconds of context. Thus, we propose</description>
-</item>
-
-<item>
-  <title>RLAnything: Forge Environment, Policy, and Reward Model in Completely Dynamic RL System</title>
-  <link>https://arxiv.org/abs/2602.02488v1</link>
-  <guid>https://arxiv.org/abs/2602.02488v1</guid>
-  <pubDate>Mon, 02 Feb 2026 18:59:04 +0000</pubDate>
-  <description>arXiv cs.LG - We propose RLAnything, a reinforcement learning framework that dynamically forges environment, policy, and reward models through closed-loop optimization, amplifying learning signals and strengthening the overall RL system for any LLM or agentic scenarios. Specifically, the policy is trained with integrated feedback from step-wise and outcome signals, while the reward model is jointly optimized vi</description>
 </item>
 
 </channel>
