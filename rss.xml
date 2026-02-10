@@ -4,15 +4,151 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Mon, 09 Feb 2026 18:44:54 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 10 Feb 2026 06:55:24 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Mon, 09 Feb 2026 18:44:54 +0000</pubDate>
-  <description>Addressing class imbalance is a central challenge in credit card fraud detection, as it directly impacts predictive reliability in real-world financial systems. To overcome this, the study proposes an enhanced workflow based on the Explainable Boosting Machine (EBM)-a transparent, state-of-the-art implementation of the GA2M algorithm-optimized through systematic hyperparameter tuning, feature selection, and preprocessing refinement. Rather than relying on conventional sampling techniques that may introduce bias or cause information loss, the optimized EBM achieves an effective balance between accuracy and interpretability, enabling precise detection of fraudulent transactions while providing actionable insights into feature importance and interaction effects. Furthermore, the Taguchi…</description>
+  <pubDate>Tue, 10 Feb 2026 06:55:24 +0000</pubDate>
+  <description>Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$). Using closed loop control in VISTA, we benchmark FC, CNN, and ViT policies, train compact ViT heads on frozen foundation-model (FM) features, and vary ID support in scale, diversity, and temporal context. (1) ViT policies are markedly more OOD-robust than comparably sized CNN/FC, and FM features yield state-of-the-art success at a latency cost. (2) Naive temporal inputs (multi-frame) do not beat the best single-frame baseline. (3) The largest single factor drops are…</description>
+</item>
+
+<item>
+  <title>Robustness Is a Function, Not a Number: A Factorized Comprehensive Study of OOD Robustness in Vision-Based Driving</title>
+  <link>https://arxiv.org/abs/2602.09018v1</link>
+  <guid>https://arxiv.org/abs/2602.09018v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:59:03 +0000</pubDate>
+  <description>arXiv cs.AI - Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$). Using closed loop control in VISTA, we benchmark FC, CNN, and ViT polici</description>
+</item>
+
+<item>
+  <title>Robustness Is a Function, Not a Number: A Factorized Comprehensive Study of OOD Robustness in Vision-Based Driving</title>
+  <link>https://arxiv.org/abs/2602.09018v1</link>
+  <guid>https://arxiv.org/abs/2602.09018v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:59:03 +0000</pubDate>
+  <description>arXiv cs.LG - Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$). Using closed loop control in VISTA, we benchmark FC, CNN, and ViT polici</description>
+</item>
+
+<item>
+  <title>Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense</title>
+  <link>https://arxiv.org/abs/2602.09012v1</link>
+  <guid>https://arxiv.org/abs/2602.09012v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:55:33 +0000</pubDate>
+  <description>arXiv cs.AI - The rapid evolution of GUI-enabled agents has rendered traditional CAPTCHAs obsolete. While previous benchmarks like OpenCaptchaWorld established a baseline for evaluating multimodal agents, recent advancements in reasoning-heavy models, such as Gemini3-Pro-High and GPT-5.2-Xhigh have effectively collapsed this security barrier, achieving pass rates as high as 90% on complex logic puzzles like &quot;Bi</description>
+</item>
+
+<item>
+  <title>Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense</title>
+  <link>https://arxiv.org/abs/2602.09012v1</link>
+  <guid>https://arxiv.org/abs/2602.09012v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:55:33 +0000</pubDate>
+  <description>arXiv cs.LG - The rapid evolution of GUI-enabled agents has rendered traditional CAPTCHAs obsolete. While previous benchmarks like OpenCaptchaWorld established a baseline for evaluating multimodal agents, recent advancements in reasoning-heavy models, such as Gemini3-Pro-High and GPT-5.2-Xhigh have effectively collapsed this security barrier, achieving pass rates as high as 90% on complex logic puzzles like &quot;Bi</description>
+</item>
+
+<item>
+  <title>From Obstacles to Etiquette: Robot Social Navigation with VLM-Informed Path Selection</title>
+  <link>https://arxiv.org/abs/2602.09002v1</link>
+  <guid>https://arxiv.org/abs/2602.09002v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:46:12 +0000</pubDate>
+  <description>arXiv cs.AI - Navigating socially in human environments requires more than satisfying geometric constraints, as collision-free paths may still interfere with ongoing activities or conflict with social norms. Addressing this challenge calls for analyzing interactions between agents and incorporating common-sense reasoning into planning. This paper presents a social robot navigation framework that integrates geom</description>
+</item>
+
+<item>
+  <title>InternAgent-1.5: A Unified Agentic Framework for Long-Horizon Autonomous Scientific Discovery</title>
+  <link>https://arxiv.org/abs/2602.08990v1</link>
+  <guid>https://arxiv.org/abs/2602.08990v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:36:06 +0000</pubDate>
+  <description>arXiv cs.AI - We introduce InternAgent-1.5, a unified system designed for end-to-end scientific discovery across computational and empirical domains. The system is built on a structured architecture composed of three coordinated subsystems for generation, verification, and evolution. These subsystems are supported by foundational capabilities for deep research, solution optimization, and long horizon memory. Th</description>
+</item>
+
+<item>
+  <title>StretchTime: Adaptive Time Series Forecasting via Symplectic Attention</title>
+  <link>https://arxiv.org/abs/2602.08983v1</link>
+  <guid>https://arxiv.org/abs/2602.08983v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:29:25 +0000</pubDate>
+  <description>arXiv cs.AI - Transformer architectures have established strong baselines in time series forecasting, yet they typically rely on positional encodings that assume uniform, index-based temporal progression. However, real-world systems, from shifting financial cycles to elastic biological rhythms, frequently exhibit &quot;time-warped&quot; dynamics where the effective flow of time decouples from the sampling index. In this </description>
+</item>
+
+<item>
+  <title>StretchTime: Adaptive Time Series Forecasting via Symplectic Attention</title>
+  <link>https://arxiv.org/abs/2602.08983v1</link>
+  <guid>https://arxiv.org/abs/2602.08983v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:29:25 +0000</pubDate>
+  <description>arXiv cs.LG - Transformer architectures have established strong baselines in time series forecasting, yet they typically rely on positional encodings that assume uniform, index-based temporal progression. However, real-world systems, from shifting financial cycles to elastic biological rhythms, frequently exhibit &quot;time-warped&quot; dynamics where the effective flow of time decouples from the sampling index. In this </description>
+</item>
+
+<item>
+  <title>stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation</title>
+  <link>https://arxiv.org/abs/2602.08968v1</link>
+  <guid>https://arxiv.org/abs/2602.08968v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:04:22 +0000</pubDate>
+  <description>arXiv cs.AI - World Models have emerged as a powerful paradigm for learning compact, predictive representations of environment dynamics, enabling agents to reason, plan, and generalize beyond direct experience. Despite recent interest in World Models, most available implementations remain publication-specific, severely limiting their reusability, increasing the risk of bugs, and reducing evaluation standardizat</description>
+</item>
+
+<item>
+  <title>Learning to Coordinate via Quantum Entanglement in Multi-Agent Reinforcement Learning</title>
+  <link>https://arxiv.org/abs/2602.08965v1</link>
+  <guid>https://arxiv.org/abs/2602.08965v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:01:40 +0000</pubDate>
+  <description>arXiv cs.LG - The inability to communicate poses a major challenge to coordination in multi-agent reinforcement learning (MARL). Prior work has explored correlating local policies via shared randomness, sometimes in the form of a correlation device, as a mechanism to assist in decentralized decision-making. In contrast, this work introduces the first framework for training MARL agents to exploit shared quantum </description>
+</item>
+
+<item>
+  <title>A Behavioural and Representational Evaluation of Goal-Directedness in Language Model Agents</title>
+  <link>https://arxiv.org/abs/2602.08964v1</link>
+  <guid>https://arxiv.org/abs/2602.08964v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:00:28 +0000</pubDate>
+  <description>arXiv cs.AI - Understanding an agent&apos;s goals helps explain and predict its behaviour, yet there is no established methodology for reliably attributing goals to agentic systems. We propose a framework for evaluating goal-directedness that integrates behavioural evaluation with interpretability-based analyses of models&apos; internal representations. As a case study, we examine an LLM agent navigating a 2D grid world </description>
+</item>
+
+<item>
+  <title>A Behavioural and Representational Evaluation of Goal-Directedness in Language Model Agents</title>
+  <link>https://arxiv.org/abs/2602.08964v1</link>
+  <guid>https://arxiv.org/abs/2602.08964v1</guid>
+  <pubDate>Mon, 09 Feb 2026 18:00:28 +0000</pubDate>
+  <description>arXiv cs.LG - Understanding an agent&apos;s goals helps explain and predict its behaviour, yet there is no established methodology for reliably attributing goals to agentic systems. We propose a framework for evaluating goal-directedness that integrates behavioural evaluation with interpretability-based analyses of models&apos; internal representations. As a case study, we examine an LLM agent navigating a 2D grid world </description>
+</item>
+
+<item>
+  <title>Digital Twin and Agentic AI for Wild Fire Disaster Management: Intelligent Virtual Situation Room</title>
+  <link>https://arxiv.org/abs/2602.08949v1</link>
+  <guid>https://arxiv.org/abs/2602.08949v1</guid>
+  <pubDate>Mon, 09 Feb 2026 17:44:52 +0000</pubDate>
+  <description>arXiv cs.AI - According to the United Nations, wildfire frequency and intensity are projected to increase by approximately 14% by 2030 and 30% by 2050 due to global warming, posing critical threats to life, infrastructure, and ecosystems. Conventional disaster management frameworks rely on static simulations and passive data acquisition, hindering their ability to adapt to arbitrarily evolving wildfire episodes</description>
+</item>
+
+<item>
+  <title>CoRefine: Confidence-Guided Self-Refinement for Adaptive Test-Time Compute</title>
+  <link>https://arxiv.org/abs/2602.08948v1</link>
+  <guid>https://arxiv.org/abs/2602.08948v1</guid>
+  <pubDate>Mon, 09 Feb 2026 17:44:41 +0000</pubDate>
+  <description>arXiv cs.AI - Large Language Models (LLMs) often rely on test-time scaling via parallel decoding (for example, 512 samples) to boost reasoning accuracy, but this incurs substantial compute. We introduce CoRefine, a confidence-guided self-refinement method that achieves competitive accuracy using a fraction of the tokens via a lightweight 211k-parameter Conv1D controller atop a frozen LLM. The controller consume</description>
+</item>
+
+<item>
+  <title>pixelLOG: Logging of Online Gameplay for Cognitive Research</title>
+  <link>https://arxiv.org/abs/2602.08941v1</link>
+  <guid>https://arxiv.org/abs/2602.08941v1</guid>
+  <pubDate>Mon, 09 Feb 2026 17:38:55 +0000</pubDate>
+  <description>arXiv cs.AI - Traditional cognitive assessments often rely on isolated, output-focused measurements that may fail to capture the complexity of human cognition in naturalistic settings. We present pixelLOG, a high-performance data collection framework for Spigot-based Minecraft servers designed specifically for process-based cognitive research. Unlike existing frameworks tailored only for artificial intelligence</description>
+</item>
+
+<item>
+  <title>AMS-HD: Hyperdimensional Computing for Real-Time and Energy-Efficient Acute Mountain Sickness Detection</title>
+  <link>https://arxiv.org/abs/2602.08916v1</link>
+  <guid>https://arxiv.org/abs/2602.08916v1</guid>
+  <pubDate>Mon, 09 Feb 2026 17:16:13 +0000</pubDate>
+  <description>arXiv cs.LG - Altitude sickness is a potentially life-threatening condition that impacts many individuals traveling to elevated altitudes. Timely detection is critical as symptoms can escalate rapidly. Early recognition enables simple interventions such as descent, oxygen, or medication, and prompt treatment can save lives by significantly lowering the risk of severe complications. Although conventional machine</description>
+</item>
+
+<item>
+  <title>Gesturing Toward Abstraction: Multimodal Convention Formation in Collaborative Physical Tasks</title>
+  <link>https://arxiv.org/abs/2602.08914v1</link>
+  <guid>https://arxiv.org/abs/2602.08914v1</guid>
+  <pubDate>Mon, 09 Feb 2026 17:13:34 +0000</pubDate>
+  <description>arXiv cs.AI - A quintessential feature of human intelligence is the ability to create ad hoc conventions over time to achieve shared goals efficiently. We investigate how communication strategies evolve through repeated collaboration as people coordinate on shared procedural abstractions. To this end, we conducted an online unimodal study (n = 98) using natural language to probe abstraction hierarchies. In a fo</description>
 </item>
 
 <item>
@@ -277,142 +413,6 @@
   <guid>https://arxiv.org/abs/2602.04868v1</guid>
   <pubDate>Wed, 04 Feb 2026 18:54:26 +0000</pubDate>
   <description>arXiv cs.LG - Continual reinforcement learning (CRL) requires agents to learn from a sequence of tasks without forgetting previously acquired policies. In this work, we introduce a novel benchmark suite for CRL based on realistically simulated robots in the Gazebo simulator. Our Continual Robotic Simulation Suite (CRoSS) benchmarks rely on two robotic platforms: a two-wheeled differential-drive robot with lidar</description>
-</item>
-
-<item>
-  <title>El Agente Quntur: A research collaborator agent for quantum chemistry</title>
-  <link>https://arxiv.org/abs/2602.04850v1</link>
-  <guid>https://arxiv.org/abs/2602.04850v1</guid>
-  <pubDate>Wed, 04 Feb 2026 18:38:50 +0000</pubDate>
-  <description>arXiv cs.AI - Quantum chemistry is a foundational enabling tool for the fields of chemistry, materials science, computational biology and others. Despite of its power, the practical application of quantum chemistry simulations remains in the hands of qualified experts due to methodological complexity, software heterogeneity, and the need for informed interpretation of results. To bridge the accessibility gap fo</description>
-</item>
-
-<item>
-  <title>El Agente Estructural: An Artificially Intelligent Molecular Editor</title>
-  <link>https://arxiv.org/abs/2602.04849v1</link>
-  <guid>https://arxiv.org/abs/2602.04849v1</guid>
-  <pubDate>Wed, 04 Feb 2026 18:38:48 +0000</pubDate>
-  <description>arXiv cs.AI - We present El Agente Estructural, a multimodal, natural-language-driven geometry-generation and manipulation agent for autonomous chemistry and molecular modelling. Unlike molecular generation or editing via generative models, Estructural mimics how human experts directly manipulate molecular systems in three dimensions by integrating a comprehensive set of domain-informed tools and vision-languag</description>
-</item>
-
-<item>
-  <title>Fluid Representations in Reasoning Models</title>
-  <link>https://arxiv.org/abs/2602.04843v1</link>
-  <guid>https://arxiv.org/abs/2602.04843v1</guid>
-  <pubDate>Wed, 04 Feb 2026 18:34:50 +0000</pubDate>
-  <description>arXiv cs.AI - Reasoning language models, which generate long chains of thought, dramatically outperform non-reasoning language models on abstract problems. However, the internal model mechanisms that allow this superior performance remain poorly understood. We present a mechanistic analysis of how QwQ-32B - a model specifically trained to produce extensive reasoning traces - process abstract structural informat</description>
-</item>
-
-<item>
-  <title>Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing</title>
-  <link>https://arxiv.org/abs/2602.04837v1</link>
-  <guid>https://arxiv.org/abs/2602.04837v1</guid>
-  <pubDate>Wed, 04 Feb 2026 18:29:36 +0000</pubDate>
-  <description>arXiv cs.AI - Open-ended self-improving agents can autonomously modify their own structural designs to advance their capabilities and overcome the limits of pre-defined architectures, thus reducing reliance on human intervention. We introduce Group-Evolving Agents (GEA), a new paradigm for open-ended self-improvements, which treats a group of agents as the fundamental evolutionary unit, enabling explicit experi</description>
-</item>
-
-<item>
-  <title>Safe Urban Traffic Control via Uncertainty-Aware Conformal Prediction and World-Model Reinforcement Learning</title>
-  <link>https://arxiv.org/abs/2602.04821v1</link>
-  <guid>https://arxiv.org/abs/2602.04821v1</guid>
-  <pubDate>Wed, 04 Feb 2026 18:10:59 +0000</pubDate>
-  <description>arXiv cs.AI - Urban traffic management demands systems that simultaneously predict future conditions, detect anomalies, and take safe corrective actions -- all while providing reliability guarantees. We present STREAM-RL, a unified framework that introduces three novel algorithmic contributions: (1) PU-GAT+, an Uncertainty-Guided Adaptive Conformal Forecaster that uses prediction uncertainty to dynamically rewe</description>
-</item>
-
-<item>
-  <title>Safe Urban Traffic Control via Uncertainty-Aware Conformal Prediction and World-Model Reinforcement Learning</title>
-  <link>https://arxiv.org/abs/2602.04821v1</link>
-  <guid>https://arxiv.org/abs/2602.04821v1</guid>
-  <pubDate>Wed, 04 Feb 2026 18:10:59 +0000</pubDate>
-  <description>arXiv cs.LG - Urban traffic management demands systems that simultaneously predict future conditions, detect anomalies, and take safe corrective actions -- all while providing reliability guarantees. We present STREAM-RL, a unified framework that introduces three novel algorithmic contributions: (1) PU-GAT+, an Uncertainty-Guided Adaptive Conformal Forecaster that uses prediction uncertainty to dynamically rewe</description>
-</item>
-
-<item>
-  <title>Agentic AI in Healthcare &amp; Medicine: A Seven-Dimensional Taxonomy for Empirical Evaluation of LLM-based Agents</title>
-  <link>https://arxiv.org/abs/2602.04813v1</link>
-  <guid>https://arxiv.org/abs/2602.04813v1</guid>
-  <pubDate>Wed, 04 Feb 2026 17:59:14 +0000</pubDate>
-  <description>arXiv cs.AI - Large Language Model (LLM)-based agents that plan, use tools and act has begun to shape healthcare and medicine. Reported studies demonstrate competence on various tasks ranging from EHR analysis and differential diagnosis to treatment planning and research workflows. Yet the literature largely consists of overviews which are either broad surveys or narrow dives into a single capability (e.g., mem</description>
-</item>
-
-<item>
-  <title>SE-Bench: Benchmarking Self-Evolution with Knowledge Internalization</title>
-  <link>https://arxiv.org/abs/2602.04811v1</link>
-  <guid>https://arxiv.org/abs/2602.04811v1</guid>
-  <pubDate>Wed, 04 Feb 2026 17:58:32 +0000</pubDate>
-  <description>arXiv cs.AI - True self-evolution requires agents to act as lifelong learners that internalize novel experiences to solve future problems. However, rigorously measuring this foundational capability is hindered by two obstacles: the entanglement of prior knowledge, where ``new&apos;&apos; knowledge may appear in pre-training data, and the entanglement of reasoning complexity, where failures may stem from problem difficult</description>
-</item>
-
-<item>
-  <title>SE-Bench: Benchmarking Self-Evolution with Knowledge Internalization</title>
-  <link>https://arxiv.org/abs/2602.04811v1</link>
-  <guid>https://arxiv.org/abs/2602.04811v1</guid>
-  <pubDate>Wed, 04 Feb 2026 17:58:32 +0000</pubDate>
-  <description>arXiv cs.LG - True self-evolution requires agents to act as lifelong learners that internalize novel experiences to solve future problems. However, rigorously measuring this foundational capability is hindered by two obstacles: the entanglement of prior knowledge, where ``new&apos;&apos; knowledge may appear in pre-training data, and the entanglement of reasoning complexity, where failures may stem from problem difficult</description>
-</item>
-
-<item>
-  <title>Beyond Rewards in Reinforcement Learning for Cyber Defence</title>
-  <link>https://arxiv.org/abs/2602.04809v1</link>
-  <guid>https://arxiv.org/abs/2602.04809v1</guid>
-  <pubDate>Wed, 04 Feb 2026 17:55:23 +0000</pubDate>
-  <description>arXiv cs.AI - Recent years have seen an explosion of interest in autonomous cyber defence agents trained to defend computer networks using deep reinforcement learning. These agents are typically trained in cyber gym environments using dense, highly engineered reward functions which combine many penalties and incentives for a range of (un)desirable states and costly actions. Dense rewards help alleviate the chal</description>
-</item>
-
-<item>
-  <title>Beyond Rewards in Reinforcement Learning for Cyber Defence</title>
-  <link>https://arxiv.org/abs/2602.04809v1</link>
-  <guid>https://arxiv.org/abs/2602.04809v1</guid>
-  <pubDate>Wed, 04 Feb 2026 17:55:23 +0000</pubDate>
-  <description>arXiv cs.LG - Recent years have seen an explosion of interest in autonomous cyber defence agents trained to defend computer networks using deep reinforcement learning. These agents are typically trained in cyber gym environments using dense, highly engineered reward functions which combine many penalties and incentives for a range of (un)desirable states and costly actions. Dense rewards help alleviate the chal</description>
-</item>
-
-<item>
-  <title>Active Asymmetric Multi-Agent Multimodal Learning under Uncertainty</title>
-  <link>https://arxiv.org/abs/2602.04763v1</link>
-  <guid>https://arxiv.org/abs/2602.04763v1</guid>
-  <pubDate>Wed, 04 Feb 2026 17:01:31 +0000</pubDate>
-  <description>arXiv cs.AI - Multi-agent systems are increasingly equipped with heterogeneous multimodal sensors, enabling richer perception but introducing modality-specific and agent-dependent uncertainty. Existing multi-agent collaboration frameworks typically reason at the agent level, assume homogeneous sensing, and handle uncertainty implicitly, limiting robustness under sensor corruption. We propose Active Asymmetric M</description>
-</item>
-
-<item>
-  <title>Understanding and Exploiting Weight Update Sparsity for Communication-Efficient Distributed RL</title>
-  <link>https://arxiv.org/abs/2602.03839v1</link>
-  <guid>https://arxiv.org/abs/2602.03839v1</guid>
-  <pubDate>Tue, 03 Feb 2026 18:56:48 +0000</pubDate>
-  <description>arXiv cs.LG - Reinforcement learning (RL) is a critical component for post-training large language models (LLMs). However, in bandwidth-constrained distributed RL, scalability is often bottlenecked by the synchronization of policy weights from trainers to inference workers, particularly over commodity networks or in decentralized settings. While recent studies suggest that RL updates modify only a small fractio</description>
-</item>
-
-<item>
-  <title>PrevizWhiz: Combining Rough 3D Scenes and 2D Video to Guide Generative Video Previsualization</title>
-  <link>https://arxiv.org/abs/2602.03838v1</link>
-  <guid>https://arxiv.org/abs/2602.03838v1</guid>
-  <pubDate>Tue, 03 Feb 2026 18:56:40 +0000</pubDate>
-  <description>arXiv cs.AI - In pre-production, filmmakers and 3D animation experts must rapidly prototype ideas to explore a film&apos;s possibilities before fullscale production, yet conventional approaches involve trade-offs in efficiency and expressiveness. Hand-drawn storyboards often lack spatial precision needed for complex cinematography, while 3D previsualization demands expertise and high-quality rigged assets. To addres</description>
-</item>
-
-<item>
-  <title>Accelerating Scientific Research with Gemini: Case Studies and Common Techniques</title>
-  <link>https://arxiv.org/abs/2602.03837v1</link>
-  <guid>https://arxiv.org/abs/2602.03837v1</guid>
-  <pubDate>Tue, 03 Feb 2026 18:56:17 +0000</pubDate>
-  <description>arXiv cs.AI - Recent advances in large language models (LLMs) have opened new avenues for accelerating scientific research. While models are increasingly capable of assisting with routine tasks, their ability to contribute to novel, expert-level mathematical discovery is less understood. We present a collection of case studies demonstrating how researchers have successfully collaborated with advanced AI models,</description>
-</item>
-
-<item>
-  <title>AutoFigure: Generating and Refining Publication-Ready Scientific Illustrations</title>
-  <link>https://arxiv.org/abs/2602.03828v1</link>
-  <guid>https://arxiv.org/abs/2602.03828v1</guid>
-  <pubDate>Tue, 03 Feb 2026 18:41:43 +0000</pubDate>
-  <description>arXiv cs.AI - High-quality scientific illustrations are crucial for effectively communicating complex scientific and technical concepts, yet their manual creation remains a well-recognized bottleneck in both academia and industry. We present FigureBench, the first large-scale benchmark for generating scientific illustrations from long-form scientific texts. It contains 3,300 high-quality scientific text-figure </description>
-</item>
-
-<item>
-  <title>SymPlex: A Structure-Aware Transformer for Symbolic PDE Solving</title>
-  <link>https://arxiv.org/abs/2602.03816v1</link>
-  <guid>https://arxiv.org/abs/2602.03816v1</guid>
-  <pubDate>Tue, 03 Feb 2026 18:18:30 +0000</pubDate>
-  <description>arXiv cs.LG - We propose SymPlex, a reinforcement learning framework for discovering analytical symbolic solutions to partial differential equations (PDEs) without access to ground-truth expressions. SymPlex formulates symbolic PDE solving as tree-structured decision-making and optimizes candidate solutions using only the PDE and its boundary conditions. At its core is SymFormer, a structure-aware Transformer t</description>
 </item>
 
 </channel>
