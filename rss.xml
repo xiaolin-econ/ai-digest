@@ -4,15 +4,95 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Tue, 10 Feb 2026 18:54:13 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 11 Feb 2026 06:52:07 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Tue, 10 Feb 2026 18:54:13 +0000</pubDate>
-  <description>Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$). Using closed loop control in VISTA, we benchmark FC, CNN, and ViT policies, train compact ViT heads on frozen foundation-model (FM) features, and vary ID support in scale, diversity, and temporal context. (1) ViT policies are markedly more OOD-robust than comparably sized CNN/FC, and FM features yield state-of-the-art success at a latency cost. (2) Naive temporal inputs (multi-frame) do not beat the best single-frame baseline. (3) The largest single factor drops are…</description>
+  <pubDate>Wed, 11 Feb 2026 06:52:07 +0000</pubDate>
+  <description>Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*. Monitoring models via their stated reasoning is therefore unreliable, and existing bias evaluations typically require predefined categories and hand-crafted datasets. In this work, we introduce a fully automated, black-box pipeline for detecting task-specific unverbalized biases. Given a task dataset, the pipeline uses LLM autoraters to generate candidate bias concepts. It then tests each concept on progressively larger input samples by generating positive and negative variations, and applies statistical techniques for multiple testing and early stopping. A concept is flagged as an unverbalized bias if it yields…</description>
+</item>
+
+<item>
+  <title>Biases in the Blind Spot: Detecting What LLMs Fail to Mention</title>
+  <link>https://arxiv.org/abs/2602.10117v1</link>
+  <guid>https://arxiv.org/abs/2602.10117v1</guid>
+  <pubDate>Tue, 10 Feb 2026 18:59:56 +0000</pubDate>
+  <description>arXiv cs.AI - Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*. Monitoring models via their stated reasoning is therefore unreliable, and existing bias evaluations typically require predefined categories and hand-crafted datasets. In this work, we introduce a fully automated, black-box pipe</description>
+</item>
+
+<item>
+  <title>Biases in the Blind Spot: Detecting What LLMs Fail to Mention</title>
+  <link>https://arxiv.org/abs/2602.10117v1</link>
+  <guid>https://arxiv.org/abs/2602.10117v1</guid>
+  <pubDate>Tue, 10 Feb 2026 18:59:56 +0000</pubDate>
+  <description>arXiv cs.LG - Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*. Monitoring models via their stated reasoning is therefore unreliable, and existing bias evaluations typically require predefined categories and hand-crafted datasets. In this work, we introduce a fully automated, black-box pipe</description>
+</item>
+
+<item>
+  <title>Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning</title>
+  <link>https://arxiv.org/abs/2602.10090v1</link>
+  <guid>https://arxiv.org/abs/2602.10090v1</guid>
+  <pubDate>Tue, 10 Feb 2026 18:55:41 +0000</pubDate>
+  <description>arXiv cs.AI - Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale </description>
+</item>
+
+<item>
+  <title>Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning</title>
+  <link>https://arxiv.org/abs/2602.10090v1</link>
+  <guid>https://arxiv.org/abs/2602.10090v1</guid>
+  <pubDate>Tue, 10 Feb 2026 18:55:41 +0000</pubDate>
+  <description>arXiv cs.LG - Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale </description>
+</item>
+
+<item>
+  <title>CODE-SHARP: Continuous Open-ended Discovery and Evolution of Skills as Hierarchical Reward Programs</title>
+  <link>https://arxiv.org/abs/2602.10085v1</link>
+  <guid>https://arxiv.org/abs/2602.10085v1</guid>
+  <pubDate>Tue, 10 Feb 2026 18:51:39 +0000</pubDate>
+  <description>arXiv cs.AI - Developing agents capable of open-endedly discovering and learning novel skills is a grand challenge in Artificial Intelligence. While reinforcement learning offers a powerful framework for training agents to master complex skills, it typically relies on hand-designed reward functions. This is infeasible for open-ended skill discovery, where the set of meaningful skills is not known a priori. Whil</description>
+</item>
+
+<item>
+  <title>Anagent For Enhancing Scientific Table &amp; Figure Analysis</title>
+  <link>https://arxiv.org/abs/2602.10081v1</link>
+  <guid>https://arxiv.org/abs/2602.10081v1</guid>
+  <pubDate>Tue, 10 Feb 2026 18:46:28 +0000</pubDate>
+  <description>arXiv cs.AI - In scientific research, analysis requires accurately interpreting complex multimodal knowledge, integrating evidence from different sources, and drawing inferences grounded in domain-specific knowledge. However, current artificial intelligence (AI) systems struggle to consistently demonstrate such capabilities. The complexity and variability of scientific tables and figures, combined with heteroge</description>
+</item>
+
+<item>
+  <title>Chain of Mindset: Reasoning with Adaptive Cognitive Modes</title>
+  <link>https://arxiv.org/abs/2602.10063v1</link>
+  <guid>https://arxiv.org/abs/2602.10063v1</guid>
+  <pubDate>Tue, 10 Feb 2026 18:31:47 +0000</pubDate>
+  <description>arXiv cs.AI - Human problem-solving is never the repetition of a single mindset, by which we mean a distinct mode of cognitive processing. When tackling a specific task, we do not rely on a single mindset; instead, we integrate multiple mindsets within the single solution process. However, existing LLM reasoning methods fall into a common trap: they apply the same fixed mindset across all steps, overlooking tha</description>
+</item>
+
+<item>
+  <title>Effectiveness of Binary Autoencoders for QUBO-Based Optimization Problems</title>
+  <link>https://arxiv.org/abs/2602.10037v1</link>
+  <guid>https://arxiv.org/abs/2602.10037v1</guid>
+  <pubDate>Tue, 10 Feb 2026 17:59:29 +0000</pubDate>
+  <description>arXiv cs.LG - In black-box combinatorial optimization, objective evaluations are often expensive, so high quality solutions must be found under a limited budget. Factorization machine with quantum annealing (FMQA) builds a quadratic surrogate model from evaluated samples and optimizes it on an Ising machine. However, FMQA requires binary decision variables, and for nonbinary structures such as integer permutati</description>
+</item>
+
+<item>
+  <title>Discovering High Level Patterns from Simulation Traces</title>
+  <link>https://arxiv.org/abs/2602.10009v1</link>
+  <guid>https://arxiv.org/abs/2602.10009v1</guid>
+  <pubDate>Tue, 10 Feb 2026 17:31:39 +0000</pubDate>
+  <description>arXiv cs.AI - Artificial intelligence (AI) agents embedded in environments with physics-based interaction face many challenges including reasoning, planning, summarization, and question answering. This problem is exacerbated when a human user wishes to either guide or interact with the agent in natural language. Although the use of Language Models (LMs) is the default choice, as an AI tool, they struggle with t</description>
+</item>
+
+<item>
+  <title>A Collaborative Safety Shield for Safe and Efficient CAV Lane Changes in Congested On-Ramp Merging</title>
+  <link>https://arxiv.org/abs/2602.10007v1</link>
+  <guid>https://arxiv.org/abs/2602.10007v1</guid>
+  <pubDate>Tue, 10 Feb 2026 17:30:09 +0000</pubDate>
+  <description>arXiv cs.AI - Lane changing in dense traffic is a significant challenge for Connected and Autonomous Vehicles (CAVs). Existing lane change controllers primarily either ensure safety or collaboratively improve traffic efficiency, but do not consider these conflicting objectives together. To address this, we propose the Multi-Agent Safety Shield (MASS), designed using Control Barrier Functions (CBFs) to enable sa</description>
 </item>
 
 <item>
@@ -333,86 +413,6 @@
   <guid>https://arxiv.org/abs/2602.06019v1</guid>
   <pubDate>Thu, 05 Feb 2026 18:54:48 +0000</pubDate>
   <description>arXiv cs.LG - Existing techniques for accelerating language model inference, such as speculative decoding, require training auxiliary speculator models and building and deploying complex inference pipelines. We consider a new approach for converting a pretrained autoregressive language model from a slow single next token prediction model into a fast standalone multi-token prediction model using a simple online </description>
-</item>
-
-<item>
-  <title>AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions</title>
-  <link>https://arxiv.org/abs/2602.06008v1</link>
-  <guid>https://arxiv.org/abs/2602.06008v1</guid>
-  <pubDate>Thu, 05 Feb 2026 18:50:36 +0000</pubDate>
-  <description>arXiv cs.AI - Large language model (LLM)-based agents are increasingly expected to negotiate, coordinate, and transact autonomously, yet existing benchmarks lack principled settings for evaluating language-mediated economic interaction among multiple agents. We introduce AgenticPay, a benchmark and simulation framework for multi-agent buyer-seller negotiation driven by natural language. AgenticPay models market</description>
-</item>
-
-<item>
-  <title>AgenticPay: A Multi-Agent LLM Negotiation System for Buyer-Seller Transactions</title>
-  <link>https://arxiv.org/abs/2602.06008v1</link>
-  <guid>https://arxiv.org/abs/2602.06008v1</guid>
-  <pubDate>Thu, 05 Feb 2026 18:50:36 +0000</pubDate>
-  <description>arXiv cs.LG - Large language model (LLM)-based agents are increasingly expected to negotiate, coordinate, and transact autonomously, yet existing benchmarks lack principled settings for evaluating language-mediated economic interaction among multiple agents. We introduce AgenticPay, a benchmark and simulation framework for multi-agent buyer-seller negotiation driven by natural language. AgenticPay models market</description>
-</item>
-
-<item>
-  <title>Layer-wise LoRA fine-tuning: a similarity metric approach</title>
-  <link>https://arxiv.org/abs/2602.05988v1</link>
-  <guid>https://arxiv.org/abs/2602.05988v1</guid>
-  <pubDate>Thu, 05 Feb 2026 18:38:53 +0000</pubDate>
-  <description>arXiv cs.LG - Pre-training Large Language Models (LLMs) on web-scale datasets becomes fundamental for advancing general-purpose AI. In contrast, enhancing their predictive performance on downstream tasks typically involves adapting their knowledge through fine-tuning. Parameter-efficient fine-tuning techniques, such as Low-Rank Adaptation (LoRA), aim to reduce the computational cost of this process by freezing </description>
-</item>
-
-<item>
-  <title>Learning to Share: Selective Memory for Efficient Parallel Agentic Systems</title>
-  <link>https://arxiv.org/abs/2602.05965v1</link>
-  <guid>https://arxiv.org/abs/2602.05965v1</guid>
-  <pubDate>Thu, 05 Feb 2026 18:20:21 +0000</pubDate>
-  <description>arXiv cs.AI - Agentic systems solve complex tasks by coordinating multiple agents that iteratively reason, invoke tools, and exchange intermediate results. To improve robustness and solution quality, recent approaches deploy multiple agent teams running in parallel to explore diverse reasoning trajectories. However, parallel execution comes at a significant computational cost: when different teams independently</description>
-</item>
-
-<item>
-  <title>Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025</title>
-  <link>https://arxiv.org/abs/2602.05930v1</link>
-  <guid>https://arxiv.org/abs/2602.05930v1</guid>
-  <pubDate>Thu, 05 Feb 2026 17:43:35 +0000</pubDate>
-  <description>arXiv cs.AI - Large language models (LLMs) are increasingly used in academic writing workflows, yet they frequently hallucinate by generating citations to sources that do not exist. This study analyzes 100 AI-generated hallucinated citations that appeared in papers accepted by the 2025 Conference on Neural Information Processing Systems (NeurIPS), one of the world&apos;s most prestigious AI conferences. Despite revi</description>
-</item>
-
-<item>
-  <title>Quantum Reinforcement Learning with Transformers for the Capacitated Vehicle Routing Problem</title>
-  <link>https://arxiv.org/abs/2602.05920v1</link>
-  <guid>https://arxiv.org/abs/2602.05920v1</guid>
-  <pubDate>Thu, 05 Feb 2026 17:32:14 +0000</pubDate>
-  <description>arXiv cs.AI - This paper addresses the Capacitated Vehicle Routing Problem (CVRP) by comparing classical and quantum Reinforcement Learning (RL) approaches. An Advantage Actor-Critic (A2C) agent is implemented in classical, full quantum, and hybrid variants, integrating transformer architectures to capture the relationships between vehicles, clients, and the depot through self- and cross-attention mechanisms. T</description>
-</item>
-
-<item>
-  <title>Parity, Sensitivity, and Transformers</title>
-  <link>https://arxiv.org/abs/2602.05896v1</link>
-  <guid>https://arxiv.org/abs/2602.05896v1</guid>
-  <pubDate>Thu, 05 Feb 2026 17:14:33 +0000</pubDate>
-  <description>arXiv cs.AI - The transformer architecture is almost a decade old. Despite that, we still have a limited understanding of what this architecture can or cannot compute. For instance, can a 1-layer transformer solve PARITY -- or more generally -- which kinds of transformers can do it? Known constructions for PARITY have at least 2 layers and employ impractical features: either a length-dependent positional encodi</description>
-</item>
-
-<item>
-  <title>Metric Hedonic Games on the Line</title>
-  <link>https://arxiv.org/abs/2602.05888v1</link>
-  <guid>https://arxiv.org/abs/2602.05888v1</guid>
-  <pubDate>Thu, 05 Feb 2026 17:05:08 +0000</pubDate>
-  <description>arXiv cs.AI - Hedonic games are fundamental models for investigating the formation of coalitions among a set of strategic agents, where every agent has a certain utility for every possible coalition of agents it can be part of. To avoid the intractability of defining exponentially many utilities for all possible coalitions, many variants with succinct representations of the agents&apos; utility functions have been d</description>
-</item>
-
-<item>
-  <title>CRoSS: A Continual Robotic Simulation Suite for Scalable Reinforcement Learning with High Task Diversity and Realistic Physics Simulation</title>
-  <link>https://arxiv.org/abs/2602.04868v1</link>
-  <guid>https://arxiv.org/abs/2602.04868v1</guid>
-  <pubDate>Wed, 04 Feb 2026 18:54:26 +0000</pubDate>
-  <description>arXiv cs.AI - Continual reinforcement learning (CRL) requires agents to learn from a sequence of tasks without forgetting previously acquired policies. In this work, we introduce a novel benchmark suite for CRL based on realistically simulated robots in the Gazebo simulator. Our Continual Robotic Simulation Suite (CRoSS) benchmarks rely on two robotic platforms: a two-wheeled differential-drive robot with lidar</description>
-</item>
-
-<item>
-  <title>CRoSS: A Continual Robotic Simulation Suite for Scalable Reinforcement Learning with High Task Diversity and Realistic Physics Simulation</title>
-  <link>https://arxiv.org/abs/2602.04868v1</link>
-  <guid>https://arxiv.org/abs/2602.04868v1</guid>
-  <pubDate>Wed, 04 Feb 2026 18:54:26 +0000</pubDate>
-  <description>arXiv cs.LG - Continual reinforcement learning (CRL) requires agents to learn from a sequence of tasks without forgetting previously acquired policies. In this work, we introduce a novel benchmark suite for CRL based on realistically simulated robots in the Gazebo simulator. Our Continual Robotic Simulation Suite (CRoSS) benchmarks rely on two robotic platforms: a two-wheeled differential-drive robot with lidar</description>
 </item>
 
 </channel>
