@@ -4,15 +4,144 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Thu, 12 Feb 2026 18:49:27 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Feb 2026 06:48:44 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
+  <pubDate>Fri, 13 Feb 2026 06:48:44 +0000</pubDate>
+  <description>Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and making iterative corrections. While test-time scaling (TTS) has demonstrated that allocating additional inference compute for iterative reasoning substantially improves language model performance, extending this paradigm to unified multimodal models remains an open challenge. We introduce UniT, a framework for multimodal chain-of-thought test-time scaling that enables a single unified model to…</description>
+</item>
+
+<item>
+  <title>UniT: Unified Multimodal Chain-of-Thought Test-time Scaling</title>
+  <link>https://arxiv.org/abs/2602.12279v1</link>
+  <guid>https://arxiv.org/abs/2602.12279v1</guid>
+  <pubDate>Thu, 12 Feb 2026 18:59:49 +0000</pubDate>
+  <description>arXiv cs.AI - Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and makin</description>
+</item>
+
+<item>
+  <title>UniT: Unified Multimodal Chain-of-Thought Test-time Scaling</title>
+  <link>https://arxiv.org/abs/2602.12279v1</link>
+  <guid>https://arxiv.org/abs/2602.12279v1</guid>
+  <pubDate>Thu, 12 Feb 2026 18:59:49 +0000</pubDate>
+  <description>arXiv cs.LG - Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and makin</description>
+</item>
+
+<item>
+  <title>Agentic Test-Time Scaling for WebAgents</title>
+  <link>https://arxiv.org/abs/2602.12276v1</link>
+  <guid>https://arxiv.org/abs/2602.12276v1</guid>
+  <pubDate>Thu, 12 Feb 2026 18:58:30 +0000</pubDate>
+  <description>arXiv cs.AI - Test-time scaling has become a standard way to improve performance and boost reliability of neural network models. However, its behavior on agentic, multi-step tasks remains less well-understood: small per-step errors can compound over long horizons; and we find that naive policies that uniformly increase sampling show diminishing returns. In this work, we present CATTS, a simple technique for dyn</description>
+</item>
+
+<item>
+  <title>CM2: Reinforcement Learning with Checklist Rewards for Multi-Turn and Multi-Step Agentic Tool Use</title>
+  <link>https://arxiv.org/abs/2602.12268v1</link>
+  <guid>https://arxiv.org/abs/2602.12268v1</guid>
+  <pubDate>Thu, 12 Feb 2026 18:55:09 +0000</pubDate>
+  <description>arXiv cs.AI - AI agents are increasingly used to solve real-world tasks by reasoning over multi-turn user interactions and invoking external tools. However, applying reinforcement learning to such settings remains difficult: realistic objectives often lack verifiable rewards and instead emphasize open-ended behaviors; moreover, RL for multi-turn, multi-step agentic tool use is still underexplored; and building </description>
+</item>
+
+<item>
+  <title>Self-Supervised Learning via Flow-Guided Neural Operator on Time-Series Data</title>
+  <link>https://arxiv.org/abs/2602.12267v1</link>
+  <guid>https://arxiv.org/abs/2602.12267v1</guid>
+  <pubDate>Thu, 12 Feb 2026 18:54:57 +0000</pubDate>
+  <description>arXiv cs.LG - Self-supervised learning (SSL) is a powerful paradigm for learning from unlabeled time-series data. However, popular methods such as masked autoencoders (MAEs) rely on reconstructing inputs from a fixed, predetermined masking ratio. Instead of this static design, we propose treating the corruption level as a new degree of freedom for representation learning, enhancing flexibility and performance. </description>
+</item>
+
+<item>
+  <title>T3D: Few-Step Diffusion Language Models via Trajectory Self-Distillation with Direct Discriminative Optimization</title>
+  <link>https://arxiv.org/abs/2602.12262v1</link>
+  <guid>https://arxiv.org/abs/2602.12262v1</guid>
+  <pubDate>Thu, 12 Feb 2026 18:52:35 +0000</pubDate>
+  <description>arXiv cs.LG - Diffusion large language models (DLLMs) have the potential to enable fast text generation by decoding multiple tokens in parallel. However, in practice, their inference efficiency is constrained by the need for many refinement steps, while aggressively reducing the number of steps leads to a substantial degradation in generation quality. To alleviate this, we propose a trajectory self-distillation</description>
+</item>
+
+<item>
+  <title>Think like a Scientist: Physics-guided LLM Agent for Equation Discovery</title>
+  <link>https://arxiv.org/abs/2602.12259v1</link>
+  <guid>https://arxiv.org/abs/2602.12259v1</guid>
   <pubDate>Thu, 12 Feb 2026 18:49:27 +0000</pubDate>
-  <description>As LLM-based agents increasingly operate in high-stakes domains with real-world consequences, ensuring their behavioral safety becomes paramount. The dominant oversight paradigm, LLM-as-a-Judge, faces a fundamental dilemma: how can probabilistic systems reliably supervise other probabilistic systems without inheriting their failure modes? We argue that formal verification offers a principled escape from this dilemma, yet its adoption has been hindered by a critical bottleneck: the translation from natural language requirements to formal specifications. This paper bridges this gap by proposing , a neuro-symbolic framework that employs a bidirectional Formal-of-Thought architecture: LLMs serve as specification compilers that top-down decompose high-level human intent into atomic,…</description>
+  <description>arXiv cs.AI - Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities. However, most existing LLM-based systems try to guess equations directly from data, without modeling the multi-step re</description>
+</item>
+
+<item>
+  <title>Think like a Scientist: Physics-guided LLM Agent for Equation Discovery</title>
+  <link>https://arxiv.org/abs/2602.12259v1</link>
+  <guid>https://arxiv.org/abs/2602.12259v1</guid>
+  <pubDate>Thu, 12 Feb 2026 18:49:27 +0000</pubDate>
+  <description>arXiv cs.LG - Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities. However, most existing LLM-based systems try to guess equations directly from data, without modeling the multi-step re</description>
+</item>
+
+<item>
+  <title>Bandit Learning in Matching Markets with Interviews</title>
+  <link>https://arxiv.org/abs/2602.12224v1</link>
+  <guid>https://arxiv.org/abs/2602.12224v1</guid>
+  <pubDate>Thu, 12 Feb 2026 18:03:37 +0000</pubDate>
+  <description>arXiv cs.AI - Two-sided matching markets rely on preferences from both sides, yet it is often impractical to evaluate preferences. Participants, therefore, conduct a limited number of interviews, which provide early, noisy impressions and shape final decisions. We study bandit learning in matching markets with interviews, modeling interviews as \textit{low-cost hints} that reveal partial preference information </description>
+</item>
+
+<item>
+  <title>Towards On-Policy SFT: Distribution Discriminant Theory and its Applications in LLM Training</title>
+  <link>https://arxiv.org/abs/2602.12222v1</link>
+  <guid>https://arxiv.org/abs/2602.12222v1</guid>
+  <pubDate>Thu, 12 Feb 2026 17:59:58 +0000</pubDate>
+  <description>arXiv cs.AI - Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL&apos;s use of on-policy data. We propose a framework to bridge this chasm by enabling On-Policy SFT. We first present \textbf{\textit{Distribution Discriminant Theory (DDT)}}, which explains and quantifies the alignment between da</description>
+</item>
+
+<item>
+  <title>Towards On-Policy SFT: Distribution Discriminant Theory and its Applications in LLM Training</title>
+  <link>https://arxiv.org/abs/2602.12222v1</link>
+  <guid>https://arxiv.org/abs/2602.12222v1</guid>
+  <pubDate>Thu, 12 Feb 2026 17:59:58 +0000</pubDate>
+  <description>arXiv cs.LG - Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL&apos;s use of on-policy data. We propose a framework to bridge this chasm by enabling On-Policy SFT. We first present \textbf{\textit{Distribution Discriminant Theory (DDT)}}, which explains and quantifies the alignment between da</description>
+</item>
+
+<item>
+  <title>VIRENA: Virtual Arena for Research, Education, and Democratic Innovation</title>
+  <link>https://arxiv.org/abs/2602.12207v1</link>
+  <guid>https://arxiv.org/abs/2602.12207v1</guid>
+  <pubDate>Thu, 12 Feb 2026 17:46:52 +0000</pubDate>
+  <description>arXiv cs.AI - Digital platforms shape how people communicate, deliberate, and form opinions. Studying these dynamics has become increasingly difficult due to restricted data access, ethical constraints on real-world experiments, and limitations of existing research tools. VIRENA (Virtual Arena) is a platform that enables controlled experimentation in realistic social media environments. Multiple participants in</description>
+</item>
+
+<item>
+  <title>WaveFormer: Wavelet Embedding Transformer for Biomedical Signals</title>
+  <link>https://arxiv.org/abs/2602.12189v1</link>
+  <guid>https://arxiv.org/abs/2602.12189v1</guid>
+  <pubDate>Thu, 12 Feb 2026 17:20:43 +0000</pubDate>
+  <description>arXiv cs.LG - Biomedical signal classification presents unique challenges due to long sequences, complex temporal dynamics, and multi-scale frequency patterns that are poorly captured by standard transformer architectures. We propose WaveFormer, a transformer architecture that integrates wavelet decomposition at two critical stages: embedding construction, where multi-channel Discrete Wavelet Transform (DWT) ex</description>
+</item>
+
+<item>
+  <title>Convex Markov Games and Beyond: New Proof of Existence, Characterization and Learning Algorithms for Nash Equilibria</title>
+  <link>https://arxiv.org/abs/2602.12181v1</link>
+  <guid>https://arxiv.org/abs/2602.12181v1</guid>
+  <pubDate>Thu, 12 Feb 2026 17:11:20 +0000</pubDate>
+  <description>arXiv cs.LG - Convex Markov Games (cMGs) were recently introduced as a broad class of multi-agent learning problems that generalize Markov games to settings where strategic agents optimize general utilities beyond additive rewards. While cMGs expand the modeling frontier, their theoretical foundations, particularly the structure of Nash equilibria (NE) and guarantees for learning algorithms, are not yet well un</description>
+</item>
+
+<item>
+  <title>SAM3-LiteText: An Anatomical Study of the SAM3 Text Encoder for Efficient Vision-Language Segmentation</title>
+  <link>https://arxiv.org/abs/2602.12173v1</link>
+  <guid>https://arxiv.org/abs/2602.12173v1</guid>
+  <pubDate>Thu, 12 Feb 2026 17:01:49 +0000</pubDate>
+  <description>arXiv cs.AI - Vision-language segmentation models such as SAM3 enable flexible, prompt-driven visual grounding, but inherit large, general-purpose text encoders originally designed for open-ended language understanding. In practice, segmentation prompts are short, structured, and semantically constrained, leading to substantial over-provisioning in text encoder capacity and persistent computational and memory o</description>
+</item>
+
+<item>
+  <title>Statistical Parsing for Logical Information Retrieval</title>
+  <link>https://arxiv.org/abs/2602.12170v1</link>
+  <guid>https://arxiv.org/abs/2602.12170v1</guid>
+  <pubDate>Thu, 12 Feb 2026 16:57:25 +0000</pubDate>
+  <description>arXiv cs.AI - In previous work (Coppola, 2024) we introduced the Quantified Boolean Bayesian Network (QBBN), a logical graphical model that implements the forward fragment of natural deduction (Prawitz, 1965) as a probabilistic factor graph. That work left two gaps: no negation/backward reasoning, and no parser for natural language.
+  This paper addresses both gaps across inference, semantics, and syntax. For i</description>
 </item>
 
 <item>
@@ -285,134 +414,6 @@
   <guid>https://arxiv.org/abs/2602.08948v1</guid>
   <pubDate>Mon, 09 Feb 2026 17:44:41 +0000</pubDate>
   <description>arXiv cs.AI - Large Language Models (LLMs) often rely on test-time scaling via parallel decoding (for example, 512 samples) to boost reasoning accuracy, but this incurs substantial compute. We introduce CoRefine, a confidence-guided self-refinement method that achieves competitive accuracy using a fraction of the tokens via a lightweight 211k-parameter Conv1D controller atop a frozen LLM. The controller consume</description>
-</item>
-
-<item>
-  <title>pixelLOG: Logging of Online Gameplay for Cognitive Research</title>
-  <link>https://arxiv.org/abs/2602.08941v1</link>
-  <guid>https://arxiv.org/abs/2602.08941v1</guid>
-  <pubDate>Mon, 09 Feb 2026 17:38:55 +0000</pubDate>
-  <description>arXiv cs.AI - Traditional cognitive assessments often rely on isolated, output-focused measurements that may fail to capture the complexity of human cognition in naturalistic settings. We present pixelLOG, a high-performance data collection framework for Spigot-based Minecraft servers designed specifically for process-based cognitive research. Unlike existing frameworks tailored only for artificial intelligence</description>
-</item>
-
-<item>
-  <title>AMS-HD: Hyperdimensional Computing for Real-Time and Energy-Efficient Acute Mountain Sickness Detection</title>
-  <link>https://arxiv.org/abs/2602.08916v1</link>
-  <guid>https://arxiv.org/abs/2602.08916v1</guid>
-  <pubDate>Mon, 09 Feb 2026 17:16:13 +0000</pubDate>
-  <description>arXiv cs.LG - Altitude sickness is a potentially life-threatening condition that impacts many individuals traveling to elevated altitudes. Timely detection is critical as symptoms can escalate rapidly. Early recognition enables simple interventions such as descent, oxygen, or medication, and prompt treatment can save lives by significantly lowering the risk of severe complications. Although conventional machine</description>
-</item>
-
-<item>
-  <title>Gesturing Toward Abstraction: Multimodal Convention Formation in Collaborative Physical Tasks</title>
-  <link>https://arxiv.org/abs/2602.08914v1</link>
-  <guid>https://arxiv.org/abs/2602.08914v1</guid>
-  <pubDate>Mon, 09 Feb 2026 17:13:34 +0000</pubDate>
-  <description>arXiv cs.AI - A quintessential feature of human intelligence is the ability to create ad hoc conventions over time to achieve shared goals efficiently. We investigate how communication strategies evolve through repeated collaboration as people coordinate on shared procedural abstractions. To this end, we conducted an online unimodal study (n = 98) using natural language to probe abstraction hierarchies. In a fo</description>
-</item>
-
-<item>
-  <title>Improving Credit Card Fraud Detection with an Optimized Explainable Boosting Machine</title>
-  <link>https://arxiv.org/abs/2602.06955v1</link>
-  <guid>https://arxiv.org/abs/2602.06955v1</guid>
-  <pubDate>Fri, 06 Feb 2026 18:56:17 +0000</pubDate>
-  <description>arXiv cs.LG - Addressing class imbalance is a central challenge in credit card fraud detection, as it directly impacts predictive reliability in real-world financial systems. To overcome this, the study proposes an enhanced workflow based on the Explainable Boosting Machine (EBM)-a transparent, state-of-the-art implementation of the GA2M algorithm-optimized through systematic hyperparameter tuning, feature sele</description>
-</item>
-
-<item>
-  <title>DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos</title>
-  <link>https://arxiv.org/abs/2602.06949v1</link>
-  <guid>https://arxiv.org/abs/2602.06949v1</guid>
-  <pubDate>Fri, 06 Feb 2026 18:49:43 +0000</pubDate>
-  <description>arXiv cs.AI - Being able to simulate the outcomes of actions in varied environments will revolutionize the development of generalist agents at scale. However, modeling these world dynamics, especially for dexterous robotics tasks, poses significant challenges due to limited data coverage and scarce action labels. As an endeavor towards this end, we introduce DreamDojo, a foundation world model that learns diver</description>
-</item>
-
-<item>
-  <title>DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos</title>
-  <link>https://arxiv.org/abs/2602.06949v1</link>
-  <guid>https://arxiv.org/abs/2602.06949v1</guid>
-  <pubDate>Fri, 06 Feb 2026 18:49:43 +0000</pubDate>
-  <description>arXiv cs.LG - Being able to simulate the outcomes of actions in varied environments will revolutionize the development of generalist agents at scale. However, modeling these world dynamics, especially for dexterous robotics tasks, poses significant challenges due to limited data coverage and scarce action labels. As an endeavor towards this end, we introduce DreamDojo, a foundation world model that learns diver</description>
-</item>
-
-<item>
-  <title>Agentic Uncertainty Reveals Agentic Overconfidence</title>
-  <link>https://arxiv.org/abs/2602.06948v1</link>
-  <guid>https://arxiv.org/abs/2602.06948v1</guid>
-  <pubDate>Fri, 06 Feb 2026 18:49:35 +0000</pubDate>
-  <description>arXiv cs.AI - Can AI agents predict whether they will succeed at a task? We study agentic uncertainty by eliciting success probability estimates before, during, and after task execution. All results exhibit agentic overconfidence: some agents that succeed only 22% of the time predict 77% success. Counterintuitively, pre-execution assessment with strictly less information tends to yield better discrimination tha</description>
-</item>
-
-<item>
-  <title>Agentic Uncertainty Reveals Agentic Overconfidence</title>
-  <link>https://arxiv.org/abs/2602.06948v1</link>
-  <guid>https://arxiv.org/abs/2602.06948v1</guid>
-  <pubDate>Fri, 06 Feb 2026 18:49:35 +0000</pubDate>
-  <description>arXiv cs.LG - Can AI agents predict whether they will succeed at a task? We study agentic uncertainty by eliciting success probability estimates before, during, and after task execution. All results exhibit agentic overconfidence: some agents that succeed only 22% of the time predict 77% success. Counterintuitively, pre-execution assessment with strictly less information tends to yield better discrimination tha</description>
-</item>
-
-<item>
-  <title>Reciprocal Latent Fields for Precomputed Sound Propagation</title>
-  <link>https://arxiv.org/abs/2602.06937v1</link>
-  <guid>https://arxiv.org/abs/2602.06937v1</guid>
-  <pubDate>Fri, 06 Feb 2026 18:31:11 +0000</pubDate>
-  <description>arXiv cs.LG - Realistic sound propagation is essential for immersion in a virtual scene, yet physically accurate wave-based simulations remain computationally prohibitive for real-time applications. Wave coding methods address this limitation by precomputing and compressing impulse responses of a given scene into a set of scalar acoustic parameters, which can reach unmanageable sizes in large environments with </description>
-</item>
-
-<item>
-  <title>Implementing Grassroots Logic Programs with Multiagent Transition Systems and AI</title>
-  <link>https://arxiv.org/abs/2602.06934v1</link>
-  <guid>https://arxiv.org/abs/2602.06934v1</guid>
-  <pubDate>Fri, 06 Feb 2026 18:30:11 +0000</pubDate>
-  <description>arXiv cs.AI - Grassroots Logic Programs (GLP) is a concurrent logic programming language with variables partitioned into paired \emph{readers} and \emph{writers}, conjuring both linear logic and futures/promises: an assignment is produced at most once via the sole occurrence of a writer (promise) and consumed at most once via the sole occurrence of its paired reader (future), and may contain additional readers </description>
-</item>
-
-<item>
-  <title>When RL Meets Adaptive Speculative Training: A Unified Training-Serving System</title>
-  <link>https://arxiv.org/abs/2602.06932v1</link>
-  <guid>https://arxiv.org/abs/2602.06932v1</guid>
-  <pubDate>Fri, 06 Feb 2026 18:28:54 +0000</pubDate>
-  <description>arXiv cs.LG - Speculative decoding can significantly accelerate LLM serving, yet most deployments today disentangle speculator training from serving, treating speculator training as a standalone offline modeling problem. We show that this decoupled formulation introduces substantial deployment and adaptation lag: (1) high time-to-serve, since a speculator must be trained offline for a considerable period before</description>
-</item>
-
-<item>
-  <title>From Kepler to Newton: Inductive Biases Guide Learned World Models in Transformers</title>
-  <link>https://arxiv.org/abs/2602.06923v1</link>
-  <guid>https://arxiv.org/abs/2602.06923v1</guid>
-  <pubDate>Fri, 06 Feb 2026 18:17:37 +0000</pubDate>
-  <description>arXiv cs.AI - Can general-purpose AI architectures go beyond prediction to discover the physical laws governing the universe? True intelligence relies on &quot;world models&quot; -- causal abstractions that allow an agent to not only predict future states but understand the underlying governing dynamics. While previous &quot;AI Physicist&quot; approaches have successfully recovered such laws, they typically rely on strong, domain-</description>
-</item>
-
-<item>
-  <title>From Kepler to Newton: Inductive Biases Guide Learned World Models in Transformers</title>
-  <link>https://arxiv.org/abs/2602.06923v1</link>
-  <guid>https://arxiv.org/abs/2602.06923v1</guid>
-  <pubDate>Fri, 06 Feb 2026 18:17:37 +0000</pubDate>
-  <description>arXiv cs.LG - Can general-purpose AI architectures go beyond prediction to discover the physical laws governing the universe? True intelligence relies on &quot;world models&quot; -- causal abstractions that allow an agent to not only predict future states but understand the underlying governing dynamics. While previous &quot;AI Physicist&quot; approaches have successfully recovered such laws, they typically rely on strong, domain-</description>
-</item>
-
-<item>
-  <title>TraceCoder: A Trace-Driven Multi-Agent Framework for Automated Debugging of LLM-Generated Code</title>
-  <link>https://arxiv.org/abs/2602.06875v1</link>
-  <guid>https://arxiv.org/abs/2602.06875v1</guid>
-  <pubDate>Fri, 06 Feb 2026 16:59:48 +0000</pubDate>
-  <description>arXiv cs.AI - Large Language Models (LLMs) often generate code with subtle but critical bugs, especially for complex tasks. Existing automated repair methods typically rely on superficial pass/fail signals, offering limited visibility into program behavior and hindering precise error localization. In addition, without a way to learn from prior failures, repair processes often fall into repetitive and inefficien</description>
-</item>
-
-<item>
-  <title>AIRS-Bench: a Suite of Tasks for Frontier AI Research Science Agents</title>
-  <link>https://arxiv.org/abs/2602.06855v1</link>
-  <guid>https://arxiv.org/abs/2602.06855v1</guid>
-  <pubDate>Fri, 06 Feb 2026 16:45:02 +0000</pubDate>
-  <description>arXiv cs.AI - LLM agents hold significant promise for advancing scientific research. To accelerate this progress, we introduce AIRS-Bench (the AI Research Science Benchmark), a suite of 20 tasks sourced from state-of-the-art machine learning papers. These tasks span diverse domains, including language modeling, mathematics, bioinformatics, and time series forecasting. AIRS-Bench tasks assess agentic capabilitie</description>
-</item>
-
-<item>
-  <title>From Features to Actions: Explainability in Traditional and Agentic AI Systems</title>
-  <link>https://arxiv.org/abs/2602.06841v1</link>
-  <guid>https://arxiv.org/abs/2602.06841v1</guid>
-  <pubDate>Fri, 06 Feb 2026 16:34:29 +0000</pubDate>
-  <description>arXiv cs.AI - Over the last decade, explainable AI has primarily focused on interpreting individual model predictions, producing post-hoc explanations that relate inputs to outputs under a fixed decision structure. Recent advances in large language models (LLMs) have enabled agentic AI systems whose behaviour unfolds over multi-step trajectories. In these settings, success and failure are determined by sequence</description>
 </item>
 
 </channel>
