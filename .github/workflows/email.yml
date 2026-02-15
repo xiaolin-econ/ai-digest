@@ -1,9 +1,9 @@
-name: Daily Email Digest
+name: Weekly Email Digest
 
 on:
   schedule:
-    # 8:00 AM UTC (we'll adjust to your timezone next step)
-    - cron: "0 8 * * *"
+    # 8:00 AM UTC every Monday
+    - cron: "0 8 * * 1"
   workflow_dispatch:
 
 jobs:
