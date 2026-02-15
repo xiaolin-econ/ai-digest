@@ -52,7 +52,7 @@ def upsert_items(conn, items):
 def recent_items(conn, since_iso):
     cur = conn.cursor()
     return cur.execute(
-        "SELECT source, title, url, published, summary "
+        "SELECT source, title, url, published, summary, ai_summary "
         "FROM items "
         "WHERE published >= ? "
         "ORDER BY published DESC",

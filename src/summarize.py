@@ -8,7 +8,7 @@ from llm import summarize_with_gemini
 logger = logging.getLogger(__name__)
 
 
-_sentence_split_re = re.compile(r"(?<=[.!?])\\s+")
+_sentence_split_re = re.compile(r"(?<=[.!?])\s+")
 
 
 def summarize_text(text: str, max_sentences: int = 2, max_chars: int = 400) -> str:
@@ -38,7 +38,25 @@ def summarize_text(text: str, max_sentences: int = 2, max_chars: int = 400) -> s
     return summary
 
 
+def digest_summary(texts: list[str], max_sentences: int = 3, max_chars: int = 800) -> str:
+    """Build an overall digest summary from a list of per-item summary strings.
+
+    Tries Gemini first (if USE_GEMINI is set), falls back to extractive.
+    """
+    if not texts:
+        return ""
+    concat = "\n\n".join(texts[:20])
+    use_gemini = os.environ.get("USE_GEMINI", "0") in ("1", "true", "True")
+    if use_gemini:
+        try:
+            return summarize_with_gemini(concat, max_tokens=200)
+        except Exception:
+            logger.exception("Gemini digest summary failed, falling back to extractive")
+    return summarize_text(concat, max_sentences=max_sentences, max_chars=max_chars)
+
+
 def main(dry_run: bool = False):
+    logging.basicConfig(level=logging.INFO)
     conn = connect()
     cur = conn.cursor()
     # Select items that don't yet have an ai_summary (NULL or empty)

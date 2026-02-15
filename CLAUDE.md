@@ -24,6 +24,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `src/llm.py` is the only LLM integration layer; it handles retries, rate limiting, response-shape extraction, and truncation.
 - Data boundary is SQLite (`items` table with `id/source/title/url/published/summary/ai_summary`).
 - Automation is in `.github/workflows/collect.yml`, `digest.yml`, and `email.yml`.
+- Schedule cadence: `collect.yml` runs Mondays 06:00 UTC, `digest.yml` runs Mondays 07:00 UTC, and `email.yml` is manual (`workflow_dispatch`) only.
 
 ## Code Style and Implementation Conventions
 - Use 4-space indentation and keep code Python 3.11+ compatible (workflows use both 3.11 and 3.12).
@@ -36,3 +37,5 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Run commands from repo root; some paths are resolved from script location (`feeds.yaml`, `data/`), while `build_rss.py` writes `rss.xml` to current working directory.
 - `collect.py` filters aggressively by `KEYWORDS`; many feed entries are intentionally dropped.
 - `store.connect()` auto-applies schema and backfills missing `ai_summary` column on older DB files.
+- Scheduled email is sent by `digest.yml`; do not add a schedule to `email.yml` unless duplicate digests are intended.
+- `digest.yml` does not commit DB/RSS changes back to the repo; only `collect.yml` commits. If `digest.yml` runs alone, its DB and RSS updates are ephemeral.

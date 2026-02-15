@@ -42,6 +42,7 @@ def stable_id(source, url, title):
 
 
 def main():
+    logging.basicConfig(level=logging.INFO)
     # Resolve feeds.yaml relative to the project root so scripts can be run from any cwd.
     base = Path(__file__).resolve().parent.parent
     feeds_path = base / "feeds.yaml"
