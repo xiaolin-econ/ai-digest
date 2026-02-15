@@ -8,38 +8,41 @@ from typing import Optional
 
 logger = logging.getLogger(__name__)
 
+# Default Gemini API endpoint (gemini-2.5-flash)
+DEFAULT_ENDPOINT = (
+    "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
+)
+
 
 def _extract_text_from_response(resp_json: dict) -> Optional[str]:
-    """Try a few heuristics to extract a text string from the JSON response.
+    """Extract generated text from Google Gemini generateContent response.
 
-    Different LLM providers return different fields. This helper attempts several
-    common locations. If none are found, returns None and the caller may fall back.
+    Expected shape:
+    {
+      "candidates": [{
+        "content": {
+          "parts": [{"text": "..."}],
+          "role": "model"
+        }
+      }]
+    }
     """
-    # Common patterns used by some providers
     if not isinstance(resp_json, dict):
         return None
 
-    # Example: {"candidates": [{"content": "..."}, ...]}
+    # Google Gemini generateContent response
     if "candidates" in resp_json and isinstance(resp_json["candidates"], list):
         try:
             first = resp_json["candidates"][0]
-            if isinstance(first, dict) and "content" in first:
-                return first["content"]
+            content = first.get("content", {})
+            parts = content.get("parts", [])
+            if parts and isinstance(parts[0], dict) and "text" in parts[0]:
+                return parts[0]["text"]
+            # Fallback: content is a plain string (older format)
+            if isinstance(content, str):
+                return content
         except Exception:
             pass
-
-    # Example: {"output": {"text": "..."}} or {"output": "..."}
-    out = resp_json.get("output")
-    if isinstance(out, dict) and "text" in out:
-        return out["text"]
-    if isinstance(out, str):
-        return out
-
-    # Example: {"summary": "..."} or {"text": "..."}
-    for k in ("summary", "text", "result", "reply"):
-        v = resp_json.get(k)
-        if isinstance(v, str):
-            return v
 
     return None
 
@@ -60,11 +63,24 @@ def _clean_and_truncate(text: str, max_chars: int) -> str:
 _last_request_time: float = 0.0
 
 
-def summarize_with_gemini(prompt: str, max_tokens: int = 256) -> str:
-    """Call a configured Gemini-compatible HTTP endpoint with retries, backoff and rate limiting.
+ITEM_PROMPT = (
+    "Summarize the following AI research abstract in 2-3 concise sentences. "
+    "Focus on the key contribution, method, and result. "
+    "Write in plain English accessible to a technical audience.\n\n"
+)
+
+DIGEST_PROMPT = (
+    "You are given summaries of recent AI research papers. "
+    "Write a brief 3-5 sentence overview highlighting the main themes and notable findings. "
+    "Do not list individual papers; synthesize the trends.\n\n"
+)
+
+
+def summarize_with_gemini(prompt: str, max_tokens: int = 256, system_prompt: str = "") -> str:
+    """Call Google Gemini generateContent API with retries, backoff and rate limiting.
 
     Environment variables that influence behavior:
-    - GEMINI_ENDPOINT (required)
+    - GEMINI_ENDPOINT (optional, defaults to gemini-2.5-flash generateContent URL)
     - GEMINI_API_KEY (required)
     - GEMINI_MAX_CHARS (optional, default 400)
     - GEMINI_RPM (requests per minute, optional, default 60)
@@ -72,10 +88,10 @@ def summarize_with_gemini(prompt: str, max_tokens: int = 256) -> str:
 
     The function will raise if configuration is missing or non-retryable errors occur.
     """
-    endpoint = os.environ.get("GEMINI_ENDPOINT")
+    endpoint = os.environ.get("GEMINI_ENDPOINT", DEFAULT_ENDPOINT)
     api_key = os.environ.get("GEMINI_API_KEY")
-    if not endpoint or not api_key:
-        raise RuntimeError("GEMINI_ENDPOINT and GEMINI_API_KEY must be set in the environment to use LLM summarization")
+    if not api_key:
+        raise RuntimeError("GEMINI_API_KEY must be set in the environment to use LLM summarization")
 
     max_chars = int(os.environ.get("GEMINI_MAX_CHARS", "400"))
     rpm = int(os.environ.get("GEMINI_RPM", "60"))
@@ -89,13 +105,23 @@ def summarize_with_gemini(prompt: str, max_tokens: int = 256) -> str:
     if wait > 0:
         time.sleep(wait)
 
+    # Build Google Gemini generateContent payload
+    full_prompt = system_prompt + prompt if system_prompt else prompt
     payload = {
-        "prompt": prompt,
-        "max_output_tokens": max_tokens,
+        "contents": [
+            {
+                "parts": [{"text": full_prompt}]
+            }
+        ],
+        "generationConfig": {
+            "maxOutputTokens": max_tokens,
+        },
     }
 
+    # Google Gemini API uses ?key= query parameter for auth
+    url = f"{endpoint}?key={api_key}"
+
     headers = {
-        "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
         "User-Agent": "ai-digest/1.0",
     }
@@ -104,7 +130,7 @@ def summarize_with_gemini(prompt: str, max_tokens: int = 256) -> str:
     while attempt < max_retries:
         attempt += 1
         try:
-            resp = requests.post(endpoint, json=payload, headers=headers, timeout=30)
+            resp = requests.post(url, json=payload, headers=headers, timeout=30)
 
             # Update last request time on any attempt that reached the server
             _last_request_time = time.monotonic()

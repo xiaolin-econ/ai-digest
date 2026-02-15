@@ -3,7 +3,7 @@ import logging
 import os
 from typing import Optional
 from store import connect, set_ai_summary
-from llm import summarize_with_gemini
+from llm import summarize_with_gemini, ITEM_PROMPT, DIGEST_PROMPT
 
 logger = logging.getLogger(__name__)
 
@@ -49,7 +49,7 @@ def digest_summary(texts: list[str], max_sentences: int = 3, max_chars: int = 80
     use_gemini = os.environ.get("USE_GEMINI", "0") in ("1", "true", "True")
     if use_gemini:
         try:
-            return summarize_with_gemini(concat, max_tokens=200)
+            return summarize_with_gemini(concat, max_tokens=200, system_prompt=DIGEST_PROMPT)
         except Exception:
             logger.exception("Gemini digest summary failed, falling back to extractive")
     return summarize_text(concat, max_sentences=max_sentences, max_chars=max_chars)
@@ -78,7 +78,7 @@ def main(dry_run: bool = False):
                 # Use the configured Google Gemini (or other) LLM endpoint. The implementation
                 # reads credentials and endpoint from environment variables. We will fall back
                 # to the local extractive summarizer on any error.
-                s = summarize_with_gemini(source_text)
+                s = summarize_with_gemini(source_text, system_prompt=ITEM_PROMPT)
             except Exception:
                 logger.exception("LLM summarization failed, falling back to extractive for %s", item_id)
                 s = summarize_text(source_text)

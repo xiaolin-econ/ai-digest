@@ -4,15 +4,15 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Sun, 15 Feb 2026 06:39:47 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Feb 2026 19:22:35 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Sun, 15 Feb 2026 06:39:47 +0000</pubDate>
-  <description>Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and making iterative corrections. While test-time scaling (TTS) has demonstrated that allocating additional inference compute for iterative reasoning substantially improves language model performance, extending this paradigm to unified multimodal models remains an open challenge. We introduce UniT, a framework for multimodal chain-of-thought test-time scaling that enables a single unified model to…</description>
+  <pubDate>Sun, 15 Feb 2026 19:22:35 +0000</pubDate>
+  <description>Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and… Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and……</description>
 </item>
 
 <item>
@@ -20,7 +20,9 @@
   <link>https://arxiv.org/abs/2602.12279v1</link>
   <guid>https://arxiv.org/abs/2602.12279v1</guid>
   <pubDate>Thu, 12 Feb 2026 18:59:49 +0000</pubDate>
-  <description>arXiv cs.AI - Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and makin</description>
+  <description>arXiv cs.AI - Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and makin
+
+AI summary: Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and…</description>
 </item>
 
 <item>
@@ -28,7 +30,9 @@
   <link>https://arxiv.org/abs/2602.12279v1</link>
   <guid>https://arxiv.org/abs/2602.12279v1</guid>
   <pubDate>Thu, 12 Feb 2026 18:59:49 +0000</pubDate>
-  <description>arXiv cs.LG - Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and makin</description>
+  <description>arXiv cs.LG - Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and makin
+
+AI summary: Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and…</description>
 </item>
 
 <item>
@@ -36,7 +40,9 @@
   <link>https://arxiv.org/abs/2602.12276v1</link>
   <guid>https://arxiv.org/abs/2602.12276v1</guid>
   <pubDate>Thu, 12 Feb 2026 18:58:30 +0000</pubDate>
-  <description>arXiv cs.AI - Test-time scaling has become a standard way to improve performance and boost reliability of neural network models. However, its behavior on agentic, multi-step tasks remains less well-understood: small per-step errors can compound over long horizons; and we find that naive policies that uniformly increase sampling show diminishing returns. In this work, we present CATTS, a simple technique for dyn</description>
+  <description>arXiv cs.AI - Test-time scaling has become a standard way to improve performance and boost reliability of neural network models. However, its behavior on agentic, multi-step tasks remains less well-understood: small per-step errors can compound over long horizons; and we find that naive policies that uniformly increase sampling show diminishing returns. In this work, we present CATTS, a simple technique for dyn
+
+AI summary: Test-time scaling has become a standard way to improve performance and boost reliability of neural network models. However, its behavior on agentic, multi-step tasks remains less well-understood: small per-step errors can compound over long horizons; and we find that naive policies that uniformly increase sampling show diminishing returns.</description>
 </item>
 
 <item>
@@ -44,7 +50,9 @@
   <link>https://arxiv.org/abs/2602.12268v1</link>
   <guid>https://arxiv.org/abs/2602.12268v1</guid>
   <pubDate>Thu, 12 Feb 2026 18:55:09 +0000</pubDate>
-  <description>arXiv cs.AI - AI agents are increasingly used to solve real-world tasks by reasoning over multi-turn user interactions and invoking external tools. However, applying reinforcement learning to such settings remains difficult: realistic objectives often lack verifiable rewards and instead emphasize open-ended behaviors; moreover, RL for multi-turn, multi-step agentic tool use is still underexplored; and building </description>
+  <description>arXiv cs.AI - AI agents are increasingly used to solve real-world tasks by reasoning over multi-turn user interactions and invoking external tools. However, applying reinforcement learning to such settings remains difficult: realistic objectives often lack verifiable rewards and instead emphasize open-ended behaviors; moreover, RL for multi-turn, multi-step agentic tool use is still underexplored; and building 
+
+AI summary: AI agents are increasingly used to solve real-world tasks by reasoning over multi-turn user interactions and invoking external tools. However, applying reinforcement learning to such settings remains difficult: realistic objectives often lack verifiable rewards and instead emphasize open-ended behaviors; moreover, RL for multi-turn, multi-step agentic tool use is still underexplored; and…</description>
 </item>
 
 <item>
@@ -52,7 +60,9 @@
   <link>https://arxiv.org/abs/2602.12267v1</link>
   <guid>https://arxiv.org/abs/2602.12267v1</guid>
   <pubDate>Thu, 12 Feb 2026 18:54:57 +0000</pubDate>
-  <description>arXiv cs.LG - Self-supervised learning (SSL) is a powerful paradigm for learning from unlabeled time-series data. However, popular methods such as masked autoencoders (MAEs) rely on reconstructing inputs from a fixed, predetermined masking ratio. Instead of this static design, we propose treating the corruption level as a new degree of freedom for representation learning, enhancing flexibility and performance. </description>
+  <description>arXiv cs.LG - Self-supervised learning (SSL) is a powerful paradigm for learning from unlabeled time-series data. However, popular methods such as masked autoencoders (MAEs) rely on reconstructing inputs from a fixed, predetermined masking ratio. Instead of this static design, we propose treating the corruption level as a new degree of freedom for representation learning, enhancing flexibility and performance. 
+
+AI summary: Self-supervised learning (SSL) is a powerful paradigm for learning from unlabeled time-series data. However, popular methods such as masked autoencoders (MAEs) rely on reconstructing inputs from a fixed, predetermined masking ratio.</description>
 </item>
 
 <item>
@@ -60,7 +70,9 @@
   <link>https://arxiv.org/abs/2602.12262v1</link>
   <guid>https://arxiv.org/abs/2602.12262v1</guid>
   <pubDate>Thu, 12 Feb 2026 18:52:35 +0000</pubDate>
-  <description>arXiv cs.LG - Diffusion large language models (DLLMs) have the potential to enable fast text generation by decoding multiple tokens in parallel. However, in practice, their inference efficiency is constrained by the need for many refinement steps, while aggressively reducing the number of steps leads to a substantial degradation in generation quality. To alleviate this, we propose a trajectory self-distillation</description>
+  <description>arXiv cs.LG - Diffusion large language models (DLLMs) have the potential to enable fast text generation by decoding multiple tokens in parallel. However, in practice, their inference efficiency is constrained by the need for many refinement steps, while aggressively reducing the number of steps leads to a substantial degradation in generation quality. To alleviate this, we propose a trajectory self-distillation
+
+AI summary: Diffusion large language models (DLLMs) have the potential to enable fast text generation by decoding multiple tokens in parallel. However, in practice, their inference efficiency is constrained by the need for many refinement steps, while aggressively reducing the number of steps leads to a substantial degradation in generation quality.</description>
 </item>
 
 <item>
@@ -68,7 +80,9 @@
   <link>https://arxiv.org/abs/2602.12259v1</link>
   <guid>https://arxiv.org/abs/2602.12259v1</guid>
   <pubDate>Thu, 12 Feb 2026 18:49:27 +0000</pubDate>
-  <description>arXiv cs.AI - Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities. However, most existing LLM-based systems try to guess equations directly from data, without modeling the multi-step re</description>
+  <description>arXiv cs.AI - Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities. However, most existing LLM-based systems try to guess equations directly from data, without modeling the multi-step re
+
+AI summary: Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities.</description>
 </item>
 
 <item>
@@ -76,7 +90,9 @@
   <link>https://arxiv.org/abs/2602.12259v1</link>
   <guid>https://arxiv.org/abs/2602.12259v1</guid>
   <pubDate>Thu, 12 Feb 2026 18:49:27 +0000</pubDate>
-  <description>arXiv cs.LG - Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities. However, most existing LLM-based systems try to guess equations directly from data, without modeling the multi-step re</description>
+  <description>arXiv cs.LG - Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities. However, most existing LLM-based systems try to guess equations directly from data, without modeling the multi-step re
+
+AI summary: Explaining observed phenomena through symbolic, interpretable formulas is a fundamental goal of science. Recently, large language models (LLMs) have emerged as promising tools for symbolic equation discovery, owing to their broad domain knowledge and strong reasoning capabilities.</description>
 </item>
 
 <item>
@@ -84,7 +100,9 @@
   <link>https://arxiv.org/abs/2602.12224v1</link>
   <guid>https://arxiv.org/abs/2602.12224v1</guid>
   <pubDate>Thu, 12 Feb 2026 18:03:37 +0000</pubDate>
-  <description>arXiv cs.AI - Two-sided matching markets rely on preferences from both sides, yet it is often impractical to evaluate preferences. Participants, therefore, conduct a limited number of interviews, which provide early, noisy impressions and shape final decisions. We study bandit learning in matching markets with interviews, modeling interviews as \textit{low-cost hints} that reveal partial preference information </description>
+  <description>arXiv cs.AI - Two-sided matching markets rely on preferences from both sides, yet it is often impractical to evaluate preferences. Participants, therefore, conduct a limited number of interviews, which provide early, noisy impressions and shape final decisions. We study bandit learning in matching markets with interviews, modeling interviews as \textit{low-cost hints} that reveal partial preference information 
+
+AI summary: Two-sided matching markets rely on preferences from both sides, yet it is often impractical to evaluate preferences. Participants, therefore, conduct a limited number of interviews, which provide early, noisy impressions and shape final decisions.</description>
 </item>
 
 <item>
@@ -92,7 +110,9 @@
   <link>https://arxiv.org/abs/2602.12222v1</link>
   <guid>https://arxiv.org/abs/2602.12222v1</guid>
   <pubDate>Thu, 12 Feb 2026 17:59:58 +0000</pubDate>
-  <description>arXiv cs.AI - Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL&apos;s use of on-policy data. We propose a framework to bridge this chasm by enabling On-Policy SFT. We first present \textbf{\textit{Distribution Discriminant Theory (DDT)}}, which explains and quantifies the alignment between da</description>
+  <description>arXiv cs.AI - Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL&apos;s use of on-policy data. We propose a framework to bridge this chasm by enabling On-Policy SFT. We first present \textbf{\textit{Distribution Discriminant Theory (DDT)}}, which explains and quantifies the alignment between da
+
+AI summary: Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL&apos;s use of on-policy data.</description>
 </item>
 
 <item>
@@ -100,7 +120,9 @@
   <link>https://arxiv.org/abs/2602.12222v1</link>
   <guid>https://arxiv.org/abs/2602.12222v1</guid>
   <pubDate>Thu, 12 Feb 2026 17:59:58 +0000</pubDate>
-  <description>arXiv cs.LG - Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL&apos;s use of on-policy data. We propose a framework to bridge this chasm by enabling On-Policy SFT. We first present \textbf{\textit{Distribution Discriminant Theory (DDT)}}, which explains and quantifies the alignment between da</description>
+  <description>arXiv cs.LG - Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL&apos;s use of on-policy data. We propose a framework to bridge this chasm by enabling On-Policy SFT. We first present \textbf{\textit{Distribution Discriminant Theory (DDT)}}, which explains and quantifies the alignment between da
+
+AI summary: Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL&apos;s use of on-policy data.</description>
 </item>
 
 <item>
@@ -108,7 +130,9 @@
   <link>https://arxiv.org/abs/2602.12207v1</link>
   <guid>https://arxiv.org/abs/2602.12207v1</guid>
   <pubDate>Thu, 12 Feb 2026 17:46:52 +0000</pubDate>
-  <description>arXiv cs.AI - Digital platforms shape how people communicate, deliberate, and form opinions. Studying these dynamics has become increasingly difficult due to restricted data access, ethical constraints on real-world experiments, and limitations of existing research tools. VIRENA (Virtual Arena) is a platform that enables controlled experimentation in realistic social media environments. Multiple participants in</description>
+  <description>arXiv cs.AI - Digital platforms shape how people communicate, deliberate, and form opinions. Studying these dynamics has become increasingly difficult due to restricted data access, ethical constraints on real-world experiments, and limitations of existing research tools. VIRENA (Virtual Arena) is a platform that enables controlled experimentation in realistic social media environments. Multiple participants in
+
+AI summary: Digital platforms shape how people communicate, deliberate, and form opinions. Studying these dynamics has become increasingly difficult due to restricted data access, ethical constraints on real-world experiments, and limitations of existing research tools.</description>
 </item>
 
 <item>
@@ -116,7 +140,9 @@
   <link>https://arxiv.org/abs/2602.12189v1</link>
   <guid>https://arxiv.org/abs/2602.12189v1</guid>
   <pubDate>Thu, 12 Feb 2026 17:20:43 +0000</pubDate>
-  <description>arXiv cs.LG - Biomedical signal classification presents unique challenges due to long sequences, complex temporal dynamics, and multi-scale frequency patterns that are poorly captured by standard transformer architectures. We propose WaveFormer, a transformer architecture that integrates wavelet decomposition at two critical stages: embedding construction, where multi-channel Discrete Wavelet Transform (DWT) ex</description>
+  <description>arXiv cs.LG - Biomedical signal classification presents unique challenges due to long sequences, complex temporal dynamics, and multi-scale frequency patterns that are poorly captured by standard transformer architectures. We propose WaveFormer, a transformer architecture that integrates wavelet decomposition at two critical stages: embedding construction, where multi-channel Discrete Wavelet Transform (DWT) ex
+
+AI summary: Biomedical signal classification presents unique challenges due to long sequences, complex temporal dynamics, and multi-scale frequency patterns that are poorly captured by standard transformer architectures. We propose WaveFormer, a transformer architecture that integrates wavelet decomposition at two critical stages: embedding construction, where multi-channel Discrete Wavelet Transform (DWT)…</description>
 </item>
 
 <item>
@@ -124,7 +150,9 @@
   <link>https://arxiv.org/abs/2602.12181v1</link>
   <guid>https://arxiv.org/abs/2602.12181v1</guid>
   <pubDate>Thu, 12 Feb 2026 17:11:20 +0000</pubDate>
-  <description>arXiv cs.LG - Convex Markov Games (cMGs) were recently introduced as a broad class of multi-agent learning problems that generalize Markov games to settings where strategic agents optimize general utilities beyond additive rewards. While cMGs expand the modeling frontier, their theoretical foundations, particularly the structure of Nash equilibria (NE) and guarantees for learning algorithms, are not yet well un</description>
+  <description>arXiv cs.LG - Convex Markov Games (cMGs) were recently introduced as a broad class of multi-agent learning problems that generalize Markov games to settings where strategic agents optimize general utilities beyond additive rewards. While cMGs expand the modeling frontier, their theoretical foundations, particularly the structure of Nash equilibria (NE) and guarantees for learning algorithms, are not yet well un
+
+AI summary: Convex Markov Games (cMGs) were recently introduced as a broad class of multi-agent learning problems that generalize Markov games to settings where strategic agents optimize general utilities beyond additive rewards. While cMGs expand the modeling frontier, their theoretical foundations, particularly the structure of Nash equilibria (NE) and guarantees for learning algorithms, are not yet well…</description>
 </item>
 
 <item>
@@ -132,7 +160,9 @@
   <link>https://arxiv.org/abs/2602.12173v1</link>
   <guid>https://arxiv.org/abs/2602.12173v1</guid>
   <pubDate>Thu, 12 Feb 2026 17:01:49 +0000</pubDate>
-  <description>arXiv cs.AI - Vision-language segmentation models such as SAM3 enable flexible, prompt-driven visual grounding, but inherit large, general-purpose text encoders originally designed for open-ended language understanding. In practice, segmentation prompts are short, structured, and semantically constrained, leading to substantial over-provisioning in text encoder capacity and persistent computational and memory o</description>
+  <description>arXiv cs.AI - Vision-language segmentation models such as SAM3 enable flexible, prompt-driven visual grounding, but inherit large, general-purpose text encoders originally designed for open-ended language understanding. In practice, segmentation prompts are short, structured, and semantically constrained, leading to substantial over-provisioning in text encoder capacity and persistent computational and memory o
+
+AI summary: Vision-language segmentation models such as SAM3 enable flexible, prompt-driven visual grounding, but inherit large, general-purpose text encoders originally designed for open-ended language understanding. In practice, segmentation prompts are short, structured, and semantically constrained, leading to substantial over-provisioning in text encoder capacity and persistent computational and memory…</description>
 </item>
 
 <item>
@@ -141,7 +171,9 @@
   <guid>https://arxiv.org/abs/2602.12170v1</guid>
   <pubDate>Thu, 12 Feb 2026 16:57:25 +0000</pubDate>
   <description>arXiv cs.AI - In previous work (Coppola, 2024) we introduced the Quantified Boolean Bayesian Network (QBBN), a logical graphical model that implements the forward fragment of natural deduction (Prawitz, 1965) as a probabilistic factor graph. That work left two gaps: no negation/backward reasoning, and no parser for natural language.
-  This paper addresses both gaps across inference, semantics, and syntax. For i</description>
+  This paper addresses both gaps across inference, semantics, and syntax. For i
+
+AI summary: In previous work (Coppola, 2024) we introduced the Quantified Boolean Bayesian Network (QBBN), a logical graphical model that implements the forward fragment of natural deduction (Prawitz, 1965) as a probabilistic factor graph. That work left two gaps: no negation/backward reasoning, and no parser for natural language.</description>
 </item>
 
 <item>
@@ -149,7 +181,9 @@
   <link>https://arxiv.org/abs/2602.11136v1</link>
   <guid>https://arxiv.org/abs/2602.11136v1</guid>
   <pubDate>Wed, 11 Feb 2026 18:48:11 +0000</pubDate>
-  <description>arXiv cs.AI - As LLM-based agents increasingly operate in high-stakes domains with real-world consequences, ensuring their behavioral safety becomes paramount. The dominant oversight paradigm, LLM-as-a-Judge, faces a fundamental dilemma: how can probabilistic systems reliably supervise other probabilistic systems without inheriting their failure modes? We argue that formal verification offers a principled escap</description>
+  <description>arXiv cs.AI - As LLM-based agents increasingly operate in high-stakes domains with real-world consequences, ensuring their behavioral safety becomes paramount. The dominant oversight paradigm, LLM-as-a-Judge, faces a fundamental dilemma: how can probabilistic systems reliably supervise other probabilistic systems without inheriting their failure modes? We argue that formal verification offers a principled escap
+
+AI summary: As LLM-based agents increasingly operate in high-stakes domains with real-world consequences, ensuring their behavioral safety becomes paramount. The dominant oversight paradigm, LLM-as-a-Judge, faces a fundamental dilemma: how can probabilistic systems reliably supervise other probabilistic systems without inheriting their failure modes?</description>
 </item>
 
 <item>
@@ -157,7 +191,9 @@
   <link>https://arxiv.org/abs/2602.11123v1</link>
   <guid>https://arxiv.org/abs/2602.11123v1</guid>
   <pubDate>Wed, 11 Feb 2026 18:34:24 +0000</pubDate>
-  <description>arXiv cs.LG - Accelerating the discovery of high-performance materials remains a central challenge across energy, electronics, and aerospace technologies, where traditional workflows depend heavily on expert intuition and computationally expensive simulations. Here we introduce the Materials Knowledge Navigation Agent (MKNA), a language-driven system that translates natural-language scientific intent into execu</description>
+  <description>arXiv cs.LG - Accelerating the discovery of high-performance materials remains a central challenge across energy, electronics, and aerospace technologies, where traditional workflows depend heavily on expert intuition and computationally expensive simulations. Here we introduce the Materials Knowledge Navigation Agent (MKNA), a language-driven system that translates natural-language scientific intent into execu
+
+AI summary: Accelerating the discovery of high-performance materials remains a central challenge across energy, electronics, and aerospace technologies, where traditional workflows depend heavily on expert intuition and computationally expensive simulations. Here we introduce the Materials Knowledge Navigation Agent (MKNA), a language-driven system that translates natural-language scientific intent into…</description>
 </item>
 
 <item>
@@ -165,7 +201,9 @@
   <link>https://arxiv.org/abs/2602.11114v1</link>
   <guid>https://arxiv.org/abs/2602.11114v1</guid>
   <pubDate>Wed, 11 Feb 2026 18:27:22 +0000</pubDate>
-  <description>arXiv cs.AI - Automatically generating agentic workflows -- executable operator graphs or codes that orchestrate reasoning, verification, and repair -- has become a practical way to solve complex tasks beyond what single-pass LLM generation can reliably handle. Yet what constitutes a good workflow depends heavily on the task distribution and the available operators. Under domain shift, current systems typically</description>
+  <description>arXiv cs.AI - Automatically generating agentic workflows -- executable operator graphs or codes that orchestrate reasoning, verification, and repair -- has become a practical way to solve complex tasks beyond what single-pass LLM generation can reliably handle. Yet what constitutes a good workflow depends heavily on the task distribution and the available operators. Under domain shift, current systems typically
+
+AI summary: Automatically generating agentic workflows -- executable operator graphs or codes that orchestrate reasoning, verification, and repair -- has become a practical way to solve complex tasks beyond what single-pass LLM generation can reliably handle. Yet what constitutes a good workflow depends heavily on the task distribution and the available operators.</description>
 </item>
 
 <item>
@@ -173,7 +211,9 @@
   <link>https://arxiv.org/abs/2602.11114v1</link>
   <guid>https://arxiv.org/abs/2602.11114v1</guid>
   <pubDate>Wed, 11 Feb 2026 18:27:22 +0000</pubDate>
-  <description>arXiv cs.LG - Automatically generating agentic workflows -- executable operator graphs or codes that orchestrate reasoning, verification, and repair -- has become a practical way to solve complex tasks beyond what single-pass LLM generation can reliably handle. Yet what constitutes a good workflow depends heavily on the task distribution and the available operators. Under domain shift, current systems typically</description>
+  <description>arXiv cs.LG - Automatically generating agentic workflows -- executable operator graphs or codes that orchestrate reasoning, verification, and repair -- has become a practical way to solve complex tasks beyond what single-pass LLM generation can reliably handle. Yet what constitutes a good workflow depends heavily on the task distribution and the available operators. Under domain shift, current systems typically
+
+AI summary: Automatically generating agentic workflows -- executable operator graphs or codes that orchestrate reasoning, verification, and repair -- has become a practical way to solve complex tasks beyond what single-pass LLM generation can reliably handle. Yet what constitutes a good workflow depends heavily on the task distribution and the available operators.</description>
 </item>
 
 <item>
@@ -181,7 +221,9 @@
   <link>https://arxiv.org/abs/2602.11103v1</link>
   <guid>https://arxiv.org/abs/2602.11103v1</guid>
   <pubDate>Wed, 11 Feb 2026 18:15:11 +0000</pubDate>
-  <description>arXiv cs.AI - Despite rapid progress on coding agents, progress on their multimodal counterparts has lagged behind. A key challenge is the scarcity of evaluation testbeds that combine the complexity of software development with the need for deep multimodal understanding. Game development provides such a testbed as agents must navigate large, dense codebases while manipulating intrinsically multimodal assets suc</description>
+  <description>arXiv cs.AI - Despite rapid progress on coding agents, progress on their multimodal counterparts has lagged behind. A key challenge is the scarcity of evaluation testbeds that combine the complexity of software development with the need for deep multimodal understanding. Game development provides such a testbed as agents must navigate large, dense codebases while manipulating intrinsically multimodal assets suc
+
+AI summary: Despite rapid progress on coding agents, progress on their multimodal counterparts has lagged behind. A key challenge is the scarcity of evaluation testbeds that combine the complexity of software development with the need for deep multimodal understanding.</description>
 </item>
 
 <item>
@@ -189,7 +231,9 @@
   <link>https://arxiv.org/abs/2602.11092v1</link>
   <guid>https://arxiv.org/abs/2602.11092v1</guid>
   <pubDate>Wed, 11 Feb 2026 18:00:01 +0000</pubDate>
-  <description>arXiv cs.LG - Identifying where quantum models may offer practical benefits in near term quantum machine learning (QML) requires moving beyond isolated algorithmic proposals toward systematic and empirical exploration across models, datasets, and hardware constraints. We introduce MerLin, an open source framework designed as a discovery engine for photonic and hybrid quantum machine learning. MerLin integrates </description>
+  <description>arXiv cs.LG - Identifying where quantum models may offer practical benefits in near term quantum machine learning (QML) requires moving beyond isolated algorithmic proposals toward systematic and empirical exploration across models, datasets, and hardware constraints. We introduce MerLin, an open source framework designed as a discovery engine for photonic and hybrid quantum machine learning. MerLin integrates 
+
+AI summary: Identifying where quantum models may offer practical benefits in near term quantum machine learning (QML) requires moving beyond isolated algorithmic proposals toward systematic and empirical exploration across models, datasets, and hardware constraints. We introduce MerLin, an open source framework designed as a discovery engine for photonic and hybrid quantum machine learning.</description>
 </item>
 
 <item>
@@ -197,7 +241,9 @@
   <link>https://arxiv.org/abs/2602.11076v1</link>
   <guid>https://arxiv.org/abs/2602.11076v1</guid>
   <pubDate>Wed, 11 Feb 2026 17:44:03 +0000</pubDate>
-  <description>arXiv cs.AI - Sixth-generation (6G) radio access networks (RANs) must enforce strict service-level agreements (SLAs) for heterogeneous slices, yet sudden latency spikes remain difficult to diagnose and resolve with conventional deep reinforcement learning (DRL) or explainable RL (XRL). We propose \emph{Attention-Enhanced Multi-Agent Proximal Policy Optimization (AE-MAPPO)}, which integrates six specialized atte</description>
+  <description>arXiv cs.AI - Sixth-generation (6G) radio access networks (RANs) must enforce strict service-level agreements (SLAs) for heterogeneous slices, yet sudden latency spikes remain difficult to diagnose and resolve with conventional deep reinforcement learning (DRL) or explainable RL (XRL). We propose \emph{Attention-Enhanced Multi-Agent Proximal Policy Optimization (AE-MAPPO)}, which integrates six specialized atte
+
+AI summary: Sixth-generation (6G) radio access networks (RANs) must enforce strict service-level agreements (SLAs) for heterogeneous slices, yet sudden latency spikes remain difficult to diagnose and resolve with conventional deep reinforcement learning (DRL) or explainable RL (XRL). We propose \emph{Attention-Enhanced Multi-Agent Proximal Policy Optimization (AE-MAPPO)}, which integrates six specialized…</description>
 </item>
 
 <item>
@@ -205,7 +251,9 @@
   <link>https://arxiv.org/abs/2602.11073v1</link>
   <guid>https://arxiv.org/abs/2602.11073v1</guid>
   <pubDate>Wed, 11 Feb 2026 17:42:37 +0000</pubDate>
-  <description>arXiv cs.AI - Current large vision-language models (LVLMs) typically rely on text-only reasoning based on a single-pass visual encoding, which often leads to loss of fine-grained visual information. Recently the proposal of &apos;&apos;thinking with images&apos;&apos; attempts to alleviate this limitation by manipulating images via external tools or code; however, the resulting visual states are often insufficiently grounded in li</description>
+  <description>arXiv cs.AI - Current large vision-language models (LVLMs) typically rely on text-only reasoning based on a single-pass visual encoding, which often leads to loss of fine-grained visual information. Recently the proposal of &apos;&apos;thinking with images&apos;&apos; attempts to alleviate this limitation by manipulating images via external tools or code; however, the resulting visual states are often insufficiently grounded in li
+
+AI summary: Current large vision-language models (LVLMs) typically rely on text-only reasoning based on a single-pass visual encoding, which often leads to loss of fine-grained visual information. Recently the proposal of &apos;&apos;thinking with images&apos;&apos; attempts to alleviate this limitation by manipulating images via external tools or code; however, the resulting visual states are often insufficiently grounded in…</description>
 </item>
 
 <item>
@@ -213,7 +261,9 @@
   <link>https://arxiv.org/abs/2602.11024v1</link>
   <guid>https://arxiv.org/abs/2602.11024v1</guid>
   <pubDate>Wed, 11 Feb 2026 16:49:37 +0000</pubDate>
-  <description>arXiv cs.AI - Accurate counting of surgical instruments in Operating Rooms (OR) is a critical prerequisite for ensuring patient safety during surgery. Despite recent progress of large visual-language models and agentic AI, accurately counting such instruments remains highly challenging, particularly in dense scenarios where instruments are tightly clustered. To address this problem, we introduce Chain-of-Look, </description>
+  <description>arXiv cs.AI - Accurate counting of surgical instruments in Operating Rooms (OR) is a critical prerequisite for ensuring patient safety during surgery. Despite recent progress of large visual-language models and agentic AI, accurately counting such instruments remains highly challenging, particularly in dense scenarios where instruments are tightly clustered. To address this problem, we introduce Chain-of-Look, 
+
+AI summary: Accurate counting of surgical instruments in Operating Rooms (OR) is a critical prerequisite for ensuring patient safety during surgery. Despite recent progress of large visual-language models and agentic AI, accurately counting such instruments remains highly challenging, particularly in dense scenarios where instruments are tightly clustered.</description>
 </item>
 
 <item>
@@ -221,7 +271,9 @@
   <link>https://arxiv.org/abs/2602.11018v1</link>
   <guid>https://arxiv.org/abs/2602.11018v1</guid>
   <pubDate>Wed, 11 Feb 2026 16:41:16 +0000</pubDate>
-  <description>arXiv cs.AI - This work addresses the problem of offline safe imitation learning (IL), where the goal is to learn safe and reward-maximizing policies from demonstrations that do not have per-timestep safety cost or reward information. In many real-world domains, online learning in the environment can be risky, and specifying accurate safety costs can be difficult. However, it is often feasible to collect trajec</description>
+  <description>arXiv cs.AI - This work addresses the problem of offline safe imitation learning (IL), where the goal is to learn safe and reward-maximizing policies from demonstrations that do not have per-timestep safety cost or reward information. In many real-world domains, online learning in the environment can be risky, and specifying accurate safety costs can be difficult. However, it is often feasible to collect trajec
+
+AI summary: This work addresses the problem of offline safe imitation learning (IL), where the goal is to learn safe and reward-maximizing policies from demonstrations that do not have per-timestep safety cost or reward information. In many real-world domains, online learning in the environment can be risky, and specifying accurate safety costs can be difficult.</description>
 </item>
 
 <item>
@@ -229,7 +281,9 @@
   <link>https://arxiv.org/abs/2602.10117v1</link>
   <guid>https://arxiv.org/abs/2602.10117v1</guid>
   <pubDate>Tue, 10 Feb 2026 18:59:56 +0000</pubDate>
-  <description>arXiv cs.AI - Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*. Monitoring models via their stated reasoning is therefore unreliable, and existing bias evaluations typically require predefined categories and hand-crafted datasets. In this work, we introduce a fully automated, black-box pipe</description>
+  <description>arXiv cs.AI - Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*. Monitoring models via their stated reasoning is therefore unreliable, and existing bias evaluations typically require predefined categories and hand-crafted datasets. In this work, we introduce a fully automated, black-box pipe
+
+AI summary: Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*.</description>
 </item>
 
 <item>
@@ -237,7 +291,9 @@
   <link>https://arxiv.org/abs/2602.10117v1</link>
   <guid>https://arxiv.org/abs/2602.10117v1</guid>
   <pubDate>Tue, 10 Feb 2026 18:59:56 +0000</pubDate>
-  <description>arXiv cs.LG - Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*. Monitoring models via their stated reasoning is therefore unreliable, and existing bias evaluations typically require predefined categories and hand-crafted datasets. In this work, we introduce a fully automated, black-box pipe</description>
+  <description>arXiv cs.LG - Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*. Monitoring models via their stated reasoning is therefore unreliable, and existing bias evaluations typically require predefined categories and hand-crafted datasets. In this work, we introduce a fully automated, black-box pipe
+
+AI summary: Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*.</description>
 </item>
 
 <item>
@@ -245,7 +301,9 @@
   <link>https://arxiv.org/abs/2602.10090v1</link>
   <guid>https://arxiv.org/abs/2602.10090v1</guid>
   <pubDate>Tue, 10 Feb 2026 18:55:41 +0000</pubDate>
-  <description>arXiv cs.AI - Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale </description>
+  <description>arXiv cs.AI - Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale 
+
+AI summary: Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments.</description>
 </item>
 
 <item>
@@ -253,7 +311,9 @@
   <link>https://arxiv.org/abs/2602.10090v1</link>
   <guid>https://arxiv.org/abs/2602.10090v1</guid>
   <pubDate>Tue, 10 Feb 2026 18:55:41 +0000</pubDate>
-  <description>arXiv cs.LG - Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale </description>
+  <description>arXiv cs.LG - Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale 
+
+AI summary: Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments.</description>
 </item>
 
 <item>
@@ -261,7 +321,9 @@
   <link>https://arxiv.org/abs/2602.10085v1</link>
   <guid>https://arxiv.org/abs/2602.10085v1</guid>
   <pubDate>Tue, 10 Feb 2026 18:51:39 +0000</pubDate>
-  <description>arXiv cs.AI - Developing agents capable of open-endedly discovering and learning novel skills is a grand challenge in Artificial Intelligence. While reinforcement learning offers a powerful framework for training agents to master complex skills, it typically relies on hand-designed reward functions. This is infeasible for open-ended skill discovery, where the set of meaningful skills is not known a priori. Whil</description>
+  <description>arXiv cs.AI - Developing agents capable of open-endedly discovering and learning novel skills is a grand challenge in Artificial Intelligence. While reinforcement learning offers a powerful framework for training agents to master complex skills, it typically relies on hand-designed reward functions. This is infeasible for open-ended skill discovery, where the set of meaningful skills is not known a priori. Whil
+
+AI summary: Developing agents capable of open-endedly discovering and learning novel skills is a grand challenge in Artificial Intelligence. While reinforcement learning offers a powerful framework for training agents to master complex skills, it typically relies on hand-designed reward functions.</description>
 </item>
 
 <item>
@@ -269,7 +331,9 @@
   <link>https://arxiv.org/abs/2602.10081v1</link>
   <guid>https://arxiv.org/abs/2602.10081v1</guid>
   <pubDate>Tue, 10 Feb 2026 18:46:28 +0000</pubDate>
-  <description>arXiv cs.AI - In scientific research, analysis requires accurately interpreting complex multimodal knowledge, integrating evidence from different sources, and drawing inferences grounded in domain-specific knowledge. However, current artificial intelligence (AI) systems struggle to consistently demonstrate such capabilities. The complexity and variability of scientific tables and figures, combined with heteroge</description>
+  <description>arXiv cs.AI - In scientific research, analysis requires accurately interpreting complex multimodal knowledge, integrating evidence from different sources, and drawing inferences grounded in domain-specific knowledge. However, current artificial intelligence (AI) systems struggle to consistently demonstrate such capabilities. The complexity and variability of scientific tables and figures, combined with heteroge
+
+AI summary: In scientific research, analysis requires accurately interpreting complex multimodal knowledge, integrating evidence from different sources, and drawing inferences grounded in domain-specific knowledge. However, current artificial intelligence (AI) systems struggle to consistently demonstrate such capabilities.</description>
 </item>
 
 <item>
@@ -277,7 +341,9 @@
   <link>https://arxiv.org/abs/2602.10063v1</link>
   <guid>https://arxiv.org/abs/2602.10063v1</guid>
   <pubDate>Tue, 10 Feb 2026 18:31:47 +0000</pubDate>
-  <description>arXiv cs.AI - Human problem-solving is never the repetition of a single mindset, by which we mean a distinct mode of cognitive processing. When tackling a specific task, we do not rely on a single mindset; instead, we integrate multiple mindsets within the single solution process. However, existing LLM reasoning methods fall into a common trap: they apply the same fixed mindset across all steps, overlooking tha</description>
+  <description>arXiv cs.AI - Human problem-solving is never the repetition of a single mindset, by which we mean a distinct mode of cognitive processing. When tackling a specific task, we do not rely on a single mindset; instead, we integrate multiple mindsets within the single solution process. However, existing LLM reasoning methods fall into a common trap: they apply the same fixed mindset across all steps, overlooking tha
+
+AI summary: Human problem-solving is never the repetition of a single mindset, by which we mean a distinct mode of cognitive processing. When tackling a specific task, we do not rely on a single mindset; instead, we integrate multiple mindsets within the single solution process.</description>
 </item>
 
 <item>
@@ -285,7 +351,9 @@
   <link>https://arxiv.org/abs/2602.10037v1</link>
   <guid>https://arxiv.org/abs/2602.10037v1</guid>
   <pubDate>Tue, 10 Feb 2026 17:59:29 +0000</pubDate>
-  <description>arXiv cs.LG - In black-box combinatorial optimization, objective evaluations are often expensive, so high quality solutions must be found under a limited budget. Factorization machine with quantum annealing (FMQA) builds a quadratic surrogate model from evaluated samples and optimizes it on an Ising machine. However, FMQA requires binary decision variables, and for nonbinary structures such as integer permutati</description>
+  <description>arXiv cs.LG - In black-box combinatorial optimization, objective evaluations are often expensive, so high quality solutions must be found under a limited budget. Factorization machine with quantum annealing (FMQA) builds a quadratic surrogate model from evaluated samples and optimizes it on an Ising machine. However, FMQA requires binary decision variables, and for nonbinary structures such as integer permutati
+
+AI summary: In black-box combinatorial optimization, objective evaluations are often expensive, so high quality solutions must be found under a limited budget. Factorization machine with quantum annealing (FMQA) builds a quadratic surrogate model from evaluated samples and optimizes it on an Ising machine.</description>
 </item>
 
 <item>
@@ -293,7 +361,9 @@
   <link>https://arxiv.org/abs/2602.10009v1</link>
   <guid>https://arxiv.org/abs/2602.10009v1</guid>
   <pubDate>Tue, 10 Feb 2026 17:31:39 +0000</pubDate>
-  <description>arXiv cs.AI - Artificial intelligence (AI) agents embedded in environments with physics-based interaction face many challenges including reasoning, planning, summarization, and question answering. This problem is exacerbated when a human user wishes to either guide or interact with the agent in natural language. Although the use of Language Models (LMs) is the default choice, as an AI tool, they struggle with t</description>
+  <description>arXiv cs.AI - Artificial intelligence (AI) agents embedded in environments with physics-based interaction face many challenges including reasoning, planning, summarization, and question answering. This problem is exacerbated when a human user wishes to either guide or interact with the agent in natural language. Although the use of Language Models (LMs) is the default choice, as an AI tool, they struggle with t
+
+AI summary: Artificial intelligence (AI) agents embedded in environments with physics-based interaction face many challenges including reasoning, planning, summarization, and question answering. This problem is exacerbated when a human user wishes to either guide or interact with the agent in natural language.</description>
 </item>
 
 <item>
@@ -301,7 +371,9 @@
   <link>https://arxiv.org/abs/2602.10007v1</link>
   <guid>https://arxiv.org/abs/2602.10007v1</guid>
   <pubDate>Tue, 10 Feb 2026 17:30:09 +0000</pubDate>
-  <description>arXiv cs.AI - Lane changing in dense traffic is a significant challenge for Connected and Autonomous Vehicles (CAVs). Existing lane change controllers primarily either ensure safety or collaboratively improve traffic efficiency, but do not consider these conflicting objectives together. To address this, we propose the Multi-Agent Safety Shield (MASS), designed using Control Barrier Functions (CBFs) to enable sa</description>
+  <description>arXiv cs.AI - Lane changing in dense traffic is a significant challenge for Connected and Autonomous Vehicles (CAVs). Existing lane change controllers primarily either ensure safety or collaboratively improve traffic efficiency, but do not consider these conflicting objectives together. To address this, we propose the Multi-Agent Safety Shield (MASS), designed using Control Barrier Functions (CBFs) to enable sa
+
+AI summary: Lane changing in dense traffic is a significant challenge for Connected and Autonomous Vehicles (CAVs). Existing lane change controllers primarily either ensure safety or collaboratively improve traffic efficiency, but do not consider these conflicting objectives together.</description>
 </item>
 
 <item>
@@ -309,7 +381,9 @@
   <link>https://arxiv.org/abs/2602.09018v1</link>
   <guid>https://arxiv.org/abs/2602.09018v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:59:03 +0000</pubDate>
-  <description>arXiv cs.AI - Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$). Using closed loop control in VISTA, we benchmark FC, CNN, and ViT polici</description>
+  <description>arXiv cs.AI - Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$). Using closed loop control in VISTA, we benchmark FC, CNN, and ViT polici
+
+AI summary: Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$).</description>
 </item>
 
 <item>
@@ -317,7 +391,9 @@
   <link>https://arxiv.org/abs/2602.09018v1</link>
   <guid>https://arxiv.org/abs/2602.09018v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:59:03 +0000</pubDate>
-  <description>arXiv cs.LG - Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$). Using closed loop control in VISTA, we benchmark FC, CNN, and ViT polici</description>
+  <description>arXiv cs.LG - Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$). Using closed loop control in VISTA, we benchmark FC, CNN, and ViT polici
+
+AI summary: Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$).</description>
 </item>
 
 <item>
@@ -325,7 +401,9 @@
   <link>https://arxiv.org/abs/2602.09012v1</link>
   <guid>https://arxiv.org/abs/2602.09012v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:55:33 +0000</pubDate>
-  <description>arXiv cs.AI - The rapid evolution of GUI-enabled agents has rendered traditional CAPTCHAs obsolete. While previous benchmarks like OpenCaptchaWorld established a baseline for evaluating multimodal agents, recent advancements in reasoning-heavy models, such as Gemini3-Pro-High and GPT-5.2-Xhigh have effectively collapsed this security barrier, achieving pass rates as high as 90% on complex logic puzzles like &quot;Bi</description>
+  <description>arXiv cs.AI - The rapid evolution of GUI-enabled agents has rendered traditional CAPTCHAs obsolete. While previous benchmarks like OpenCaptchaWorld established a baseline for evaluating multimodal agents, recent advancements in reasoning-heavy models, such as Gemini3-Pro-High and GPT-5.2-Xhigh have effectively collapsed this security barrier, achieving pass rates as high as 90% on complex logic puzzles like &quot;Bi
+
+AI summary: The rapid evolution of GUI-enabled agents has rendered traditional CAPTCHAs obsolete. While previous benchmarks like OpenCaptchaWorld established a baseline for evaluating multimodal agents, recent advancements in reasoning-heavy models, such as Gemini3-Pro-High and GPT-5.2-Xhigh have effectively collapsed this security barrier, achieving pass rates as high as 90% on complex logic puzzles like…</description>
 </item>
 
 <item>
@@ -333,7 +411,9 @@
   <link>https://arxiv.org/abs/2602.09012v1</link>
   <guid>https://arxiv.org/abs/2602.09012v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:55:33 +0000</pubDate>
-  <description>arXiv cs.LG - The rapid evolution of GUI-enabled agents has rendered traditional CAPTCHAs obsolete. While previous benchmarks like OpenCaptchaWorld established a baseline for evaluating multimodal agents, recent advancements in reasoning-heavy models, such as Gemini3-Pro-High and GPT-5.2-Xhigh have effectively collapsed this security barrier, achieving pass rates as high as 90% on complex logic puzzles like &quot;Bi</description>
+  <description>arXiv cs.LG - The rapid evolution of GUI-enabled agents has rendered traditional CAPTCHAs obsolete. While previous benchmarks like OpenCaptchaWorld established a baseline for evaluating multimodal agents, recent advancements in reasoning-heavy models, such as Gemini3-Pro-High and GPT-5.2-Xhigh have effectively collapsed this security barrier, achieving pass rates as high as 90% on complex logic puzzles like &quot;Bi
+
+AI summary: The rapid evolution of GUI-enabled agents has rendered traditional CAPTCHAs obsolete. While previous benchmarks like OpenCaptchaWorld established a baseline for evaluating multimodal agents, recent advancements in reasoning-heavy models, such as Gemini3-Pro-High and GPT-5.2-Xhigh have effectively collapsed this security barrier, achieving pass rates as high as 90% on complex logic puzzles like…</description>
 </item>
 
 <item>
@@ -341,7 +421,9 @@
   <link>https://arxiv.org/abs/2602.09002v1</link>
   <guid>https://arxiv.org/abs/2602.09002v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:46:12 +0000</pubDate>
-  <description>arXiv cs.AI - Navigating socially in human environments requires more than satisfying geometric constraints, as collision-free paths may still interfere with ongoing activities or conflict with social norms. Addressing this challenge calls for analyzing interactions between agents and incorporating common-sense reasoning into planning. This paper presents a social robot navigation framework that integrates geom</description>
+  <description>arXiv cs.AI - Navigating socially in human environments requires more than satisfying geometric constraints, as collision-free paths may still interfere with ongoing activities or conflict with social norms. Addressing this challenge calls for analyzing interactions between agents and incorporating common-sense reasoning into planning. This paper presents a social robot navigation framework that integrates geom
+
+AI summary: Navigating socially in human environments requires more than satisfying geometric constraints, as collision-free paths may still interfere with ongoing activities or conflict with social norms. Addressing this challenge calls for analyzing interactions between agents and incorporating common-sense reasoning into planning.</description>
 </item>
 
 <item>
@@ -349,7 +431,9 @@
   <link>https://arxiv.org/abs/2602.08990v1</link>
   <guid>https://arxiv.org/abs/2602.08990v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:36:06 +0000</pubDate>
-  <description>arXiv cs.AI - We introduce InternAgent-1.5, a unified system designed for end-to-end scientific discovery across computational and empirical domains. The system is built on a structured architecture composed of three coordinated subsystems for generation, verification, and evolution. These subsystems are supported by foundational capabilities for deep research, solution optimization, and long horizon memory. Th</description>
+  <description>arXiv cs.AI - We introduce InternAgent-1.5, a unified system designed for end-to-end scientific discovery across computational and empirical domains. The system is built on a structured architecture composed of three coordinated subsystems for generation, verification, and evolution. These subsystems are supported by foundational capabilities for deep research, solution optimization, and long horizon memory. Th
+
+AI summary: We introduce InternAgent-1.5, a unified system designed for end-to-end scientific discovery across computational and empirical domains. The system is built on a structured architecture composed of three coordinated subsystems for generation, verification, and evolution.</description>
 </item>
 
 <item>
@@ -357,7 +441,9 @@
   <link>https://arxiv.org/abs/2602.08983v1</link>
   <guid>https://arxiv.org/abs/2602.08983v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:29:25 +0000</pubDate>
-  <description>arXiv cs.AI - Transformer architectures have established strong baselines in time series forecasting, yet they typically rely on positional encodings that assume uniform, index-based temporal progression. However, real-world systems, from shifting financial cycles to elastic biological rhythms, frequently exhibit &quot;time-warped&quot; dynamics where the effective flow of time decouples from the sampling index. In this </description>
+  <description>arXiv cs.AI - Transformer architectures have established strong baselines in time series forecasting, yet they typically rely on positional encodings that assume uniform, index-based temporal progression. However, real-world systems, from shifting financial cycles to elastic biological rhythms, frequently exhibit &quot;time-warped&quot; dynamics where the effective flow of time decouples from the sampling index. In this 
+
+AI summary: Transformer architectures have established strong baselines in time series forecasting, yet they typically rely on positional encodings that assume uniform, index-based temporal progression. However, real-world systems, from shifting financial cycles to elastic biological rhythms, frequently exhibit &quot;time-warped&quot; dynamics where the effective flow of time decouples from the sampling index.</description>
 </item>
 
 <item>
@@ -365,7 +451,9 @@
   <link>https://arxiv.org/abs/2602.08983v1</link>
   <guid>https://arxiv.org/abs/2602.08983v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:29:25 +0000</pubDate>
-  <description>arXiv cs.LG - Transformer architectures have established strong baselines in time series forecasting, yet they typically rely on positional encodings that assume uniform, index-based temporal progression. However, real-world systems, from shifting financial cycles to elastic biological rhythms, frequently exhibit &quot;time-warped&quot; dynamics where the effective flow of time decouples from the sampling index. In this </description>
+  <description>arXiv cs.LG - Transformer architectures have established strong baselines in time series forecasting, yet they typically rely on positional encodings that assume uniform, index-based temporal progression. However, real-world systems, from shifting financial cycles to elastic biological rhythms, frequently exhibit &quot;time-warped&quot; dynamics where the effective flow of time decouples from the sampling index. In this 
+
+AI summary: Transformer architectures have established strong baselines in time series forecasting, yet they typically rely on positional encodings that assume uniform, index-based temporal progression. However, real-world systems, from shifting financial cycles to elastic biological rhythms, frequently exhibit &quot;time-warped&quot; dynamics where the effective flow of time decouples from the sampling index.</description>
 </item>
 
 <item>
@@ -373,7 +461,9 @@
   <link>https://arxiv.org/abs/2602.08968v1</link>
   <guid>https://arxiv.org/abs/2602.08968v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:04:22 +0000</pubDate>
-  <description>arXiv cs.AI - World Models have emerged as a powerful paradigm for learning compact, predictive representations of environment dynamics, enabling agents to reason, plan, and generalize beyond direct experience. Despite recent interest in World Models, most available implementations remain publication-specific, severely limiting their reusability, increasing the risk of bugs, and reducing evaluation standardizat</description>
+  <description>arXiv cs.AI - World Models have emerged as a powerful paradigm for learning compact, predictive representations of environment dynamics, enabling agents to reason, plan, and generalize beyond direct experience. Despite recent interest in World Models, most available implementations remain publication-specific, severely limiting their reusability, increasing the risk of bugs, and reducing evaluation standardizat
+
+AI summary: World Models have emerged as a powerful paradigm for learning compact, predictive representations of environment dynamics, enabling agents to reason, plan, and generalize beyond direct experience. Despite recent interest in World Models, most available implementations remain publication-specific, severely limiting their reusability, increasing the risk of bugs, and reducing evaluation…</description>
 </item>
 
 <item>
@@ -381,7 +471,9 @@
   <link>https://arxiv.org/abs/2602.08965v1</link>
   <guid>https://arxiv.org/abs/2602.08965v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:01:40 +0000</pubDate>
-  <description>arXiv cs.LG - The inability to communicate poses a major challenge to coordination in multi-agent reinforcement learning (MARL). Prior work has explored correlating local policies via shared randomness, sometimes in the form of a correlation device, as a mechanism to assist in decentralized decision-making. In contrast, this work introduces the first framework for training MARL agents to exploit shared quantum </description>
+  <description>arXiv cs.LG - The inability to communicate poses a major challenge to coordination in multi-agent reinforcement learning (MARL). Prior work has explored correlating local policies via shared randomness, sometimes in the form of a correlation device, as a mechanism to assist in decentralized decision-making. In contrast, this work introduces the first framework for training MARL agents to exploit shared quantum 
+
+AI summary: The inability to communicate poses a major challenge to coordination in multi-agent reinforcement learning (MARL). Prior work has explored correlating local policies via shared randomness, sometimes in the form of a correlation device, as a mechanism to assist in decentralized decision-making.</description>
 </item>
 
 <item>
@@ -389,7 +481,9 @@
   <link>https://arxiv.org/abs/2602.08964v1</link>
   <guid>https://arxiv.org/abs/2602.08964v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:00:28 +0000</pubDate>
-  <description>arXiv cs.AI - Understanding an agent&apos;s goals helps explain and predict its behaviour, yet there is no established methodology for reliably attributing goals to agentic systems. We propose a framework for evaluating goal-directedness that integrates behavioural evaluation with interpretability-based analyses of models&apos; internal representations. As a case study, we examine an LLM agent navigating a 2D grid world </description>
+  <description>arXiv cs.AI - Understanding an agent&apos;s goals helps explain and predict its behaviour, yet there is no established methodology for reliably attributing goals to agentic systems. We propose a framework for evaluating goal-directedness that integrates behavioural evaluation with interpretability-based analyses of models&apos; internal representations. As a case study, we examine an LLM agent navigating a 2D grid world 
+
+AI summary: Understanding an agent&apos;s goals helps explain and predict its behaviour, yet there is no established methodology for reliably attributing goals to agentic systems. We propose a framework for evaluating goal-directedness that integrates behavioural evaluation with interpretability-based analyses of models&apos; internal representations.</description>
 </item>
 
 <item>
@@ -397,7 +491,9 @@
   <link>https://arxiv.org/abs/2602.08964v1</link>
   <guid>https://arxiv.org/abs/2602.08964v1</guid>
   <pubDate>Mon, 09 Feb 2026 18:00:28 +0000</pubDate>
-  <description>arXiv cs.LG - Understanding an agent&apos;s goals helps explain and predict its behaviour, yet there is no established methodology for reliably attributing goals to agentic systems. We propose a framework for evaluating goal-directedness that integrates behavioural evaluation with interpretability-based analyses of models&apos; internal representations. As a case study, we examine an LLM agent navigating a 2D grid world </description>
+  <description>arXiv cs.LG - Understanding an agent&apos;s goals helps explain and predict its behaviour, yet there is no established methodology for reliably attributing goals to agentic systems. We propose a framework for evaluating goal-directedness that integrates behavioural evaluation with interpretability-based analyses of models&apos; internal representations. As a case study, we examine an LLM agent navigating a 2D grid world 
+
+AI summary: Understanding an agent&apos;s goals helps explain and predict its behaviour, yet there is no established methodology for reliably attributing goals to agentic systems. We propose a framework for evaluating goal-directedness that integrates behavioural evaluation with interpretability-based analyses of models&apos; internal representations.</description>
 </item>
 
 <item>
@@ -405,7 +501,9 @@
   <link>https://arxiv.org/abs/2602.08949v1</link>
   <guid>https://arxiv.org/abs/2602.08949v1</guid>
   <pubDate>Mon, 09 Feb 2026 17:44:52 +0000</pubDate>
-  <description>arXiv cs.AI - According to the United Nations, wildfire frequency and intensity are projected to increase by approximately 14% by 2030 and 30% by 2050 due to global warming, posing critical threats to life, infrastructure, and ecosystems. Conventional disaster management frameworks rely on static simulations and passive data acquisition, hindering their ability to adapt to arbitrarily evolving wildfire episodes</description>
+  <description>arXiv cs.AI - According to the United Nations, wildfire frequency and intensity are projected to increase by approximately 14% by 2030 and 30% by 2050 due to global warming, posing critical threats to life, infrastructure, and ecosystems. Conventional disaster management frameworks rely on static simulations and passive data acquisition, hindering their ability to adapt to arbitrarily evolving wildfire episodes
+
+AI summary: According to the United Nations, wildfire frequency and intensity are projected to increase by approximately 14% by 2030 and 30% by 2050 due to global warming, posing critical threats to life, infrastructure, and ecosystems. Conventional disaster management frameworks rely on static simulations and passive data acquisition, hindering their ability to adapt to arbitrarily evolving wildfire…</description>
 </item>
 
 <item>
@@ -413,7 +511,9 @@
   <link>https://arxiv.org/abs/2602.08948v1</link>
   <guid>https://arxiv.org/abs/2602.08948v1</guid>
   <pubDate>Mon, 09 Feb 2026 17:44:41 +0000</pubDate>
-  <description>arXiv cs.AI - Large Language Models (LLMs) often rely on test-time scaling via parallel decoding (for example, 512 samples) to boost reasoning accuracy, but this incurs substantial compute. We introduce CoRefine, a confidence-guided self-refinement method that achieves competitive accuracy using a fraction of the tokens via a lightweight 211k-parameter Conv1D controller atop a frozen LLM. The controller consume</description>
+  <description>arXiv cs.AI - Large Language Models (LLMs) often rely on test-time scaling via parallel decoding (for example, 512 samples) to boost reasoning accuracy, but this incurs substantial compute. We introduce CoRefine, a confidence-guided self-refinement method that achieves competitive accuracy using a fraction of the tokens via a lightweight 211k-parameter Conv1D controller atop a frozen LLM. The controller consume
+
+AI summary: Large Language Models (LLMs) often rely on test-time scaling via parallel decoding (for example, 512 samples) to boost reasoning accuracy, but this incurs substantial compute. We introduce CoRefine, a confidence-guided self-refinement method that achieves competitive accuracy using a fraction of the tokens via a lightweight 211k-parameter Conv1D controller atop a frozen LLM.</description>
 </item>
 
 </channel>
