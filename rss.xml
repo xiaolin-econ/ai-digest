@@ -4,15 +4,128 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Mon, 16 Feb 2026 07:00:04 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Feb 2026 07:01:03 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Mon, 16 Feb 2026 07:00:04 +0000</pubDate>
-  <description>Video Language Models (VideoLMs) empower AI systems to understand temporal dynamics in videos. To fit to the maximum context window constraint, current methods use keyframe sampling which can miss both macro-level events and micro-level details due to the sparse temporal coverage. Furthermore, processing full images and their tokens for each frame incurs substantial computational overhead.</description>
+  <pubDate>Mon, 23 Feb 2026 07:01:03 +0000</pubDate>
+  <description>Quantum reservoir computers (QRCs) have emerged as a promising approach to quantum machine learning, since they utilize the natural dynamics of quantum systems for data processing and are simple to train. Here, we consider n-qubit quantum extreme learning machines (QELMs) with continuous-time reservoir dynamics. QELMs are memoryless QRCs capable of various ML tasks, including image classification and time series forecasting.</description>
+</item>
+
+<item>
+  <title>Theory and interpretability of Quantum Extreme Learning Machines: a Pauli-transfer matrix approach</title>
+  <link>https://arxiv.org/abs/2602.18377v1</link>
+  <guid>https://arxiv.org/abs/2602.18377v1</guid>
+  <pubDate>Fri, 20 Feb 2026 17:33:27 +0000</pubDate>
+  <description>arXiv cs.LG - Quantum reservoir computers (QRCs) have emerged as a promising approach to quantum machine learning, since they utilize the natural dynamics of quantum systems for data processing and are simple to train. Here, we consider n-qubit quantum extreme learning machines (QELMs) with continuous-time reservoir dynamics. QELMs are memoryless QRCs capable of various ML tasks, including image classification </description>
+</item>
+
+<item>
+  <title>Explaining AutoClustering: Uncovering Meta-Feature Contribution in AutoML for Clustering</title>
+  <link>https://arxiv.org/abs/2602.18348v1</link>
+  <guid>https://arxiv.org/abs/2602.18348v1</guid>
+  <pubDate>Fri, 20 Feb 2026 17:01:25 +0000</pubDate>
+  <description>arXiv cs.LG - AutoClustering methods aim to automate unsupervised learning tasks, including algorithm selection (AS), hyperparameter optimization (HPO), and pipeline synthesis (PS), by often leveraging meta-learning over dataset meta-features. While these systems often achieve strong performance, their recommendations are often difficult to justify: the influence of dataset meta-features on algorithm and hyperp</description>
+</item>
+
+<item>
+  <title>Robo-Saber: Generating and Simulating Virtual Reality Players</title>
+  <link>https://arxiv.org/abs/2602.18319v1</link>
+  <guid>https://arxiv.org/abs/2602.18319v1</guid>
+  <pubDate>Fri, 20 Feb 2026 16:19:19 +0000</pubDate>
+  <description>arXiv cs.AI - We present the first motion generation system for playtesting virtual reality (VR) games. Our player model generates VR headset and handheld controller movements from in-game object arrangements, guided by style exemplars and aligned to maximize simulated gameplay score. We train on the large BOXRR-23 dataset and apply our framework on the popular VR game Beat Saber. The resulting model Robo-Saber</description>
+</item>
+
+<item>
+  <title>Robo-Saber: Generating and Simulating Virtual Reality Players</title>
+  <link>https://arxiv.org/abs/2602.18319v1</link>
+  <guid>https://arxiv.org/abs/2602.18319v1</guid>
+  <pubDate>Fri, 20 Feb 2026 16:19:19 +0000</pubDate>
+  <description>arXiv cs.LG - We present the first motion generation system for playtesting virtual reality (VR) games. Our player model generates VR headset and handheld controller movements from in-game object arrangements, guided by style exemplars and aligned to maximize simulated gameplay score. We train on the large BOXRR-23 dataset and apply our framework on the popular VR game Beat Saber. The resulting model Robo-Saber</description>
+</item>
+
+<item>
+  <title>VeriSoftBench: Repository-Scale Formal Verification Benchmarks for Lean</title>
+  <link>https://arxiv.org/abs/2602.18307v1</link>
+  <guid>https://arxiv.org/abs/2602.18307v1</guid>
+  <pubDate>Fri, 20 Feb 2026 16:05:06 +0000</pubDate>
+  <description>arXiv cs.LG - Large language models have achieved striking results in interactive theorem proving, particularly in Lean. However, most benchmarks for LLM-based proof automation are drawn from mathematics in the Mathlib ecosystem, whereas proofs in software verification are developed inside definition-rich codebases with substantial project-specific libraries. We introduce VeriSoftBench, a benchmark of 500 Lean </description>
+</item>
+
+<item>
+  <title>Decoding as Optimisation on the Probability Simplex: From Top-K to Top-P (Nucleus) to Best-of-K Samplers</title>
+  <link>https://arxiv.org/abs/2602.18292v1</link>
+  <guid>https://arxiv.org/abs/2602.18292v1</guid>
+  <pubDate>Fri, 20 Feb 2026 15:38:16 +0000</pubDate>
+  <description>arXiv cs.AI - Decoding sits between a language model and everything we do with it, yet it is still treated as a heuristic knob-tuning exercise. We argue decoding should be understood as a principled optimisation layer: at each token, we solve a regularised problem over the probability simplex that trades off model score against structural preferences and constraints. This single template recovers greedy decodin</description>
+</item>
+
+<item>
+  <title>Decoding as Optimisation on the Probability Simplex: From Top-K to Top-P (Nucleus) to Best-of-K Samplers</title>
+  <link>https://arxiv.org/abs/2602.18292v1</link>
+  <guid>https://arxiv.org/abs/2602.18292v1</guid>
+  <pubDate>Fri, 20 Feb 2026 15:38:16 +0000</pubDate>
+  <description>arXiv cs.LG - Decoding sits between a language model and everything we do with it, yet it is still treated as a heuristic knob-tuning exercise. We argue decoding should be understood as a principled optimisation layer: at each token, we solve a regularised problem over the probability simplex that trades off model score against structural preferences and constraints. This single template recovers greedy decodin</description>
+</item>
+
+<item>
+  <title>Diffusing to Coordinate: Efficient Online Multi-Agent Diffusion Policies</title>
+  <link>https://arxiv.org/abs/2602.18291v1</link>
+  <guid>https://arxiv.org/abs/2602.18291v1</guid>
+  <pubDate>Fri, 20 Feb 2026 15:38:02 +0000</pubDate>
+  <description>arXiv cs.AI - Online Multi-Agent Reinforcement Learning (MARL) is a prominent framework for efficient agent coordination. Crucially, enhancing policy expressiveness is pivotal for achieving superior performance. Diffusion-based generative models are well-positioned to meet this demand, having demonstrated remarkable expressiveness and multimodal representation in image generation and offline settings. Yet, thei</description>
+</item>
+
+<item>
+  <title>PRISM: Parallel Reward Integration with Symmetry for MORL</title>
+  <link>https://arxiv.org/abs/2602.18277v1</link>
+  <guid>https://arxiv.org/abs/2602.18277v1</guid>
+  <pubDate>Fri, 20 Feb 2026 15:02:42 +0000</pubDate>
+  <description>arXiv cs.AI - This work studies heterogeneous Multi-Objective Reinforcement Learning (MORL), where objectives can differ sharply in temporal frequency. Such heterogeneity allows dense objectives to dominate learning, while sparse long-horizon rewards receive weak credit assignment, leading to poor sample efficiency. We propose a Parallel Reward Integration with Symmetry (PRISM) algorithm that enforces reflectio</description>
+</item>
+
+<item>
+  <title>PRISM: Parallel Reward Integration with Symmetry for MORL</title>
+  <link>https://arxiv.org/abs/2602.18277v1</link>
+  <guid>https://arxiv.org/abs/2602.18277v1</guid>
+  <pubDate>Fri, 20 Feb 2026 15:02:42 +0000</pubDate>
+  <description>arXiv cs.LG - This work studies heterogeneous Multi-Objective Reinforcement Learning (MORL), where objectives can differ sharply in temporal frequency. Such heterogeneity allows dense objectives to dominate learning, while sparse long-horizon rewards receive weak credit assignment, leading to poor sample efficiency. We propose a Parallel Reward Integration with Symmetry (PRISM) algorithm that enforces reflectio</description>
+</item>
+
+<item>
+  <title>A Probabilistic Framework for LLM-Based Model Discovery</title>
+  <link>https://arxiv.org/abs/2602.18266v1</link>
+  <guid>https://arxiv.org/abs/2602.18266v1</guid>
+  <pubDate>Fri, 20 Feb 2026 14:49:53 +0000</pubDate>
+  <description>arXiv cs.LG - Automated methods for discovering mechanistic simulator models from observational data offer a promising path toward accelerating scientific progress. Such methods often take the form of agentic-style iterative workflows that repeatedly propose and revise candidate models by imitating human discovery processes. However, existing LLM-based approaches typically implement such workflows via hand-craf</description>
+</item>
+
+<item>
+  <title>Thinking by Subtraction: Confidence-Driven Contrastive Decoding for LLM Reasoning</title>
+  <link>https://arxiv.org/abs/2602.18232v1</link>
+  <guid>https://arxiv.org/abs/2602.18232v1</guid>
+  <pubDate>Fri, 20 Feb 2026 14:13:22 +0000</pubDate>
+  <description>arXiv cs.AI - Recent work on test-time scaling for large language model (LLM) reasoning typically assumes that allocating more inference-time computation uniformly improves correctness. However, prior studies show that reasoning uncertainty is highly localized: a small subset of low-confidence tokens disproportionately contributes to reasoning errors and unnecessary output expansion. Motivated by this observati</description>
+</item>
+
+<item>
+  <title>[Re] Benchmarking LLM Capabilities in Negotiation through Scoreable Games</title>
+  <link>https://arxiv.org/abs/2602.18230v1</link>
+  <guid>https://arxiv.org/abs/2602.18230v1</guid>
+  <pubDate>Fri, 20 Feb 2026 14:11:31 +0000</pubDate>
+  <description>arXiv cs.AI - Large Language Models (LLMs) demonstrate significant potential in multi-agent negotiation tasks, yet evaluation in this domain remains challenging due to a lack of robust and generalizable benchmarks. Abdelnabi et al. (2024) introduce a negotiation benchmark based on Scoreable Games, with the aim of developing a highly complex and realistic evaluation framework for LLMs. Our work investigates the </description>
+</item>
+
+<item>
+  <title>Can AI Lower the Barrier to Cybersecurity? A Human-Centered Mixed-Methods Study of Novice CTF Learning</title>
+  <link>https://arxiv.org/abs/2602.18172v1</link>
+  <guid>https://arxiv.org/abs/2602.18172v1</guid>
+  <pubDate>Fri, 20 Feb 2026 12:20:36 +0000</pubDate>
+  <description>arXiv cs.AI - Capture-the-Flag (CTF) competitions serve as gateways into offensive cybersecurity, yet they often present steep barriers for novices due to complex toolchains and opaque workflows. Recently, agentic AI frameworks for cybersecurity promise to lower these barriers by automating and coordinating penetration testing tasks. However, their role in shaping novice learning remains underexplored.
+  We pre</description>
 </item>
 
 <item>
@@ -302,118 +415,6 @@
   <guid>https://arxiv.org/abs/2602.10117v1</guid>
   <pubDate>Tue, 10 Feb 2026 18:59:56 +0000</pubDate>
   <description>arXiv cs.AI - Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*. Monitoring models via their stated reasoning is therefore unreliable, and existing bias evaluations typically require predefined categories and hand-crafted datasets. In this work, we introduce a fully automated, black-box pipe</description>
-</item>
-
-<item>
-  <title>Biases in the Blind Spot: Detecting What LLMs Fail to Mention</title>
-  <link>https://arxiv.org/abs/2602.10117v1</link>
-  <guid>https://arxiv.org/abs/2602.10117v1</guid>
-  <pubDate>Tue, 10 Feb 2026 18:59:56 +0000</pubDate>
-  <description>arXiv cs.LG - Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*. Monitoring models via their stated reasoning is therefore unreliable, and existing bias evaluations typically require predefined categories and hand-crafted datasets. In this work, we introduce a fully automated, black-box pipe</description>
-</item>
-
-<item>
-  <title>Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning</title>
-  <link>https://arxiv.org/abs/2602.10090v1</link>
-  <guid>https://arxiv.org/abs/2602.10090v1</guid>
-  <pubDate>Tue, 10 Feb 2026 18:55:41 +0000</pubDate>
-  <description>arXiv cs.AI - Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale </description>
-</item>
-
-<item>
-  <title>Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning</title>
-  <link>https://arxiv.org/abs/2602.10090v1</link>
-  <guid>https://arxiv.org/abs/2602.10090v1</guid>
-  <pubDate>Tue, 10 Feb 2026 18:55:41 +0000</pubDate>
-  <description>arXiv cs.LG - Recent advances in large language model (LLM) have empowered autonomous agents to perform complex tasks that require multi-turn interactions with tools and environments. However, scaling such agent training is limited by the lack of diverse and reliable environments. In this paper, we propose Agent World Model (AWM), a fully synthetic environment generation pipeline. Using this pipeline, we scale </description>
-</item>
-
-<item>
-  <title>CODE-SHARP: Continuous Open-ended Discovery and Evolution of Skills as Hierarchical Reward Programs</title>
-  <link>https://arxiv.org/abs/2602.10085v1</link>
-  <guid>https://arxiv.org/abs/2602.10085v1</guid>
-  <pubDate>Tue, 10 Feb 2026 18:51:39 +0000</pubDate>
-  <description>arXiv cs.AI - Developing agents capable of open-endedly discovering and learning novel skills is a grand challenge in Artificial Intelligence. While reinforcement learning offers a powerful framework for training agents to master complex skills, it typically relies on hand-designed reward functions. This is infeasible for open-ended skill discovery, where the set of meaningful skills is not known a priori. Whil</description>
-</item>
-
-<item>
-  <title>Anagent For Enhancing Scientific Table &amp; Figure Analysis</title>
-  <link>https://arxiv.org/abs/2602.10081v1</link>
-  <guid>https://arxiv.org/abs/2602.10081v1</guid>
-  <pubDate>Tue, 10 Feb 2026 18:46:28 +0000</pubDate>
-  <description>arXiv cs.AI - In scientific research, analysis requires accurately interpreting complex multimodal knowledge, integrating evidence from different sources, and drawing inferences grounded in domain-specific knowledge. However, current artificial intelligence (AI) systems struggle to consistently demonstrate such capabilities. The complexity and variability of scientific tables and figures, combined with heteroge</description>
-</item>
-
-<item>
-  <title>Chain of Mindset: Reasoning with Adaptive Cognitive Modes</title>
-  <link>https://arxiv.org/abs/2602.10063v1</link>
-  <guid>https://arxiv.org/abs/2602.10063v1</guid>
-  <pubDate>Tue, 10 Feb 2026 18:31:47 +0000</pubDate>
-  <description>arXiv cs.AI - Human problem-solving is never the repetition of a single mindset, by which we mean a distinct mode of cognitive processing. When tackling a specific task, we do not rely on a single mindset; instead, we integrate multiple mindsets within the single solution process. However, existing LLM reasoning methods fall into a common trap: they apply the same fixed mindset across all steps, overlooking tha</description>
-</item>
-
-<item>
-  <title>Effectiveness of Binary Autoencoders for QUBO-Based Optimization Problems</title>
-  <link>https://arxiv.org/abs/2602.10037v1</link>
-  <guid>https://arxiv.org/abs/2602.10037v1</guid>
-  <pubDate>Tue, 10 Feb 2026 17:59:29 +0000</pubDate>
-  <description>arXiv cs.LG - In black-box combinatorial optimization, objective evaluations are often expensive, so high quality solutions must be found under a limited budget. Factorization machine with quantum annealing (FMQA) builds a quadratic surrogate model from evaluated samples and optimizes it on an Ising machine. However, FMQA requires binary decision variables, and for nonbinary structures such as integer permutati</description>
-</item>
-
-<item>
-  <title>Discovering High Level Patterns from Simulation Traces</title>
-  <link>https://arxiv.org/abs/2602.10009v1</link>
-  <guid>https://arxiv.org/abs/2602.10009v1</guid>
-  <pubDate>Tue, 10 Feb 2026 17:31:39 +0000</pubDate>
-  <description>arXiv cs.AI - Artificial intelligence (AI) agents embedded in environments with physics-based interaction face many challenges including reasoning, planning, summarization, and question answering. This problem is exacerbated when a human user wishes to either guide or interact with the agent in natural language. Although the use of Language Models (LMs) is the default choice, as an AI tool, they struggle with t</description>
-</item>
-
-<item>
-  <title>A Collaborative Safety Shield for Safe and Efficient CAV Lane Changes in Congested On-Ramp Merging</title>
-  <link>https://arxiv.org/abs/2602.10007v1</link>
-  <guid>https://arxiv.org/abs/2602.10007v1</guid>
-  <pubDate>Tue, 10 Feb 2026 17:30:09 +0000</pubDate>
-  <description>arXiv cs.AI - Lane changing in dense traffic is a significant challenge for Connected and Autonomous Vehicles (CAVs). Existing lane change controllers primarily either ensure safety or collaboratively improve traffic efficiency, but do not consider these conflicting objectives together. To address this, we propose the Multi-Agent Safety Shield (MASS), designed using Control Barrier Functions (CBFs) to enable sa</description>
-</item>
-
-<item>
-  <title>Robustness Is a Function, Not a Number: A Factorized Comprehensive Study of OOD Robustness in Vision-Based Driving</title>
-  <link>https://arxiv.org/abs/2602.09018v1</link>
-  <guid>https://arxiv.org/abs/2602.09018v1</guid>
-  <pubDate>Mon, 09 Feb 2026 18:59:03 +0000</pubDate>
-  <description>arXiv cs.AI - Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$). Using closed loop control in VISTA, we benchmark FC, CNN, and ViT polici</description>
-</item>
-
-<item>
-  <title>Robustness Is a Function, Not a Number: A Factorized Comprehensive Study of OOD Robustness in Vision-Based Driving</title>
-  <link>https://arxiv.org/abs/2602.09018v1</link>
-  <guid>https://arxiv.org/abs/2602.09018v1</guid>
-  <pubDate>Mon, 09 Feb 2026 18:59:03 +0000</pubDate>
-  <description>arXiv cs.LG - Out of distribution (OOD) robustness in autonomous driving is often reduced to a single number, hiding what breaks a policy. We decompose environments along five axes: scene (rural/urban), season, weather, time (day/night), and agent mix; and measure performance under controlled $k$-factor perturbations ($k \in \{0,1,2,3\}$). Using closed loop control in VISTA, we benchmark FC, CNN, and ViT polici</description>
-</item>
-
-<item>
-  <title>Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense</title>
-  <link>https://arxiv.org/abs/2602.09012v1</link>
-  <guid>https://arxiv.org/abs/2602.09012v1</guid>
-  <pubDate>Mon, 09 Feb 2026 18:55:33 +0000</pubDate>
-  <description>arXiv cs.AI - The rapid evolution of GUI-enabled agents has rendered traditional CAPTCHAs obsolete. While previous benchmarks like OpenCaptchaWorld established a baseline for evaluating multimodal agents, recent advancements in reasoning-heavy models, such as Gemini3-Pro-High and GPT-5.2-Xhigh have effectively collapsed this security barrier, achieving pass rates as high as 90% on complex logic puzzles like &quot;Bi</description>
-</item>
-
-<item>
-  <title>Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense</title>
-  <link>https://arxiv.org/abs/2602.09012v1</link>
-  <guid>https://arxiv.org/abs/2602.09012v1</guid>
-  <pubDate>Mon, 09 Feb 2026 18:55:33 +0000</pubDate>
-  <description>arXiv cs.LG - The rapid evolution of GUI-enabled agents has rendered traditional CAPTCHAs obsolete. While previous benchmarks like OpenCaptchaWorld established a baseline for evaluating multimodal agents, recent advancements in reasoning-heavy models, such as Gemini3-Pro-High and GPT-5.2-Xhigh have effectively collapsed this security barrier, achieving pass rates as high as 90% on complex logic puzzles like &quot;Bi</description>
-</item>
-
-<item>
-  <title>From Obstacles to Etiquette: Robot Social Navigation with VLM-Informed Path Selection</title>
-  <link>https://arxiv.org/abs/2602.09002v1</link>
-  <guid>https://arxiv.org/abs/2602.09002v1</guid>
-  <pubDate>Mon, 09 Feb 2026 18:46:12 +0000</pubDate>
-  <description>arXiv cs.AI - Navigating socially in human environments requires more than satisfying geometric constraints, as collision-free paths may still interfere with ongoing activities or conflict with social norms. Addressing this challenge calls for analyzing interactions between agents and incorporating common-sense reasoning into planning. This paper presents a social robot navigation framework that integrates geom</description>
 </item>
 
 </channel>
