@@ -4,15 +4,111 @@
   <title>AI Research Digest</title>
   <link>https://xiaolin-econ.github.io/ai-digest/</link>
   <description>Curated AI research + releases</description>
-  <lastBuildDate>Mon, 23 Feb 2026 07:01:03 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 02 Mar 2026 06:54:30 +0000</lastBuildDate>
   <atom:link href="https://xiaolin-econ.github.io/ai-digest/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
   
 <item>
   <title>AI Digest — Daily Summary</title>
   <link>https://xiaolin-econ.github.io/ai-digest/rss.xml</link>
   <guid>https://xiaolin-econ.github.io/ai-digest/rss.xml#summary</guid>
-  <pubDate>Mon, 23 Feb 2026 07:01:03 +0000</pubDate>
-  <description>Quantum reservoir computers (QRCs) have emerged as a promising approach to quantum machine learning, since they utilize the natural dynamics of quantum systems for data processing and are simple to train. Here, we consider n-qubit quantum extreme learning machines (QELMs) with continuous-time reservoir dynamics. QELMs are memoryless QRCs capable of various ML tasks, including image classification and time series forecasting.</description>
+  <pubDate>Mon, 02 Mar 2026 06:54:30 +0000</pubDate>
+  <description>The fast-growing demands in using Large Language Models (LLMs) to tackle complex multi-step data science tasks create an emergent need for accurate benchmarking. There are two major gaps in existing benchmarks: (i) the lack of standardized, process-aware evaluation that captures instruction adherence and process fidelity, and (ii) the scarcity of accurately labeled training data. To bridge these gaps, we introduce DARE-bench, a benchmark designed for machine learning modeling and data science instruction following.</description>
+</item>
+
+<item>
+  <title>DARE-bench: Evaluating Modeling and Instruction Fidelity of LLMs in Data Science</title>
+  <link>https://arxiv.org/abs/2602.24288v1</link>
+  <guid>https://arxiv.org/abs/2602.24288v1</guid>
+  <pubDate>Fri, 27 Feb 2026 18:58:57 +0000</pubDate>
+  <description>arXiv cs.AI - The fast-growing demands in using Large Language Models (LLMs) to tackle complex multi-step data science tasks create an emergent need for accurate benchmarking. There are two major gaps in existing benchmarks: (i) the lack of standardized, process-aware evaluation that captures instruction adherence and process fidelity, and (ii) the scarcity of accurately labeled training data. To bridge these g</description>
+</item>
+
+<item>
+  <title>Do LLMs Benefit From Their Own Words?</title>
+  <link>https://arxiv.org/abs/2602.24287v1</link>
+  <guid>https://arxiv.org/abs/2602.24287v1</guid>
+  <pubDate>Fri, 27 Feb 2026 18:58:26 +0000</pubDate>
+  <description>arXiv cs.AI - Multi-turn interactions with large language models typically retain the assistant&apos;s own past responses in the conversation history. In this work, we revisit this design choice by asking whether large language models benefit from conditioning on their own prior responses. Using in-the-wild, multi-turn conversations, we compare standard (full-context) prompting with a user-turn-only prompting approa</description>
+</item>
+
+<item>
+  <title>CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation</title>
+  <link>https://arxiv.org/abs/2602.24286v1</link>
+  <guid>https://arxiv.org/abs/2602.24286v1</guid>
+  <pubDate>Fri, 27 Feb 2026 18:58:05 +0000</pubDate>
+  <description>arXiv cs.AI - GPU kernel optimization is fundamental to modern deep learning but remains a highly specialized task requiring deep hardware expertise. Despite strong performance in general programming, large language models (LLMs) remain uncompetitive with compiler-based systems such as torch.compile for CUDA kernel generation. Existing CUDA code generation approaches either rely on training-free refinement or f</description>
+</item>
+
+<item>
+  <title>CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation</title>
+  <link>https://arxiv.org/abs/2602.24286v1</link>
+  <guid>https://arxiv.org/abs/2602.24286v1</guid>
+  <pubDate>Fri, 27 Feb 2026 18:58:05 +0000</pubDate>
+  <description>arXiv cs.LG - GPU kernel optimization is fundamental to modern deep learning but remains a highly specialized task requiring deep hardware expertise. Despite strong performance in general programming, large language models (LLMs) remain uncompetitive with compiler-based systems such as torch.compile for CUDA kernel generation. Existing CUDA code generation approaches either rely on training-free refinement or f</description>
+</item>
+
+<item>
+  <title>A Minimal Agent for Automated Theorem Proving</title>
+  <link>https://arxiv.org/abs/2602.24273v1</link>
+  <guid>https://arxiv.org/abs/2602.24273v1</guid>
+  <pubDate>Fri, 27 Feb 2026 18:43:47 +0000</pubDate>
+  <description>arXiv cs.AI - We propose a minimal agentic baseline that enables systematic comparison across different AI-based theorem prover architectures. This design implements the core features shared among state-of-the-art systems: iterative proof refinement, library search and context management. We evaluate our baseline using qualitatively different benchmarks and compare various popular models and design choices, and</description>
+</item>
+
+<item>
+  <title>Controllable Reasoning Models Are Private Thinkers</title>
+  <link>https://arxiv.org/abs/2602.24210v1</link>
+  <guid>https://arxiv.org/abs/2602.24210v1</guid>
+  <pubDate>Fri, 27 Feb 2026 17:39:10 +0000</pubDate>
+  <description>arXiv cs.AI - AI agents powered by reasoning models require access to sensitive user data. However, their reasoning traces are difficult to control, which can result in the unintended leakage of private information to external parties. We propose training models to follow instructions not only in the final answer, but also in reasoning traces, potentially under different constraints. We hypothesize that improvi</description>
+</item>
+
+<item>
+  <title>Resilient Strategies for Stochastic Systems: How Much Does It Take to Break a Winning Strategy?</title>
+  <link>https://arxiv.org/abs/2602.24191v1</link>
+  <guid>https://arxiv.org/abs/2602.24191v1</guid>
+  <pubDate>Fri, 27 Feb 2026 17:15:49 +0000</pubDate>
+  <description>arXiv cs.AI - We study the problem of resilient strategies in the presence of uncertainty. Resilient strategies enable an agent to make decisions that are robust against disturbances. In particular, we are interested in those disturbances that are able to flip a decision made by the agent. Such a disturbance may, for instance, occur when the intended action of the agent cannot be executed due to a malfunction o</description>
+</item>
+
+<item>
+  <title>MT-PingEval: Evaluating Multi-Turn Collaboration with Private Information Games</title>
+  <link>https://arxiv.org/abs/2602.24188v1</link>
+  <guid>https://arxiv.org/abs/2602.24188v1</guid>
+  <pubDate>Fri, 27 Feb 2026 17:13:20 +0000</pubDate>
+  <description>arXiv cs.LG - We present a scalable methodology for evaluating language models in multi-turn interactions, using a suite of collaborative games that require effective communication about private information. This enables an interactive scaling analysis, in which a fixed token budget is divided over a variable number of turns. We find that in many cases, language models are unable to use interactive collaboratio</description>
+</item>
+
+<item>
+  <title>Task-Centric Acceleration of Small-Language Models</title>
+  <link>https://arxiv.org/abs/2602.24174v1</link>
+  <guid>https://arxiv.org/abs/2602.24174v1</guid>
+  <pubDate>Fri, 27 Feb 2026 16:55:22 +0000</pubDate>
+  <description>arXiv cs.AI - Small language models (SLMs) have emerged as efficient alternatives to large language models for task-specific applications. However, they are often employed in high-volume, low-latency settings, where efficiency is crucial. We propose TASC, Task-Adaptive Sequence Compression, a framework for SLM acceleration comprising two use-cases: When performing SLM fine-tuning, we propose TASC-ft, which iter</description>
+</item>
+
+<item>
+  <title>ArgLLM-App: An Interactive System for Argumentative Reasoning with Large Language Models</title>
+  <link>https://arxiv.org/abs/2602.24172v1</link>
+  <guid>https://arxiv.org/abs/2602.24172v1</guid>
+  <pubDate>Fri, 27 Feb 2026 16:52:27 +0000</pubDate>
+  <description>arXiv cs.AI - Argumentative LLMs (ArgLLMs) are an existing approach leveraging Large Language Models (LLMs) and computational argumentation for decision-making, with the aim of making the resulting decisions faithfully explainable to and contestable by humans. Here we propose a web-based system implementing ArgLLM-empowered agents for binary tasks. ArgLLM-App supports visualisation of the produced explanations </description>
+</item>
+
+<item>
+  <title>CoME: Empowering Channel-of-Mobile-Experts with Informative Hybrid-Capabilities Reasoning</title>
+  <link>https://arxiv.org/abs/2602.24142v1</link>
+  <guid>https://arxiv.org/abs/2602.24142v1</guid>
+  <pubDate>Fri, 27 Feb 2026 16:19:45 +0000</pubDate>
+  <description>arXiv cs.AI - Mobile Agents can autonomously execute user instructions, which requires hybrid-capabilities reasoning, including screen summary, subtask planning, action decision and action function. However, existing agents struggle to achieve both decoupled enhancement and balanced integration of these capabilities. To address these challenges, we propose Channel-of-Mobile-Experts (CoME), a novel agent archite</description>
+</item>
+
+<item>
+  <title>Toward Guarantees for Clinical Reasoning in Vision Language Models via Formal Verification</title>
+  <link>https://arxiv.org/abs/2602.24111v1</link>
+  <guid>https://arxiv.org/abs/2602.24111v1</guid>
+  <pubDate>Fri, 27 Feb 2026 15:49:59 +0000</pubDate>
+  <description>arXiv cs.AI - Vision-language models (VLMs) show promise in drafting radiology reports, yet they frequently suffer from logical inconsistencies, generating diagnostic impressions unsupported by their own perceptual findings or missing logically entailed conclusions. Standard lexical metrics heavily penalize clinical paraphrasing and fail to capture these deductive failures in reference-free settings. Toward gua</description>
 </item>
 
 <item>
@@ -318,103 +414,6 @@
   <guid>https://arxiv.org/abs/2602.12173v1</guid>
   <pubDate>Thu, 12 Feb 2026 17:01:49 +0000</pubDate>
   <description>arXiv cs.AI - Vision-language segmentation models such as SAM3 enable flexible, prompt-driven visual grounding, but inherit large, general-purpose text encoders originally designed for open-ended language understanding. In practice, segmentation prompts are short, structured, and semantically constrained, leading to substantial over-provisioning in text encoder capacity and persistent computational and memory o</description>
-</item>
-
-<item>
-  <title>Statistical Parsing for Logical Information Retrieval</title>
-  <link>https://arxiv.org/abs/2602.12170v1</link>
-  <guid>https://arxiv.org/abs/2602.12170v1</guid>
-  <pubDate>Thu, 12 Feb 2026 16:57:25 +0000</pubDate>
-  <description>arXiv cs.AI - In previous work (Coppola, 2024) we introduced the Quantified Boolean Bayesian Network (QBBN), a logical graphical model that implements the forward fragment of natural deduction (Prawitz, 1965) as a probabilistic factor graph. That work left two gaps: no negation/backward reasoning, and no parser for natural language.
-  This paper addresses both gaps across inference, semantics, and syntax. For i</description>
-</item>
-
-<item>
-  <title>FormalJudge: A Neuro-Symbolic Paradigm for Agentic Oversight</title>
-  <link>https://arxiv.org/abs/2602.11136v1</link>
-  <guid>https://arxiv.org/abs/2602.11136v1</guid>
-  <pubDate>Wed, 11 Feb 2026 18:48:11 +0000</pubDate>
-  <description>arXiv cs.AI - As LLM-based agents increasingly operate in high-stakes domains with real-world consequences, ensuring their behavioral safety becomes paramount. The dominant oversight paradigm, LLM-as-a-Judge, faces a fundamental dilemma: how can probabilistic systems reliably supervise other probabilistic systems without inheriting their failure modes? We argue that formal verification offers a principled escap</description>
-</item>
-
-<item>
-  <title>From Natural Language to Materials Discovery:The Materials Knowledge Navigation Agent</title>
-  <link>https://arxiv.org/abs/2602.11123v1</link>
-  <guid>https://arxiv.org/abs/2602.11123v1</guid>
-  <pubDate>Wed, 11 Feb 2026 18:34:24 +0000</pubDate>
-  <description>arXiv cs.LG - Accelerating the discovery of high-performance materials remains a central challenge across energy, electronics, and aerospace technologies, where traditional workflows depend heavily on expert intuition and computationally expensive simulations. Here we introduce the Materials Knowledge Navigation Agent (MKNA), a language-driven system that translates natural-language scientific intent into execu</description>
-</item>
-
-<item>
-  <title>Learning to Compose for Cross-domain Agentic Workflow Generation</title>
-  <link>https://arxiv.org/abs/2602.11114v1</link>
-  <guid>https://arxiv.org/abs/2602.11114v1</guid>
-  <pubDate>Wed, 11 Feb 2026 18:27:22 +0000</pubDate>
-  <description>arXiv cs.AI - Automatically generating agentic workflows -- executable operator graphs or codes that orchestrate reasoning, verification, and repair -- has become a practical way to solve complex tasks beyond what single-pass LLM generation can reliably handle. Yet what constitutes a good workflow depends heavily on the task distribution and the available operators. Under domain shift, current systems typically</description>
-</item>
-
-<item>
-  <title>Learning to Compose for Cross-domain Agentic Workflow Generation</title>
-  <link>https://arxiv.org/abs/2602.11114v1</link>
-  <guid>https://arxiv.org/abs/2602.11114v1</guid>
-  <pubDate>Wed, 11 Feb 2026 18:27:22 +0000</pubDate>
-  <description>arXiv cs.LG - Automatically generating agentic workflows -- executable operator graphs or codes that orchestrate reasoning, verification, and repair -- has become a practical way to solve complex tasks beyond what single-pass LLM generation can reliably handle. Yet what constitutes a good workflow depends heavily on the task distribution and the available operators. Under domain shift, current systems typically</description>
-</item>
-
-<item>
-  <title>GameDevBench: Evaluating Agentic Capabilities Through Game Development</title>
-  <link>https://arxiv.org/abs/2602.11103v1</link>
-  <guid>https://arxiv.org/abs/2602.11103v1</guid>
-  <pubDate>Wed, 11 Feb 2026 18:15:11 +0000</pubDate>
-  <description>arXiv cs.AI - Despite rapid progress on coding agents, progress on their multimodal counterparts has lagged behind. A key challenge is the scarcity of evaluation testbeds that combine the complexity of software development with the need for deep multimodal understanding. Game development provides such a testbed as agents must navigate large, dense codebases while manipulating intrinsically multimodal assets suc</description>
-</item>
-
-<item>
-  <title>MerLin: A Discovery Engine for Photonic and Hybrid Quantum Machine Learning</title>
-  <link>https://arxiv.org/abs/2602.11092v1</link>
-  <guid>https://arxiv.org/abs/2602.11092v1</guid>
-  <pubDate>Wed, 11 Feb 2026 18:00:01 +0000</pubDate>
-  <description>arXiv cs.LG - Identifying where quantum models may offer practical benefits in near term quantum machine learning (QML) requires moving beyond isolated algorithmic proposals toward systematic and empirical exploration across models, datasets, and hardware constraints. We introduce MerLin, an open source framework designed as a discovery engine for photonic and hybrid quantum machine learning. MerLin integrates </description>
-</item>
-
-<item>
-  <title>Interpretable Attention-Based Multi-Agent PPO for Latency Spike Resolution in 6G RAN Slicing</title>
-  <link>https://arxiv.org/abs/2602.11076v1</link>
-  <guid>https://arxiv.org/abs/2602.11076v1</guid>
-  <pubDate>Wed, 11 Feb 2026 17:44:03 +0000</pubDate>
-  <description>arXiv cs.AI - Sixth-generation (6G) radio access networks (RANs) must enforce strict service-level agreements (SLAs) for heterogeneous slices, yet sudden latency spikes remain difficult to diagnose and resolve with conventional deep reinforcement learning (DRL) or explainable RL (XRL). We propose \emph{Attention-Enhanced Multi-Agent Proximal Policy Optimization (AE-MAPPO)}, which integrates six specialized atte</description>
-</item>
-
-<item>
-  <title>Chatting with Images for Introspective Visual Thinking</title>
-  <link>https://arxiv.org/abs/2602.11073v1</link>
-  <guid>https://arxiv.org/abs/2602.11073v1</guid>
-  <pubDate>Wed, 11 Feb 2026 17:42:37 +0000</pubDate>
-  <description>arXiv cs.AI - Current large vision-language models (LVLMs) typically rely on text-only reasoning based on a single-pass visual encoding, which often leads to loss of fine-grained visual information. Recently the proposal of &apos;&apos;thinking with images&apos;&apos; attempts to alleviate this limitation by manipulating images via external tools or code; however, the resulting visual states are often insufficiently grounded in li</description>
-</item>
-
-<item>
-  <title>Chain-of-Look Spatial Reasoning for Dense Surgical Instrument Counting</title>
-  <link>https://arxiv.org/abs/2602.11024v1</link>
-  <guid>https://arxiv.org/abs/2602.11024v1</guid>
-  <pubDate>Wed, 11 Feb 2026 16:49:37 +0000</pubDate>
-  <description>arXiv cs.AI - Accurate counting of surgical instruments in Operating Rooms (OR) is a critical prerequisite for ensuring patient safety during surgery. Despite recent progress of large visual-language models and agentic AI, accurately counting such instruments remains highly challenging, particularly in dense scenarios where instruments are tightly clustered. To address this problem, we introduce Chain-of-Look, </description>
-</item>
-
-<item>
-  <title>OSIL: Learning Offline Safe Imitation Policies with Safety Inferred from Non-preferred Trajectories</title>
-  <link>https://arxiv.org/abs/2602.11018v1</link>
-  <guid>https://arxiv.org/abs/2602.11018v1</guid>
-  <pubDate>Wed, 11 Feb 2026 16:41:16 +0000</pubDate>
-  <description>arXiv cs.AI - This work addresses the problem of offline safe imitation learning (IL), where the goal is to learn safe and reward-maximizing policies from demonstrations that do not have per-timestep safety cost or reward information. In many real-world domains, online learning in the environment can be risky, and specifying accurate safety costs can be difficult. However, it is often feasible to collect trajec</description>
-</item>
-
-<item>
-  <title>Biases in the Blind Spot: Detecting What LLMs Fail to Mention</title>
-  <link>https://arxiv.org/abs/2602.10117v1</link>
-  <guid>https://arxiv.org/abs/2602.10117v1</guid>
-  <pubDate>Tue, 10 Feb 2026 18:59:56 +0000</pubDate>
-  <description>arXiv cs.AI - Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*. Monitoring models via their stated reasoning is therefore unreliable, and existing bias evaluations typically require predefined categories and hand-crafted datasets. In this work, we introduce a fully automated, black-box pipe</description>
 </item>
 
 </channel>
