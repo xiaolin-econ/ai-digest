@@ -31,6 +31,15 @@ python src/send_email.py
 - Optional email recipient override: `DIGEST_TO` (defaults to `SMTP_USER`)
 
 ## GitHub Actions Schedules
-- `.github/workflows/collect.yml`: weekly on Monday at 06:00 UTC, collects and rebuilds RSS, then commits `rss.xml` and `data/items.sqlite`
-- `.github/workflows/digest.yml`: weekly on Monday at 07:00 UTC, runs collect + summarize + build + send email
+- `.github/workflows/collect.yml`: currently manual-only (`workflow_dispatch`); automatic weekly RSS rebuild is paused
+- `.github/workflows/digest.yml`: currently manual-only (`workflow_dispatch`); automatic weekly digest email is paused
 - `.github/workflows/email.yml`: manual-only (`workflow_dispatch`) email send helper
+
+## Paused Automation Note
+Weekly GitHub Actions automation is currently paused for both RSS generation and digest email delivery.
+
+To resume it later, restore the `schedule` blocks in these workflow files:
+- `.github/workflows/collect.yml`: re-add `cron: "0 6 * * 1"` to resume weekly collect + RSS build
+- `.github/workflows/digest.yml`: re-add `cron: '0 7 * * 1'` to resume weekly digest generation + email send
+
+Manual runs are still available from the GitHub Actions tab through `workflow_dispatch`.
